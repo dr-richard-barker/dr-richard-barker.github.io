@@ -36,9 +36,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Setup Typst
-        uses: plunge-app/setup-typst@v0.2
-        with:
-          version: 'latest'
+        uses: typst-community/setup-typst@v3
 
       - name: Fetch fresh ORCID publications
         run: python scripts/fetch_orcid.py
