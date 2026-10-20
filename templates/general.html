@@ -1,0 +1,320 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <img src="{{ profile.avatar_url }}" alt="Richard J. Barker" class="avatar" width="136" height="136">
+    <div>
+      <div class="eyebrow">Public Science · Open Innovation · Space Agriculture</div>
+      <h1>Richard J. Barker, PhD</h1>
+      <p class="lede">{{ profile.taglines.general }}</p>
+
+      <ul class="roles">
+        <li>Co-Founder, <strong>AstroBotany.com</strong> & <strong>CoSE Benefit Corp</strong> (Sector67, Madison, WI)</li>
+        <li>Science Co-Lead for <strong>NASA Lunar LEAF</strong> at Purdue University</li>
+        <li>Chair of the <strong>NASA GeneLab Plant Analysis Working Group</strong> (100+ global scientists)</li>
+        <li>2018 Recipient of the <strong>UW–Madison Undergraduate Mentoring Award</strong></li>
+      </ul>
+
+      <div class="link-row">
+        <a href="#what-i-do" class="btn primary">
+          <span>Explore My Work</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+        <a href="{{ root_path }}projects/" class="btn">
+          <span>Try 100+ Browser Apps</span>
+        </a>
+        <a href="{{ root_path }}academic/" class="btn">
+          <span>Looking for the Academic CV? →</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Impact Numbers Section -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Real-World Impact</h2>
+      <div class="aside">Taking space and plant biology out of the ivory tower</div>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card metric">
+        <div class="num">3,000+</div>
+        <div class="lbl">Classrooms worldwide reached with AstroBotany calibration cards and curricula</div>
+      </div>
+      <div class="card metric">
+        <div class="num">100+</div>
+        <div class="lbl">International researchers in the NASA GeneLab Plant Working Group consortium</div>
+      </div>
+      <div class="card metric">
+        <div class="num">20+</div>
+        <div class="lbl">Undergraduate and post-baccalaureate researchers directly mentored in Birge Hall</div>
+      </div>
+      <div class="card metric">
+        <div class="num">$1.12M+</div>
+        <div class="lbl">Competitive federal and foundation research grants co-secured</div>
+      </div>
+      <div class="card metric">
+        <div class="num">100+</div>
+        <div class="lbl">Open-access interactive web tools running live right in your web browser</div>
+      </div>
+      <div class="card metric">
+        <div class="num">15+</div>
+        <div class="lbl">Years developing open hardware, plant biosensors, and space flight payloads</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What I Do Section (Four Core Tiles) -->
+<section id="what-i-do">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What I Do</h2>
+      <div class="aside">Bridging biology, engineering, and human curiosity</div>
+    </div>
+
+    <div class="grid grid-2">
+      <!-- Tile 1 -->
+      <div class="card">
+        <div class="card-icon">🚀</div>
+        <h3>1. Space Agriculture & Extreme Stress Physiology</h3>
+        <p>
+          Plants didn't evolve to fly in space or grow on the Moon. Without gravity, air doesn't circulate on its own: warm, oxygen-depleted gas clings to plant leaves like an invisible blanket, triggering suffocating hypoxia and oxidative stress.
+        </p>
+        <p>
+          I design experimental payloads, gas exchange models, and hardware that enable crops to thrive in microgravity on the International Space Station and future lunar habitats under the NASA Lunar LEAF mission.
+        </p>
+        <div class="card-foot">
+          <span class="chip leaf">NASA Lunar LEAF</span>
+          <span class="chip leaf">ISS Payloads</span>
+          <span class="chip">Gas Convection</span>
+        </div>
+      </div>
+
+      <!-- Tile 2 -->
+      <div class="card">
+        <div class="card-icon">🍄</div>
+        <h3>2. Fungal Biomanufacturing & Mycoponics</h3>
+        <p>
+          Fungi are nature's ultimate recyclers and bio-architects. In our 2026 <em>Biotechnology Journal</em> front-cover study, we introduced <strong>Mycoponics</strong>: a method to grow fungal mycelium on biophysical porous ceramics with precisely metered liquid nutrient delivery.
+        </p>
+        <p>
+          This creates lightweight, high-strength circular biomaterials and sustainable food production systems that require zero soil — ideal for lunar outposts and climate-resilient terrestrial manufacturing.
+        </p>
+        <div class="card-foot">
+          <span class="chip badge">Cover Feature 2026</span>
+          <span class="chip">Circular Bioeconomy</span>
+          <span class="chip">Mycelium Materials</span>
+        </div>
+      </div>
+
+      <!-- Tile 3 -->
+      <div class="card">
+        <div class="card-icon">💻</div>
+        <h3>3. AI, Foundation Models & Biological Digital Twins</h3>
+        <p>
+          Modern biology produces mountains of omics data. I develop artificial intelligence tools, representation learning systems (like GLARE in <em>npj Microgravity</em>), and foundation model exploration toolkits (such as the NASA-IBM Lunar Foundation Model pipeline) that allow researchers to simulate biological outcomes before launching costly experiments.
+        </p>
+        <p>
+          I lead the NASA GeneLab Plant AWG, uniting over 100 scientists to standardize how biological spaceflight data is analyzed and shared freely across the globe.
+        </p>
+        <div class="card-foot">
+          <span class="chip">NASA-IBM LFM</span>
+          <span class="chip">GLARE AI</span>
+          <span class="chip">Open Science</span>
+        </div>
+      </div>
+
+      <!-- Tile 4 -->
+      <div class="card">
+        <div class="card-icon">🌱</div>
+        <h3>4. Citizen Science, Mentorship & Public Wonder</h3>
+        <p>
+          Science belongs to everyone. Through <strong>AstroBotany.com</strong> and the <strong>CoSE Benefit Corporation</strong>, we distribute computer vision calibration tools (ABCD card) and plant science kits to over 3,000 classrooms internationally with partners like Fairchild Tropical Botanic Garden.
+        </p>
+        <p>
+          As the recipient of the 2018 UW–Madison Undergraduate Mentoring Award, I have trained dozens of students — especially from first-generation backgrounds via the PEOPLE Program — to become confident researchers, coders, and makers.
+        </p>
+        <div class="card-foot">
+          <span class="chip leaf">3,000+ Classrooms</span>
+          <span class="chip">PEOPLE Program</span>
+          <span class="chip">Mentoring Award</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stories & Milestones -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Stories & Highlights</h2>
+      <div class="aside">Turning research into shared public moments</div>
+    </div>
+
+    <div class="grid grid-3">
+      <!-- Story 1: Big Ten LiveBIG -->
+      <div class="card highlight">
+        <div class="venue">BIG TEN NETWORK · NATIONAL BROADCAST</div>
+        <h3>"Wisconsin is Putting Down Roots in Space"</h3>
+        <p>
+          Featured during the national Big Ten Network halftime broadcast <em>LiveBIG</em>, sharing our plant spaceflight experiments in Birge Hall with millions of television viewers.
+        </p>
+        <div class="card-foot">
+          <span class="chip">National Media</span>
+        </div>
+      </div>
+
+      <!-- Story 2: Mycoponics Cover -->
+      <div class="card highlight">
+        <div class="venue">BIOTECHNOLOGY JOURNAL · FEB 2026 COVER</div>
+        <h3>Mycoponics Front Cover Feature</h3>
+        <p>
+          Selected for the journal's front cover for demonstrating engineered solid-state fungal bioproduction with liquid nutrient feeds for deep space exploration.
+        </p>
+        <div class="card-foot">
+          <span class="chip badge">Front Cover</span>
+        </div>
+      </div>
+
+      <!-- Story 3: London Natural History Museum -->
+      <div class="card highlight">
+        <div class="venue">NATURAL HISTORY MUSEUM · LONDON</div>
+        <h3>UK International Outreach Tour</h3>
+        <p>
+          Organized and delivered the "Plant BRICs in Space" lecture at the Natural History Museum in London, followed by seminars at Cambridge and Nottingham.
+        </p>
+        <div class="card-foot">
+          <span class="chip">Public Keynote</span>
+        </div>
+      </div>
+
+      <!-- Story 4: The Biochemist -->
+      <div class="card highlight">
+        <div class="venue">THE BIOCHEMIST MAGAZINE · INVITED ESSAY</div>
+        <h3>"Life in Space Isn't Easy, Even If You're Green"</h3>
+        <p>
+          A lively, illustrated popular science breakdown explaining why plants experience stress in microgravity and how botanists are helping them adapt.
+        </p>
+        <div class="card-foot">
+          <a href="https://doi.org/10.1042/bio03906010" target="_blank" rel="noopener" class="chip">Read Article →</a>
+        </div>
+      </div>
+
+      <!-- Story 5: 3,000 Classrooms -->
+      <div class="card highlight">
+        <div class="venue">FAIRCHILD BOTANIC GARDEN · EXOLAB</div>
+        <h3>AstroBotany in K-12 Classrooms</h3>
+        <p>
+          Collaborating with Fairchild Tropical Botanic Garden's <em>Growing Beyond Earth</em> and Magnitude.io to empower middle and high school students to gather flight-comparable plant phenomics.
+        </p>
+        <div class="card-foot">
+          <a href="https://astrobotany.com" target="_blank" rel="noopener" class="chip">AstroBotany.com →</a>
+        </div>
+      </div>
+
+      <!-- Story 6: Capoeira -->
+      <div class="card highlight">
+        <div class="venue">COMMUNITY WELLNESS & MARTIAL ART</div>
+        <h3>20+ Years Teaching Capoeira</h3>
+        <p>
+          Teaching Afro-Brazilian Capoeira in the UK and Madison: cultivating physical balance, mental resilience, music, and an inclusive community culture that grounds my scientific work.
+        </p>
+        <div class="card-foot">
+          <span class="chip">Community & Culture</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Try Live Interactive Browser Tools -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Try These in Your Browser Right Now</h2>
+      <div class="aside">No installation required · Powered by GitHub Pages</div>
+    </div>
+
+    <div class="grid grid-3">
+      {% for proj in featured_demos %}
+      <div class="card repo">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
+          <span class="chip badge">{{ proj.badge }}</span>
+          <span class="mono" style="font-size: 0.78rem; color: var(--muted);">{{ proj.language }}</span>
+        </div>
+        <h3>{{ proj.name }}</h3>
+        <p style="font-size: 0.95rem;">{{ proj.description }}</p>
+        <div class="card-foot">
+          {% if proj.demo_url %}
+          <a href="{{ proj.demo_url }}" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+            <span>Open Live App ↗</span>
+          </a>
+          {% endif %}
+          <a href="https://github.com/{{ proj.repo }}" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="{{ root_path }}projects/" class="btn primary">
+        <span>Browse All 100+ Interactive Tools & Repositories →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Ways We Can Collaborate -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Ways We Can Work Together</h2>
+      <div class="aside">Open to conversations, partnerships, and ideas</div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>🔬 Scientific Research & Extramural Grants</h3>
+        <p>
+          Interested in joint proposals across space biology, plant and fungal stress signaling, controlled environment agriculture, or biological digital twins? Let's connect.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌱 Educational & Classroom Partnerships</h3>
+        <p>
+          Bringing space biology, micro-controllers, or open phenotyping into your high school, community college, or botanical garden? We provide tested calibration tools and curricula.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎙️ Talks, Panels & Public Communication</h3>
+        <p>
+          Keynotes, interactive workshops, and podcasts on the future of food in space, fungal biomanufacturing, and open-science data repositories.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>💡 Technology & Data Consulting</h3>
+        <p>
+          Advising on space biology hardware payload architectures, automated microgravity experiment design, and biological AI data pipelines.
+        </p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 2.5rem;">
+      <a href="mailto:{{ profile.email }}" class="btn primary" style="font-size: 1.05rem; padding: 0.65rem 1.4rem;">
+        <span>Get in Touch: {{ profile.email }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

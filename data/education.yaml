@@ -1,0 +1,31 @@
+degrees:
+  - degree: "Ph.D. in Plant Science & Hormone Biochemistry"
+    institution: "University of Nottingham & Rothamsted Research, UK"
+    years: "2007 – 2011"
+    details:
+      - "Thesis: Molecular genetics and spatial regulation of gibberellin biosynthesis in the Arabidopsis root tip"
+      - "Supervisor: Prof. Peter Hedden (Rothamsted Research)"
+      - "Honors: Lawes Trust Agricultural Scholarship"
+  - degree: "B.Sc. (Hons) in Plant Science (First Class Honours)"
+    institution: "University of Nottingham, UK"
+    years: "2003 – 2007"
+    details:
+      - "First Class Honours with University Certificate of Merit"
+      - "Awarded the Kenneth Whymes Memorial Prize for Distinction in Plant Science (2006)"
+
+executive_training:
+  - title: "American Family Insurance Social Impact Educational Accelerator"
+    year: "2020"
+    topic: "Strategic communications, KPI analytics, and stakeholder/donor stewardship"
+  - title: "NASA Transform to Open Science (TOPS) Curriculum"
+    year: "2023 – 2024"
+    topic: "Open-source science standards, FAIR research reproducibility"
+  - title: "NASA Spaceflight Technologies, Applications & Research (STAR) Leadership"
+    year: "2021"
+    topic: "Space biology payload architecture and flight operational management"
+  - title: "Software & Data Carpentry"
+    year: "2021 – 2022"
+    topic: "Reproducible research data workflows, shell scripting, Git version control"
+  - title: "UW–Madison DELTA Teaching & Mentoring Program"
+    year: "2015"
+    topic: "Evidence-based STEM pedagogical design, inclusive research mentoring"

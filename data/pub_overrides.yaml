@@ -1,0 +1,156 @@
+overrides:
+  "10.1002/biot.70184":
+    badge: "Front Cover Article"
+    themes: ["biomanufacturing", "space-cea"]
+    highlight: true
+    summary: "Inaugural demonstration of Mycoponics: growing fungal mycelium on biophysical porous ceramics with liquid nutrient delivery for sustainable biomaterials and circular food systems."
+    code_repo: "AstroMycology"
+    cover_image: "https://onlinelibrary.wiley.com/cms/asset/61c1bb82-9602-4fc4-bb87-63bb3469eef7/biot.2026.21.issue-2.cover.jpg"
+
+  "10.1038/s41526-025-00525-5":
+    badge: "npj Microgravity"
+    themes: ["ai-data", "space-cea"]
+    highlight: true
+    summary: "GLARE uses representation learning and foundation latent space extraction to uncover hidden molecular signatures across spaceflight transcriptomics."
+    code_repo: "arabidopsis-spaceflight-omics"
+
+  "10.1038/s41526-023-00247-6":
+    badge: "Featured Meta-Analysis"
+    themes: ["space-cea", "ai-data"]
+    highlight: true
+    summary: "Comprehensive multi-mission meta-analysis of Arabidopsis spaceflight transcriptomes revealing hardware boundary layer micro-environments as the dominant stress driver."
+    code_repo: "Photorespiration_multiomics_microgravity"
+
+  "10.3389/fpls.2020.00147":
+    badge: "TOAST Discovery Tool"
+    themes: ["ai-data", "space-cea"]
+    highlight: true
+    summary: "Test of Arabidopsis Space Transcriptome (TOAST): an open-science relational portal enabling plant biologists worldwide to explore microgravity and spaceflight datasets."
+    code_repo: "toast2"
+
+  "10.1016/j.cell.2020.10.050":
+    badge: "Cell"
+    themes: ["space-cea", "ai-data"]
+    highlight: true
+    summary: "Multi-omics landmark paper defining the fundamental biological features of human and plant spaceflight across NASA GeneLab datasets."
+    code_repo: "OSDR_X-species_V2"
+
+  "10.1111/nph.16967":
+    badge: "New Phytologist"
+    themes: ["phenotyping"]
+    highlight: true
+    summary: "Cell-type resolution mapping of gibberellin hormone biosynthesis within the Arabidopsis root tip, resolving the spatial coordination of plant root growth."
+    code_repo: "virtual-root"
+
+  "10.1038/s42256-023-00618-4":
+    badge: "Nature Machine Intelligence"
+    themes: ["ai-data", "space-cea"]
+    highlight: true
+    summary: "Roadmap for autonomous, self-driving biological laboratories and AI-driven experiment orchestration on deep space exploration missions."
+    code_repo: "genai-spacebio-roadmap"
+
+  "10.1038/s42256-023-00617-5":
+    badge: "Nature Machine Intelligence"
+    themes: ["ai-data"]
+    highlight: false
+    summary: "Artificial intelligence frameworks for real-time biological health monitoring and precision biosensing in extreme deep space environments."
+    code_repo: "AstronautHealth"
+
+  "10.1038/s41526-021-00143-x":
+    badge: "npj Microgravity"
+    themes: ["ai-data", "space-cea"]
+    highlight: false
+    summary: "Rad-Bio-App: an open-science platform for biologists to explore and model space radiation exposures across historical missions."
+    code_repo: "Plant_response_to_radiation"
+
+  "10.1016/j.isci.2021.102361":
+    badge: "NASA Consensus Pipeline"
+    themes: ["ai-data"]
+    highlight: false
+    summary: "Establishment of the standardized NASA GeneLab RNA-seq consensus pipeline for reproducible processing of space biology datasets."
+    code_repo: "NASA_GeneLab_MicroArray_Codes"
+
+  "10.1016/j.patter.2020.100148":
+    badge: "Patterns (Cell Press)"
+    themes: ["ai-data"]
+    highlight: false
+    summary: "International consortium standards establishing FAIR guidelines and reproducible processing workflows for space life sciences."
+    code_repo: "OSDR_Plant_Alternative_Splicing"
+
+  "10.1042/bio03906010":
+    badge: "Science Communication"
+    themes: ["outreach", "space-cea"]
+    highlight: true
+    summary: "Popular science feature in The Biochemist detailing what happens to living cells when gravity is removed."
+
+  "10.1186/s13007-019-0392-1":
+    badge: "Plant Methods"
+    themes: ["phenotyping"]
+    highlight: false
+    summary: "Design and deployment of an open-source, low-cost Raspberry Pi automated imaging platform for continuous plant phenotyping."
+    code_repo: "ABCD_v2"
+
+  "10.1007/978-1-0716-1677-2_6":
+    badge: "Methods Mol Biol"
+    themes: ["phenotyping"]
+    highlight: false
+    summary: "The Automated Botanical Contact Device (ABCD): an engineered mechatronic system delivering reproducible touch stimulation to growing plants."
+    code_repo: "ABCD_v2"
+
+  "10.1186/1746-4811-9-41":
+    badge: "Plant Methods"
+    themes: ["phenotyping"]
+    highlight: false
+    summary: "The Vacuum Seed Sowing Manifold: an open-source vacuum-assisted hardware tool enabling precise high-throughput arraying of small seeds."
+    code_repo: "Seed_sowing_simulator"
+
+  "10.2478/gsr-2026-0008":
+    badge: "GSR Journal"
+    themes: ["phenotyping", "space-cea"]
+    highlight: false
+    summary: "Simple Online Automated Plant Phenomics (SOAPP): web-based quantitative image processing for spaceflight flight hardware images."
+    code_repo: "astroroot"
+
+  "10.1111/nph.70662":
+    badge: "New Phytologist"
+    themes: ["space-cea"]
+    highlight: false
+    summary: "Comprehensive vision for plant biology in space exploration and terrestrial planetary resilience."
+
+  "10.1038/s41526-025-00518-4":
+    badge: "npj Microgravity"
+    themes: ["space-cea", "biomanufacturing"]
+    highlight: false
+    summary: "Critical investments needed in Bioregenerative Life Support Systems (BLSS) for sustained lunar habitation and bioastronautics."
+    code_repo: "LunarFarm-BLSS"
+
+  "10.1038/s41467-024-47237-0":
+    badge: "Nature Communications"
+    themes: ["space-cea", "ai-data"]
+    highlight: false
+    summary: "Comprehensive multi-tissue astronaut omics atlas characterizing spaceflight stress responses at molecular scale."
+    code_repo: "Astronaut_flavenoids_and_biomarkers"
+
+  "10.2478/gsr-2016-0008":
+    badge: "GSR Journal"
+    themes: ["phenotyping", "space-cea"]
+    highlight: false
+    summary: "Far-red light hardware systems engineered to reliably impose and release seed dormancy for spaceflight mission profiles."
+
+extra_works:
+  - id: "lunar-lfm-explorer"
+    title: "lunar-lfm-explorer: FAIR Exploration Toolkit and Topographic Multi-Illumination Pipeline for the NASA-IBM Lunar Foundation Model"
+    year: 2026
+    type: "software"
+    venue: "Zenodo / GitHub Open Software"
+    url: "https://github.com/dr-richard-barker/lunar-arcade"
+    authors:
+      - family: "Barker"
+        given: "Richard J."
+        short: "Barker, R.J."
+        self: true
+    badge: "Open Source AI"
+    themes: ["ai-data", "space-cea"]
+    highlight: true
+    summary: "Vision Transformer (ViT-B) exploration toolkit and multi-illumination topographic inference pipeline for the NASA-IBM Lunar Foundation Model."
+    code_repo: "clpds-planetary-visualization"

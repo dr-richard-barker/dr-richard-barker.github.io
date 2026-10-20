@@ -1,0 +1,2075 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools, Software &amp; Repositories | Richard J. Barker, PhD</title>
+  <meta name="description" content="Directory of 106+ interactive browser tools and research repositories.">
+  <link rel="canonical" href="https://dr-richard-barker.github.io/projects/">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Tools, Software &amp; Repositories | Richard J. Barker, PhD">
+  <meta property="og:description" content="Directory of 106+ interactive browser tools and research repositories.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dr-richard-barker.github.io/projects/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/8679982?v=4">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tools, Software &amp; Repositories | Richard J. Barker, PhD">
+  <meta name="twitter:description" content="Directory of 106+ interactive browser tools and research repositories.">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/8679982?v=4">
+
+  <!-- Immediate no-flash theme script -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = saved || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Google Fonts: IBM Plex Sans & IBM Plex Mono (CoSE brand fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/theme.css">
+
+  <!-- JSON-LD Structured Data for Scholarly Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Richard J. Barker, PhD",
+    "jobTitle": "Senior Scientist &amp; Plant Systems Biologist",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madison, Wisconsin, USA"
+    },
+    "email": "dr.richard.barker@gmail.com",
+    "url": "https://dr-richard-barker.github.io",
+    "sameAs": [
+      "https://orcid.org/0000-0001-5681-9857",
+      "https://github.com/dr-richard-barker",
+      "https://www.linkedin.com/in/richard-barker-40b90530/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="../" class="brand" aria-label="Richard J. Barker Homepage">
+        <span class="brand-mark">RB</span>
+        <div>
+          <span>Richard J. Barker, PhD</span>
+          <small>Plant Systems Biology & Spaceflight Omics</small>
+        </div>
+      </a>
+
+      <!-- Academic vs General Audience Switch -->
+      <div class="version-switch" role="group" aria-label="Audience view switcher">
+        <a href="../academic/"  title="View formal academic CV">Academic CV</a>
+        <a href="../general/"  title="View general audience overview">General</a>
+      </div>
+
+      <button class="icon-btn nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary site navigation">
+        <a href="../" >Home</a>
+        <a href="../academic/" >Academic CV</a>
+        <a href="../general/" >Overview</a>
+        <a href="../projects/" aria-current="page">Tools & Repos</a>
+      </nav>
+
+      <div class="header-tools">
+        <!-- Light / Dark Mode Toggle Button -->
+        <button class="icon-btn theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false" title="Switch light/dark theme">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Open Science · Computational Biology · In-Browser Tools</div>
+      <h1>Tools, Software & Repositories</h1>
+      <p class="lede">
+        An ecosystem of 173+ open-source repositories and 106+ interactive browser tools spanning space biophysics, plant phenomics, fungal genomics, and NASA data exploration.
+      </p>
+
+      <div class="link-row">
+        <a href="https://github.com/dr-richard-barker" target="_blank" rel="noopener" class="btn primary">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span>View GitHub Profile (@dr-richard-barker)</span>
+        </a>
+        <a href="../academic/#publications" class="btn">
+          <span>See Publications Using These Tools</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Curated Flagship Repositories by Domain -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Curated Flagship Suites</h2>
+      <div class="aside">Validated computational biology and hardware platforms</div>
+    </div>
+
+    
+    <div class="project-group">
+      <h3>Space Biophysics, CFD &amp; Lunar Systems</h3>
+      <p>Computational fluid dynamics (CFD), habitat microclimate modeling, and lunar environmental simulation tools.</p>
+
+      <div class="grid grid-2">
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">CFD &amp; Boundary Layers</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript / WebGL</span>
+          </div>
+          <h3>LunarLeaf-CFD</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Validated in-browser CFD model of gravity-dependent gas-exchange boundary layers around Arabidopsis leaves in lunar and orbital microenvironments.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/LunarLeaf-CFD/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/LunarLeaf-CFD" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Life Support Architecture</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript / HTML5</span>
+          </div>
+          <h3>LunarFarm-BLSS</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">What a playable closed loop teaches about closing one: an interactive bioregenerative life support systems (BLSS) architecture simulation.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/LunarFarm-BLSS/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/LunarFarm-BLSS" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">AI Foundation Model</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">Python / TypeScript</span>
+          </div>
+          <h3>lunar-lfm-explorer</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">FAIR exploration toolkit and multi-illumination inference viewer for the NASA-IBM Lunar Foundation Model.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/lunar-lfm-explorer/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/lunar-lfm-explorer" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Habitat Engineering</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">Three.js / CAD</span>
+          </div>
+          <h3>ASTRO-USA-Habitat-Model</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Parametric CAD and environmental simulation of the ASTRO-USA Mini-Hab Food Production Module.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/ASTRO-USA-Habitat-Model/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/ASTRO-USA-Habitat-Model" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="project-group">
+      <h3>Plant Systems Biology &amp; Fungal Atlases</h3>
+      <p>Multi-omics discovery portals, anatomical 3D models, and metabolic pathway decoders for plant and fungal biology.</p>
+
+      <div class="grid grid-2">
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Metabolic Pathways</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">TypeScript / SVG</span>
+          </div>
+          <h3>plant-pathway-atlas</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Modernized MapMan, PlantCyc, and ggPlant visualization engine for plant systems biology and cross-species metabolic mapping.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/plant-pathway-atlas/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/plant-pathway-atlas" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Fungal Biomanufacturing</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript</span>
+          </div>
+          <h3>fungal-bgc-atlas</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Curated, evidence-linked knowledge base of 609 MIBiG-linked fungal biosynthetic gene clusters with structural annotations.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/fungal-bgc-atlas/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/fungal-bgc-atlas" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">3D Plant Anatomy</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">Three.js / WebGL</span>
+          </div>
+          <h3>arabidopsis-atlas</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Interactive organ-selectable 3D anatomical atlas of Arabidopsis thaliana grounded in validated structural data.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/arabidopsis-atlas/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/arabidopsis-atlas" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Root Auxin Simulation</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript / Canvas</span>
+          </div>
+          <h3>virtual-root</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Open web-based rebuild of SimuPlant / The Virtual Root: cell-based auxin transport and root gravitropism model.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/virtual-root/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/virtual-root" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="project-group">
+      <h3>Computer Vision &amp; In-Browser Phenomics</h3>
+      <p>Install-free browser phenotyping tools, machine learning segmentation, and calibration standards for researchers and classrooms.</p>
+
+      <div class="grid grid-2">
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Root Phenomics</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript / WebAssembly</span>
+          </div>
+          <h3>astroroot</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Install-free, in-browser root-image analysis for students and researchers — RootNav GUI and machine learning phenotyping.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/astroroot/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/astroroot" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Browser ImageJ</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">CheerpJ / Java / JS</span>
+          </div>
+          <h3>cose-fiji</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">ImageJ 1.54 in the browser with SmartRoot, plant phenotyping presets, and FAIR export with no local installation required.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/cose-fiji/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/cose-fiji" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Open Hardware Standard</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">Python / OpenCV</span>
+          </div>
+          <h3>ABCD_v2</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">ABCD v2 AstroBotany calibration card: Munsell-defined plant and soil colour chips with ArUco markers for automated computer vision correction.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/ABCD_v2/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/ABCD_v2" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="project-group">
+      <h3>NASA OSDR &amp; Space Multi-Omics Engines</h3>
+      <p>Harmonized transcriptomic, microbiome, and astronaut biomedical data portals.</p>
+
+      <div class="grid grid-2">
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Spaceflight Omics</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">Python / DuckDB</span>
+          </div>
+          <h3>toast2</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Next-generation DuckDB and Superset rebuild of TOAST (Test Of Arabidopsis Space Transcriptome) for fast spaceflight querying.</p>
+          <div class="card-foot">
+            
+            <a href="https://github.com/dr-richard-barker/toast2" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/toast2" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Astronaut Health &amp; Nutrition</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">TypeScript / D3.js</span>
+          </div>
+          <h3>SpaceMineralAtlas</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Mining NASA LSDA and OSDR for spaceflight mineral-ion and dietary data: multi-omics cross-analysis against NHANES terrestrial populations.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/SpaceMineralAtlas/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/SpaceMineralAtlas" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card repo">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;">
+            <span class="chip badge">Space Crop Nutrition</span>
+            <span class="mono" style="font-size: 0.8rem; color: var(--muted);">JavaScript / Plotly</span>
+          </div>
+          <h3>OSDR-Veggie-Nutrition-Dashboard</h3>
+          <p style="font-size: 0.95rem; margin-bottom: 1rem;">Interactive nutritional and transcriptomic comparison of salad crops grown on the International Space Station VEGGIE payload.</p>
+          <div class="card-foot">
+            
+            <a href="https://dr-richard-barker.github.io/OSDR-Veggie-Nutrition-Dashboard/" target="_blank" rel="noopener" class="btn primary" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>Open Live Demo ↗</span>
+            </a>
+            
+            <a href="https://github.com/dr-richard-barker/OSDR-Veggie-Nutrition-Dashboard" target="_blank" rel="noopener" class="btn" style="font-size: 0.85rem; padding: 0.35rem 0.75rem;">
+              <span>View Source</span>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- Full Directory of GitHub Pages Apps -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Full Directory of In-Browser GitHub Pages Tools</h2>
+      <div class="aside">106 live web applications</div>
+    </div>
+
+    <p style="color: var(--ink-soft); margin-bottom: 1.5rem;">
+      These repositories include active GitHub Pages deployments. Click "Launch App" to open each interactive application in your browser.
+    </p>
+
+    <div class="grid grid-3">
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">NASA_GeneLab_MicroArray_Codes</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          These rough R codes have been used to analyze transcriptomic and plant physiological data as part of the Gilroy NASA GeneLab program at the University of Madison-Wisconsin.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/NASA_GeneLab_MicroArray_Codes/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/NASA_GeneLab_MicroArray_Codes" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">GeneLab_Gitbook</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          The NASA GeneLab Gitbook
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/GeneLab_Gitbook/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/GeneLab_Gitbook" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Settlers_of_the_Moon_or_Mars</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          3D modeles for settlers of Mars board game
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Settlers_of_the_Moon_or_Mars/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Settlers_of_the_Moon_or_Mars" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AstroMycology</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          DRB&#39;s attempt to add images and data...
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AstroMycology/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AstroMycology" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Astronaut_flavenoids_and_biomarkers</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          JAXA astronaut plasma cell-free RNA data (OSD-530) and iDEP figures. The opposite-forcing flavonoid analysis formerly here was withdrawn on 18 Oct 2026.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Astronaut_flavenoids_and_biomarkers/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Astronaut_flavenoids_and_biomarkers" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">B_rappa_LLGCSS</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          This repo contains analyse code for B.rappa
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/B_rappa_LLGCSS/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/B_rappa_LLGCSS" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Microbiome_of_seedlings_in_space</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Planning and workflows for a spaceflight seedling microbiome metagenomics analysis, using raw sequencing data pulled from NASA OSDR.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Microbiome_of_seedlings_in_space/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Microbiome_of_seedlings_in_space" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">plant-pathway-atlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Plant Pathway Atlas: Modernized MapMan, PlantCyc, and ggPlant for Systems Biology and Cross-Species Omics Projection
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/plant-pathway-atlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/plant-pathway-atlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AIRI</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          The AstroBotany International Research Initiative 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AIRI/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AIRI" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">APEX05_results_and_code</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          KEGG codes used during the analysis of APEX05 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/APEX05_results_and_code/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/APEX05_results_and_code" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Astronaut_trends</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Analysis of trends in astronaut data
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Astronaut_trends/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Astronaut_trends" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Lunar-and-Martian-frontier-game-prototype</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Lunar and Martian frontier game prototype
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Lunar-and-Martian-frontier-game-prototype/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Lunar-and-Martian-frontier-game-prototype" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Lunar_regolith_AWG</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Lunar_regolith_NF_core_counts
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Lunar_regolith_AWG/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Lunar_regolith_AWG" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_Plant_Alternative_Splicing</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          OSDR_Plant_Alternative_Splicing
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_Plant_Alternative_Splicing/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_Plant_Alternative_Splicing" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_X-species_V2</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Cross-species meta-analysis of spaceflight transcriptomics (22 NASA OSDR datasets, 6 species, OrthoDB v12) revealing conserved mitochondrial suppression and organelle-specific responses.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_X-species_V2/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_X-species_V2" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_jupyter_book.io</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          OSDR_readthedocs
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_jupyter_book.io/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_jupyter_book.io" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_sphinx_readthedocs.io</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          [ARCHIVED → see OSDR_juypter_book.io] OSDR_sphinx_readthedocs
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_sphinx_readthedocs.io/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_sphinx_readthedocs.io" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_tutorial_gitbook</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          [ARCHIVED → see OSDR_juypter_book.io] OSDR_tutorial
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_tutorial_gitbook/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_tutorial_gitbook" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">PhysioSpace_stress_decoding_VEG05</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          DeepLearning_VEG05 results 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/PhysioSpace_stress_decoding_VEG05/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/PhysioSpace_stress_decoding_VEG05" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Plant_response_to_radiation</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Plant_response_to_radiation
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Plant_response_to_radiation/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Plant_response_to_radiation" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Redox_decoder</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Redox_decoder/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Redox_decoder" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Space_Biology_Education.io</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Space Biology and AstroBotany.io has the goal of making space biology data more FAIR. Test website creation methods.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Space_Biology_Education.io/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Space_Biology_Education.io" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Space_Photography_Guide.io</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AstroBiology Photography Training Guide for Transforming to Open Science and Growing Beyond Earth
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Space_Photography_Guide.io/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Space_Photography_Guide.io" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">TICTOC</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Targeting Improved Cotton Through Orbital Cultivation (TICTOC)
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/TICTOC/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/TICTOC" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Training_LLM_game-theory_using_bloodbowl</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Exploring the use of LLM’s to design and assist with the playing of board games like blood bowl and warhammer gaming narratives. 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Training_LLM_game-theory_using_bloodbowl/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Training_LLM_game-theory_using_bloodbowl" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Tropism_autodecoder_2026</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          FAIR pipeline recognizing Arabidopsis spaceflight tropism responses: 1,337 OSDR/GEO samples deconvolved via a Salk single-cell atlas auto-decoder, with DESeq2 meta-analysis and ggPlantMap tissue projections.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Tropism_autodecoder_2026/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Tropism_autodecoder_2026" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          data from the VEGGIE on the ISS from Tomato&#39;s grown with Red or Blue light,_Leaves and adventious roots were analysed 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/VEGGIE_Tom_Red_Blue_Leaves_and_adv_roots" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">arabidopsis-spaceflight-omics</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Arabidopsis spaceflight omics meta-analysis: LASSO biomarker panel (NASA OSDR) + scPlantLLM single-cell atlas integration + Ca2+-dominated cell-cell communication. Prepared for npj Microgravity.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/arabidopsis-spaceflight-omics/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/arabidopsis-spaceflight-omics" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">astronaut-oncogene-biomarkers</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Cross-tissue transcriptomic meta-analysis: spaceflight/microgravity/radiation converge on shared oncogenic programs engaged in tissue-specific directions (NASA OSDR + JAXA; ML + oncogenic scoring; npj Microgravity + Zenodo)
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/astronaut-oncogene-biomarkers/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/astronaut-oncogene-biomarkers" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">astroroot</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Install-free, in-browser root-image analysis for students — RootNav 1 GUI + RootNav 2.0 ML, single or batch, train your own model. Part of AIRI.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/astroroot/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/astroroot" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">deepspace-seed-stress-decoder</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          FAIR tools (DSRS + GSAD) and a single-cell atlas identifying which Arabidopsis seed cell types and developmental stages are susceptible to deep-space stressors (gravity, radiation, low-oxygen, and more).
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/deepspace-seed-stress-decoder/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/deepspace-seed-stress-decoder" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">fungal-bgc-atlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Curated, evidence-linked knowledge base of 609 MIBiG-linked fungal biosynthetic gene cluster dossiers — relational database, knowledge graph, and interactive dashboard
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/fungal-bgc-atlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/fungal-bgc-atlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">madwest-astrobotany</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          MadWest Rocketry x AstroBotany: a high-school sounding-rocket space-biology program (Arabidopsis qPCR + Populus x ectomycorrhiza timelapse), packaged for NASA OSDR.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/madwest-astrobotany/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/madwest-astrobotany" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">pseudo_time_series</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          MATRIX5 metadata for GeneLab Plant AWG meta-analysis
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/pseudo_time_series/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/pseudo_time_series" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">tomato-spaceflight-VEG05-APH-SA-integration</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Cross-mission integration of two ISS tomato spaceflight RNA-seq studies (OSD-767 x APH/NahG): spaceflight resembles a salicylic-acid-deficient, biotic-defense-primed state.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/tomato-spaceflight-VEG05-APH-SA-integration/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/tomato-spaceflight-VEG05-APH-SA-integration" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">veg05-integrated-omics</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Integrated host transcriptome (OSD-767) × microbiome (OSD-766) multi-omics analysis of ISS VEG-05 tomato: spaceflight dysbiosis and a microbe-driven host defense response.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/veg05-integrated-omics/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/veg05-integrated-omics" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">virtual-root</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open, web-based rebuild of SimuPlant / The Virtual Root: a cell-based auxin transport model for the Arabidopsis root tip (AstroBotany / AIRI Stage VII).
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/virtual-root/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/virtual-root" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">ABCD_v2</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          ABCD v2 AstroBotany calibration card: Munsell-defined plant &amp; soil colour chips, ArUco DICT_4X4_50 corner markers (IDs 0-3), chip spec, evidence, site + deck
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/ABCD_v2/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/ABCD_v2" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AIR_for_undergrads</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AIR_for_undergrads
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AIR_for_undergrads/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AIR_for_undergrads" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">ASTRO-USA-Habitat-Model</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Parametric model of the ASTRO-USA Mini-Hab Food Production Module (ICES-2026-251): sourced ledger -&gt; CAD, OpenFOAM CFD, WebXR VR
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/ASTRO-USA-Habitat-Model/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/ASTRO-USA-Habitat-Model" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Aero-leaf-CFD-analysis-adapted-from-blender-ish</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Aero leaf CFD analysis adapted from blender-ish
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Aero-leaf-CFD-analysis-adapted-from-blender-ish/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Aero-leaf-CFD-analysis-adapted-from-blender-ish" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Airflow_omics</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          CFD modeling and omcis conected
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Airflow_omics/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Airflow_omics" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Anthocyanin-Image-analysis</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Anthocyanin Image analysis software development
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Anthocyanin-Image-analysis/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Anthocyanin-Image-analysis" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AstroBotany</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AstroBotany — a focused hub of plant space-biology projects (a curated subset of the COSE project family).
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AstroBotany/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AstroBotany" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AstroBotany_calibration_image_sharing_and_analysis</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AstroBotany_calibration_image_sharing_and_analysis
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AstroBotany_calibration_image_sharing_and_analysis/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AstroBotany_calibration_image_sharing_and_analysis" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AstroRegolith</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open database and growth-anchored reanalysis of plant growth in lunar, Martian and asteroid regolith — NASA OSDR/PSI catalogues, substrate characterisation, and OSD-476 transcriptomes joined to each plant&#39;s own growth.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AstroRegolith/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AstroRegolith" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">AstronautHealth</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AstronautHealth hub
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/AstronautHealth/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/AstronautHealth" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Astronaut_brain_food</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          A study of Astronaut_brain_food
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Astronaut_brain_food/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Astronaut_brain_food" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">ChromDecode-At</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Expression-to-chromatin decoding of the Arabidopsis spaceflight transcriptome (NASA OSDR): code, tables, figures, LaTeX manuscript
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/ChromDecode-At/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/ChromDecode-At" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Circadian_decoder</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Circadian_decoder
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Circadian_decoder/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Circadian_decoder" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">CoSE_Cloud</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          COSE Cloud — the hub / project directory for the CoSE space-biology project family.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/CoSE_Cloud/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/CoSE_Cloud" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Copy-of-InfoGenius-to-evolve-customize</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          A tool for assisting in scientific figure generation
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Copy-of-InfoGenius-to-evolve-customize/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Copy-of-InfoGenius-to-evolve-customize" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">DeepSpaceAg</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Deep Space Agriculture hub — scoped COSE project family for long-duration plant &amp; crew life support
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/DeepSpaceAg/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/DeepSpaceAg" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Hardware_OSDR_review</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Which spaceflight biology hardware can be modelled? Metadata audit of NASA SPLASH/OSDR hardware, MI-CFD-HW checklist, verified 0 g/1 g OpenFOAM models
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Hardware_OSDR_review/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Hardware_OSDR_review" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Home_Brew</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Home_Brew/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Home_Brew" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">ISS_EDEN</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          FAIR data repository and interactive GitHub Pages explorer for the EDEN ISS Antarctic space greenhouse biomass production dataset (NASA OSDR OSD-895 / PMC7264257)
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/ISS_EDEN/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/ISS_EDEN" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">LEAF_GBC2_pot_model</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/LEAF_GBC2_pot_model/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/LEAF_GBC2_pot_model" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">LED-pattern-synth</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          LED pattern synth
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/LED-pattern-synth/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/LED-pattern-synth" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">LunarFarm-BLSS</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          What a playable closed loop teaches about closing one — a reproducible study of Lunar Farm as a human-in-the-loop bioregenerative life support model
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/LunarFarm-BLSS/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/LunarFarm-BLSS" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">LunarLeaf-CFD</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Validated in-browser CFD model of gravity-dependent gas-exchange boundary layers around Arabidopsis — leaf to canopy to spaceflight hardware (BRIC/CARA/VEGGIE), with an npj-Microgravity draft and full results package.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/LunarLeaf-CFD/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/LunarLeaf-CFD" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">LunarSims</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Original browser simulation games set on the lunar surface, in the spirit of the classic Maxis management sims. Lunar Farm playable now.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/LunarSims/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/LunarSims" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Lunar_Red_Alert</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Space-Age total conversion of OpenRA — a lunar/vacuum RTS. Independent game (GPLv3), evolved from OpenRA.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Lunar_Red_Alert/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Lunar_Red_Alert" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Muscle-Atrophy-Multi-Omics-OSDR</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Insights into Muscle Atrophy using Multi-Omics data from NASA OSDR
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Muscle-Atrophy-Multi-Omics-OSDR/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Muscle-Atrophy-Multi-Omics-OSDR" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSD615-glycome-cytoskeleton-systems-biology</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSD615-glycome-cytoskeleton-systems-biology/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSD615-glycome-cytoskeleton-systems-biology" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR-Veggie-Nutrition-Dashboard</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR-Veggie-Nutrition-Dashboard/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR-Veggie-Nutrition-Dashboard" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">OSDR_tutorial.io</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          [ARCHIVED → see OSDR_juypter_book.io] OSDR_tutorial
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/OSDR_tutorial.io/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/OSDR_tutorial.io" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Photorespiration_multiomics_microgravity</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          A gas-transport model predicts the Arabidopsis spaceflight transcriptome, and illumination separates six flight experiments. Interactive FvCB model, 8 figures, npj manuscript, FAIR tables.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Photorespiration_multiomics_microgravity/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Photorespiration_multiomics_microgravity" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Physics-simulator-for-statolith-modelling-</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Physics simulator for statolith modelling, development needed 
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Physics-simulator-for-statolith-modelling-/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Physics-simulator-for-statolith-modelling-" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Rothamsted_BroadBaulk</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Rothamsted Broadbalk Explorer: 180+ Years of Continuous Wheat Yields, Climate Overlays &amp; Scientific Data Narratives
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Rothamsted_BroadBaulk/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Rothamsted_BroadBaulk" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">SBGN-Pathway-viewer</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          AIPower System Biology Gragpical Notation Pathway viewer
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/SBGN-Pathway-viewer/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/SBGN-Pathway-viewer" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Seed_sowing_simulator</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Seed_sowing_simulator for investigating tropisms in-silico
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Seed_sowing_simulator/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Seed_sowing_simulator" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Settlers_of_Mars_3D_LLM</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Redirect stub — the game moved to Settlers_of_the_Moon_or_Mars.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/Settlers_of_Mars_3D_LLM/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">SpaceMineralAtlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Mining NASA LSDA and OSDR for spaceflight mineral-ion and dietary data. Real-data reanalysis of the Veggie ICP-OES studies: crop-specific responses, a 1000-fold unit-labelling defect in OSD-655, and what mineral data NASA actually makes available.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/SpaceMineralAtlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/SpaceMineralAtlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">arabidopsis-atlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          An interactive, organ-selectable 3D atlas of Arabidopsis thaliana grounded in cited structural literature and real NASA OSDR spaceflight transcriptomics.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/arabidopsis-atlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/arabidopsis-atlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">arabidopsis-drem-osdr</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Cell-type-weighted regulatory prior for DREM over NASA OSDR Arabidopsis pseudo-time-series: a single-cell atlas that acts on the model, not just its annotation. SOG1/MYB3R attribution recovered with a built-in sog1-1 knockout control.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/arabidopsis-drem-osdr/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/arabidopsis-drem-osdr" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">arabidopsis-gwas-spaceflight</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/arabidopsis-gwas-spaceflight/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/arabidopsis-gwas-spaceflight" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">ares-curation</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          A FAIR client for NASA&#39;s ARES/JSC astromaterials catalogues — Apollo lunar samples, PDS sample photographs, planetary simulants and Astromaterials 3D — and a measured report of which samples each archive actually covers.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/ares-curation/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/ares-curation" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">astronaut-mineral-final</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Astronaut mineral-pathway multi-omics (Inspiration4, AX-1, JAXA CFE) against an NHANES population reference
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/astronaut-mineral-final/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/astronaut-mineral-final" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">astroroot-painter</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          A browser front end for RootPainter&#39;s corrective-annotation training loop — astroroot&#39;s training/correction companion
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/astroroot-painter/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/astroroot-painter" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">biosim-nextgen</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          biosim-nextgen
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/biosim-nextgen/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/biosim-nextgen" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">brachypodium-gwas-spaceflight</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          brachypodium-gwas-spaceflight
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/brachypodium-gwas-spaceflight/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/brachypodium-gwas-spaceflight" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">clpds-planetary-visualization</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/clpds-planetary-visualization/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/clpds-planetary-visualization" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">cose-arcade</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          CoSE Arcade — a hub for original lunar/space games and browser-based plant modeling &amp; simulation tools.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/cose-arcade/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/cose-arcade" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">cose-fiji</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          ImageJ 1.54 in the browser with SmartRoot, plant-phenotyping presets and FAIR export. No install.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/cose-fiji/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/cose-fiji" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">cose-magbio-3d-report</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          CoSE MagBio-3D interactive design report: parametric CAD inspector and Biot–Savart field visualiser (design stage, not measured)
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/cose-magbio-3d-report/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/cose-magbio-3d-report" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">dr-richard-barker</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Profile README
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/dr-richard-barker/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/dr-richard-barker" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">eFP-report-generator</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          eFP report generator
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/eFP-report-generator/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/eFP-report-generator" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">earth-magnetosphere-4d-viz</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/earth-magnetosphere-4d-viz/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/earth-magnetosphere-4d-viz" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">germinator-ai</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          New tool
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/germinator-ai/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/germinator-ai" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">groot-dashboard</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/groot-dashboard/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/groot-dashboard" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">infogenius-standalone</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Standalone, keyless, browser-native topic research + infographic tool. No Google GenAI. Optional BYO-key AI images. Deployable on GitHub Pages.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/infogenius-standalone/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/infogenius-standalone" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">lunar-arcade</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Original browser games in the spirit of the classic Maxis sims, rebuilt from scratch on the Moon
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/lunar-arcade/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/lunar-arcade" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">lunar-lfm-explorer</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/lunar-lfm-explorer/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/lunar-lfm-explorer" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">lunar-magnetic-biology</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/lunar-magnetic-biology/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/lunar-magnetic-biology" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">lunar-mars-magnetic-biology</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/lunar-mars-magnetic-biology/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/lunar-mars-magnetic-biology" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">lunar-regolith-blss-review</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          From Dust to Bio-Infrastructure: Sintered Regolith Ceramics for Lunar BLSS (npj Microgravity review)
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/lunar-regolith-blss-review/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/lunar-regolith-blss-review" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">mars-magnetic-biology</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/mars-magnetic-biology/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/mars-magnetic-biology" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">microgreen-chamber-cfd</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          3D internal-flow CFD of a microgreen growth chamber (OpenFOAM v2606) — baseline airflow, buoyancy, and a gravity parametric study
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/microgreen-chamber-cfd/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/microgreen-chamber-cfd" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">mx-creative-console</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          My Logitech MX Creative Console profiles
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/mx-creative-console/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/mx-creative-console" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">nssdc-cosmic-explorer</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/nssdc-cosmic-explorer/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/nssdc-cosmic-explorer" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">osdr-plant-microbiome</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          FAIR relational + graph database, guild-inference ML and interactive report for NASA OSDR plant-associated microbiome datasets
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/osdr-plant-microbiome/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/osdr-plant-microbiome" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">plant-mitocarta</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Plant MitoCarta: Subcellular Digital Doubles, Inter-Organellar Signaling &amp; Cross-Kingdom Synteny
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/plant-mitocarta/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/plant-mitocarta" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">quantum-biology-atlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Cross-species ontology and SBGN pathway maps for quantum-biological processes: identifier-bound nodes carrying radical-pair/Fe-S/flavin annotations with an explicit evidence tier, plus NASA OSDR data projection. Companion to a near-null magnetic field review.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/quantum-biology-atlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/quantum-biology-atlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">rice-atlas</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/rice-atlas/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/rice-atlas" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">smallRNAseq-DREAM</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          a cleaned smallRNAseq-DREAM analysis pipeline
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/smallRNAseq-DREAM/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/smallRNAseq-DREAM" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card repo" style="padding: 1rem;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.3rem;">spaceflight-plant-hardware-cfd</h3>
+        <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 0.8rem;">
+          Open-source scientific repository and interactive web tool.
+        </p>
+        <div class="card-foot" style="padding-top: 0.4rem;">
+          <a href="https://dr-richard-barker.github.io/spaceflight-plant-hardware-cfd/" target="_blank" rel="noopener" class="chip leaf" style="font-size: 0.78rem;">
+            <span>Launch App ↗</span>
+          </a>
+          <a href="https://github.com/dr-richard-barker/spaceflight-plant-hardware-cfd" target="_blank" rel="noopener" class="chip" style="font-size: 0.78rem;">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <strong>Richard J. Barker, PhD</strong> · Madison, Wisconsin, USA<br>
+        <span class="note">Designed with the <a href="https://cosecloud.com" target="_blank" rel="noopener">CoSE</a> brand aesthetic. Built with Python, Jinja2 & Typst.</span>
+      </div>
+      <div class="links">
+        <a href="https://orcid.org/0000-0001-5681-9857" target="_blank" rel="noopener" class="chip">ORCID: 0000-0001-5681-9857</a>
+        <a href="https://github.com/dr-richard-barker" target="_blank" rel="noopener" class="chip">GitHub: @dr-richard-barker</a>
+        <a href="https://www.linkedin.com/in/richard-barker-40b90530/" target="_blank" rel="noopener" class="chip">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../static/js/site.js"></script>
+</body>
+</html>

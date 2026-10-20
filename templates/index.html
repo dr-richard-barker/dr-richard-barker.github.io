@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <img src="{{ profile.avatar_url }}" alt="Richard J. Barker" class="avatar" width="136" height="136">
+    <div>
+      <div class="eyebrow">Plant Systems Biology · Spaceflight Omics · Fungal Biomanufacturing</div>
+      <h1>Richard J. Barker, PhD</h1>
+      <p class="lede">{{ profile.taglines.academic }}</p>
+      <ul class="roles">
+        <li>Senior Scientist & Science Co-Lead, <strong>NASA Lunar LEAF</strong> (Purdue University)</li>
+        <li>Chair, <strong>NASA GeneLab Plant Analysis Working Group</strong> (100+ international members)</li>
+        <li>Co-Founder, <strong>CoSE Benefit Corp</strong> & <strong>AstroBotany.com</strong> (3,000+ classrooms worldwide)</li>
+        <li>Former Scientist & Postdoc, <strong>Department of Botany & Genetics</strong>, UW–Madison (11 years)</li>
+      </ul>
+      <div class="link-row">
+        <a href="{{ root_path }}academic/" class="btn primary">
+          <span>Enter Academic CV</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="{{ root_path }}general/" class="btn">
+          <span>General Overview</span>
+        </a>
+        <a href="{{ root_path }}projects/" class="btn">
+          <span>Explore 100+ Browser Tools</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dual Doors Section -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Select Your Perspective</h2>
+      <div class="aside">Two tailored views of my research, tools, and background</div>
+    </div>
+
+    <div class="doors">
+      <!-- Door 1: Academic Employers -->
+      <a href="{{ root_path }}academic/" class="card door">
+        <div class="card-icon">🏛️</div>
+        <h3>Academic & Research CV</h3>
+        <p>A rigorous, comprehensive dossier tailored for faculty search committees, academic leadership, and grant agencies.</p>
+        <ul style="padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+          <li>34+ peer-reviewed papers & standardized pipelines</li>
+          <li>$1.12M+ competitive extramural funding table</li>
+          <li>NASA GeneLab AWG leadership & NSF panel service</li>
+          <li>Undergraduate mentoring award & pedagogical leadership</li>
+          <li>Interactive BibTeX citation copy & downloadable PDF</li>
+        </ul>
+        <div class="go">Explore Academic CV →</div>
+      </a>
+
+      <!-- Door 2: General Audience & Industry -->
+      <a href="{{ root_path }}general/" class="card door">
+        <div class="card-icon">🌱</div>
+        <h3>General & Public Portfolio</h3>
+        <p>A narrative-driven overview of our mission: growing plants and fungi in extreme environments to solve challenges on Earth and in space.</p>
+        <ul style="padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+          <li>Plain-language summaries of flagship discoveries</li>
+          <li>3,000+ classrooms citizen science impact</li>
+          <li>Mycoponics: growing fungal biomaterials with liquid feeds</li>
+          <li>Big Ten Network <em>LiveBIG</em> national TV feature</li>
+          <li>Four practical ways we can collaborate</li>
+        </ul>
+        <div class="go">Explore General Overview →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Key Impact Statistics -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Impact by the Numbers</h2>
+      <div class="aside">Track record spanning 15+ years</div>
+    </div>
+
+    <div class="grid grid-3">
+      {% for stat in profile.stats %}
+      <div class="card metric">
+        <div class="num">{{ stat.value }}</div>
+        <div class="lbl">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Research & Focus Areas -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Core Research & Technical Pillars</h2>
+      <div class="aside">Spanning biology, computation, and hardware</div>
+    </div>
+
+    <div class="grid grid-3">
+      {% for theme in profile.themes %}
+      <div class="card theme-card">
+        <div class="card-icon">{{ theme.icon }}</div>
+        <h3>{{ theme.name }}</h3>
+        <p>{{ theme.description }}</p>
+        <div class="kw">
+          {% for kw in theme.keywords %}
+          <span class="chip">{{ kw }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

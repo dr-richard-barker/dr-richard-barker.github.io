@@ -1,0 +1,128 @@
+featured_projects:
+  - id: "space-biophysics"
+    category: "Space Biophysics, CFD & Lunar Systems"
+    description: "Computational fluid dynamics (CFD), habitat microclimate modeling, and lunar environmental simulation tools."
+    projects:
+      - name: "LunarLeaf-CFD"
+        repo: "dr-richard-barker/LunarLeaf-CFD"
+        description: "Validated in-browser CFD model of gravity-dependent gas-exchange boundary layers around Arabidopsis leaves in lunar and orbital microenvironments."
+        demo_url: "https://dr-richard-barker.github.io/LunarLeaf-CFD/"
+        language: "JavaScript / WebGL"
+        badge: "CFD & Boundary Layers"
+        highlight: true
+
+      - name: "LunarFarm-BLSS"
+        repo: "dr-richard-barker/LunarFarm-BLSS"
+        description: "What a playable closed loop teaches about closing one: an interactive bioregenerative life support systems (BLSS) architecture simulation."
+        demo_url: "https://dr-richard-barker.github.io/LunarFarm-BLSS/"
+        language: "JavaScript / HTML5"
+        badge: "Life Support Architecture"
+        highlight: true
+
+      - name: "lunar-lfm-explorer"
+        repo: "dr-richard-barker/lunar-lfm-explorer"
+        description: "FAIR exploration toolkit and multi-illumination inference viewer for the NASA-IBM Lunar Foundation Model."
+        demo_url: "https://dr-richard-barker.github.io/lunar-lfm-explorer/"
+        language: "Python / TypeScript"
+        badge: "AI Foundation Model"
+        highlight: true
+
+      - name: "ASTRO-USA-Habitat-Model"
+        repo: "dr-richard-barker/ASTRO-USA-Habitat-Model"
+        description: "Parametric CAD and environmental simulation of the ASTRO-USA Mini-Hab Food Production Module."
+        demo_url: "https://dr-richard-barker.github.io/ASTRO-USA-Habitat-Model/"
+        language: "Three.js / CAD"
+        badge: "Habitat Engineering"
+        highlight: false
+
+  - id: "plant-fungal-atlases"
+    category: "Plant Systems Biology & Fungal Atlases"
+    description: "Multi-omics discovery portals, anatomical 3D models, and metabolic pathway decoders for plant and fungal biology."
+    projects:
+      - name: "plant-pathway-atlas"
+        repo: "dr-richard-barker/plant-pathway-atlas"
+        description: "Modernized MapMan, PlantCyc, and ggPlant visualization engine for plant systems biology and cross-species metabolic mapping."
+        demo_url: "https://dr-richard-barker.github.io/plant-pathway-atlas/"
+        language: "TypeScript / SVG"
+        badge: "Metabolic Pathways"
+        highlight: true
+
+      - name: "fungal-bgc-atlas"
+        repo: "dr-richard-barker/fungal-bgc-atlas"
+        description: "Curated, evidence-linked knowledge base of 609 MIBiG-linked fungal biosynthetic gene clusters with structural annotations."
+        demo_url: "https://dr-richard-barker.github.io/fungal-bgc-atlas/"
+        language: "JavaScript"
+        badge: "Fungal Biomanufacturing"
+        highlight: true
+
+      - name: "arabidopsis-atlas"
+        repo: "dr-richard-barker/arabidopsis-atlas"
+        description: "Interactive organ-selectable 3D anatomical atlas of Arabidopsis thaliana grounded in validated structural data."
+        demo_url: "https://dr-richard-barker.github.io/arabidopsis-atlas/"
+        language: "Three.js / WebGL"
+        badge: "3D Plant Anatomy"
+        highlight: true
+
+      - name: "virtual-root"
+        repo: "dr-richard-barker/virtual-root"
+        description: "Open web-based rebuild of SimuPlant / The Virtual Root: cell-based auxin transport and root gravitropism model."
+        demo_url: "https://dr-richard-barker.github.io/virtual-root/"
+        language: "JavaScript / Canvas"
+        badge: "Root Auxin Simulation"
+        highlight: true
+
+  - id: "imaging-phenomics"
+    category: "Computer Vision & In-Browser Phenomics"
+    description: "Install-free browser phenotyping tools, machine learning segmentation, and calibration standards for researchers and classrooms."
+    projects:
+      - name: "astroroot"
+        repo: "dr-richard-barker/astroroot"
+        description: "Install-free, in-browser root-image analysis for students and researchers — RootNav GUI and machine learning phenotyping."
+        demo_url: "https://dr-richard-barker.github.io/astroroot/"
+        language: "JavaScript / WebAssembly"
+        badge: "Root Phenomics"
+        highlight: true
+
+      - name: "cose-fiji"
+        repo: "dr-richard-barker/cose-fiji"
+        description: "ImageJ 1.54 in the browser with SmartRoot, plant phenotyping presets, and FAIR export with no local installation required."
+        demo_url: "https://dr-richard-barker.github.io/cose-fiji/"
+        language: "CheerpJ / Java / JS"
+        badge: "Browser ImageJ"
+        highlight: true
+
+      - name: "ABCD_v2"
+        repo: "dr-richard-barker/ABCD_v2"
+        description: "ABCD v2 AstroBotany calibration card: Munsell-defined plant and soil colour chips with ArUco markers for automated computer vision correction."
+        demo_url: "https://dr-richard-barker.github.io/ABCD_v2/"
+        language: "Python / OpenCV"
+        badge: "Open Hardware Standard"
+        highlight: false
+
+  - id: "space-omics-nasa"
+    category: "NASA OSDR & Space Multi-Omics Engines"
+    description: "Harmonized transcriptomic, microbiome, and astronaut biomedical data portals."
+    projects:
+      - name: "toast2"
+        repo: "dr-richard-barker/toast2"
+        description: "Next-generation DuckDB and Superset rebuild of TOAST (Test Of Arabidopsis Space Transcriptome) for fast spaceflight querying."
+        demo_url: "https://github.com/dr-richard-barker/toast2"
+        language: "Python / DuckDB"
+        badge: "Spaceflight Omics"
+        highlight: true
+
+      - name: "SpaceMineralAtlas"
+        repo: "dr-richard-barker/SpaceMineralAtlas"
+        description: "Mining NASA LSDA and OSDR for spaceflight mineral-ion and dietary data: multi-omics cross-analysis against NHANES terrestrial populations."
+        demo_url: "https://dr-richard-barker.github.io/SpaceMineralAtlas/"
+        language: "TypeScript / D3.js"
+        badge: "Astronaut Health & Nutrition"
+        highlight: false
+
+      - name: "OSDR-Veggie-Nutrition-Dashboard"
+        repo: "dr-richard-barker/OSDR-Veggie-Nutrition-Dashboard"
+        description: "Interactive nutritional and transcriptomic comparison of salad crops grown on the International Space Station VEGGIE payload."
+        demo_url: "https://dr-richard-barker.github.io/OSDR-Veggie-Nutrition-Dashboard/"
+        language: "JavaScript / Plotly"
+        badge: "Space Crop Nutrition"
+        highlight: false

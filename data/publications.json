@@ -1,0 +1,3758 @@
+{
+  "orcid": "0000-0001-5681-9857",
+  "count": 34,
+  "works": [
+    {
+      "title": "Enhancing Spaceflight Imaging Data Using Simple Online Automated Plant Phenomics (SOAPP)",
+      "type": "journal-article",
+      "year": 2026,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2026-0008",
+      "url": "https://doi.org/10.2478/gsr-2026-0008",
+      "authors": [
+        {
+          "family": "Bauer",
+          "given": "Lucas",
+          "short": "Bauer, L.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Cauthorn",
+          "given": "Gilbert",
+          "short": "Cauthorn, G.",
+          "self": false
+        },
+        {
+          "family": "Jenkins",
+          "given": "Benjamin",
+          "short": "Jenkins, B.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "14",
+      "issue": "1",
+      "pages": "106-118",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.2478/gsr-2026-0008"
+    },
+    {
+      "title": "Expanding frontiers: harnessing plant biology for space exploration and planetary sustainability",
+      "type": "journal-article",
+      "year": 2026,
+      "venue": "New Phytologist",
+      "doi": "10.1111/nph.70662",
+      "url": "https://doi.org/10.1111/nph.70662",
+      "authors": [
+        {
+          "family": "Fountain",
+          "given": "Luke L.",
+          "short": "Fountain, L.L.",
+          "self": false
+        },
+        {
+          "family": "Gilliham",
+          "given": "Matthew",
+          "short": "Gilliham, M.",
+          "self": false
+        },
+        {
+          "family": "Amitrano",
+          "given": "Chiara",
+          "short": "Amitrano, C.",
+          "self": false
+        },
+        {
+          "family": "Arouna",
+          "given": "Nafiou",
+          "short": "Arouna, N.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Böhmer",
+          "given": "Maik",
+          "short": "Böhmer, M.",
+          "self": false
+        },
+        {
+          "family": "Braun",
+          "given": "Markus",
+          "short": "Braun, M.",
+          "self": false
+        },
+        {
+          "family": "Brereton",
+          "given": "Nicolas J. B.",
+          "short": "Brereton, N.J.B.",
+          "self": false
+        },
+        {
+          "family": "Brocato",
+          "given": "Rebecca L.",
+          "short": "Brocato, R.L.",
+          "self": false
+        },
+        {
+          "family": "Bunchek",
+          "given": "Jess M.",
+          "short": "Bunchek, J.M.",
+          "self": false
+        },
+        {
+          "family": "Canaday",
+          "given": "Emma L. J.",
+          "short": "Canaday, E.L.J.",
+          "self": false
+        },
+        {
+          "family": "Caplin",
+          "given": "Nicol",
+          "short": "Caplin, N.",
+          "self": false
+        },
+        {
+          "family": "Castaño",
+          "given": "Paola",
+          "short": "Castaño, P.",
+          "self": false
+        },
+        {
+          "family": "Chamberlain",
+          "given": "Christine",
+          "short": "Chamberlain, C.",
+          "self": false
+        },
+        {
+          "family": "Decourteix",
+          "given": "Mélanie",
+          "short": "Decourteix, M.",
+          "self": false
+        },
+        {
+          "family": "Del Bianco",
+          "given": "Marta",
+          "short": "Del Bianco, M.",
+          "self": false
+        },
+        {
+          "family": "De Micco",
+          "given": "Veronica",
+          "short": "De Micco, V.",
+          "self": false
+        },
+        {
+          "family": "Doherty",
+          "given": "Colleen J.",
+          "short": "Doherty, C.J.",
+          "self": false
+        },
+        {
+          "family": "Franke",
+          "given": "Michel F.",
+          "short": "Franke, M.F.",
+          "self": false
+        },
+        {
+          "family": "Fuentes",
+          "given": "Sigfredo",
+          "short": "Fuentes, S.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Harrison",
+          "given": "Lynn",
+          "short": "Harrison, L.",
+          "self": false
+        },
+        {
+          "family": "Hasenstein",
+          "given": "Karl H.",
+          "short": "Hasenstein, K.H.",
+          "self": false
+        },
+        {
+          "family": "Hauslage",
+          "given": "Jens",
+          "short": "Hauslage, J.",
+          "self": false
+        },
+        {
+          "family": "Herranz",
+          "given": "Raúl",
+          "short": "Herranz, R.",
+          "self": false
+        },
+        {
+          "family": "Iyer‐Pascuzzi",
+          "given": "Anjali",
+          "short": "Iyer‐Pascuzzi, A.",
+          "self": false
+        },
+        {
+          "family": "Izuma",
+          "given": "Dylan Shun",
+          "short": "Izuma, D.S.",
+          "self": false
+        },
+        {
+          "family": "Junya",
+          "given": "Kirima",
+          "short": "Junya, K.",
+          "self": false
+        },
+        {
+          "family": "Kiss",
+          "given": "John Z.",
+          "short": "Kiss, J.Z.",
+          "self": false
+        },
+        {
+          "family": "Legué",
+          "given": "Valérie",
+          "short": "Legué, V.",
+          "self": false
+        },
+        {
+          "family": "Lloyd",
+          "given": "James P. B.",
+          "short": "Lloyd, J.P.B.",
+          "self": false
+        },
+        {
+          "family": "Maffei",
+          "given": "Massimo E.",
+          "short": "Maffei, M.E.",
+          "self": false
+        },
+        {
+          "family": "Massa",
+          "given": "Gioia D.",
+          "short": "Massa, G.D.",
+          "self": false
+        },
+        {
+          "family": "Meyers",
+          "given": "Alexander D.",
+          "short": "Meyers, A.D.",
+          "self": false
+        },
+        {
+          "family": "Perera",
+          "given": "Imara Y.",
+          "short": "Perera, I.Y.",
+          "self": false
+        },
+        {
+          "family": "Poulet",
+          "given": "Lucie",
+          "short": "Poulet, L.",
+          "self": false
+        },
+        {
+          "family": "Roychoudry",
+          "given": "Suruchi",
+          "short": "Roychoudry, S.",
+          "self": false
+        },
+        {
+          "family": "Sena",
+          "given": "Giovanni",
+          "short": "Sena, G.",
+          "self": false
+        },
+        {
+          "family": "Shippen",
+          "given": "Dorothy E.",
+          "short": "Shippen, D.E.",
+          "self": false
+        },
+        {
+          "family": "Stoochnoff",
+          "given": "Jared",
+          "short": "Stoochnoff, J.",
+          "self": false
+        },
+        {
+          "family": "Takahashi",
+          "given": "Hideyuki",
+          "short": "Takahashi, H.",
+          "self": false
+        },
+        {
+          "family": "Wyatt",
+          "given": "Sarah E.",
+          "short": "Wyatt, S.E.",
+          "self": false
+        },
+        {
+          "family": "Blancaflor",
+          "given": "Elison B.",
+          "short": "Blancaflor, E.B.",
+          "self": false
+        }
+      ],
+      "volume": "249",
+      "issue": "2",
+      "pages": "656-669",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1111/nph.70662"
+    },
+    {
+      "title": "Mycoponics: Controlled Bioproduction Utilizing Biophysical, Solid‐State, Liquid Nutrient Delivery",
+      "type": "journal-article",
+      "year": 2026,
+      "venue": "Biotechnology Journal",
+      "doi": "10.1002/biot.70184",
+      "url": "https://doi.org/10.1002/biot.70184",
+      "authors": [
+        {
+          "family": "Porterfield",
+          "given": "D. Marshall",
+          "short": "Porterfield, D.M.",
+          "self": false
+        },
+        {
+          "family": "Moulton",
+          "given": "Simone X.",
+          "short": "Moulton, S.X.",
+          "self": false
+        },
+        {
+          "family": "Sanchez",
+          "given": "Adriana K.",
+          "short": "Sanchez, A.K.",
+          "self": false
+        },
+        {
+          "family": "Sorg",
+          "given": "Anna",
+          "short": "Sorg, A.",
+          "self": false
+        },
+        {
+          "family": "Koenig",
+          "given": "Tayla",
+          "short": "Koenig, T.",
+          "self": false
+        },
+        {
+          "family": "Terrell",
+          "given": "M. Shane",
+          "short": "Terrell, M.S.",
+          "self": false
+        },
+        {
+          "family": "Zahner",
+          "given": "Sigrid",
+          "short": "Zahner, S.",
+          "self": false
+        },
+        {
+          "family": "Baena",
+          "given": "Alex",
+          "short": "Baena, A.",
+          "self": false
+        },
+        {
+          "family": "Proctor",
+          "given": "Caitlin",
+          "short": "Proctor, C.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        }
+      ],
+      "volume": "21",
+      "issue": "2",
+      "pages": "e70184",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": true,
+      "id": "10.1002/biot.70184"
+    },
+    {
+      "title": "SpaceBio Knowledge Hub: A LiteratOmics Platform for Microgravity and Space Biology Research",
+      "type": "preprint",
+      "year": 2026,
+      "venue": "",
+      "doi": "10.64898/2026.07.13.737239",
+      "url": "https://doi.org/10.64898/2026.07.13.737239",
+      "authors": [
+        {
+          "family": "Silva",
+          "given": "Jose Cleydson F",
+          "short": "Silva, J.C.F.",
+          "self": false
+        },
+        {
+          "family": "Vieira",
+          "given": "Arthur",
+          "short": "Vieira, A.",
+          "self": false
+        },
+        {
+          "family": "Chue Donahey",
+          "given": "Melinda S.",
+          "short": "Chue Donahey, M.S.",
+          "self": false
+        },
+        {
+          "family": "Silva",
+          "given": "Sirlane Maria do Carmo",
+          "short": "Silva, S.M.d.C.",
+          "self": false
+        },
+        {
+          "family": "Veloso",
+          "given": "Tomas",
+          "short": "Veloso, T.",
+          "self": false
+        },
+        {
+          "family": "Lopes",
+          "given": "Adilson",
+          "short": "Lopes, A.",
+          "self": false
+        },
+        {
+          "family": "Sexson",
+          "given": "Nick",
+          "short": "Sexson, N.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Porterfield",
+          "given": "D Marshall",
+          "short": "Porterfield, D.M.",
+          "self": false
+        },
+        {
+          "family": "Silva",
+          "given": "Carlos A.",
+          "short": "Silva, C.A.",
+          "self": false
+        },
+        {
+          "family": "Dias",
+          "given": "Raquel",
+          "short": "Dias, R.",
+          "self": false
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.64898/2026.07.13.737239"
+    },
+    {
+      "title": "Critical investments in bioregenerative life support systems for bioastronautics and sustainable lunar exploration",
+      "type": "journal-article",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00518-4",
+      "url": "https://doi.org/10.1038/s41526-025-00518-4",
+      "authors": [
+        {
+          "family": "Marshall Porterfield",
+          "given": "D.",
+          "short": "Marshall Porterfield, D.",
+          "self": false
+        },
+        {
+          "family": "Tulodziecki",
+          "given": "Dana",
+          "short": "Tulodziecki, D.",
+          "self": false
+        },
+        {
+          "family": "Wheeler",
+          "given": "Raymond",
+          "short": "Wheeler, R.",
+          "self": false
+        },
+        {
+          "family": "Davis Cross",
+          "given": "Mai’a K.",
+          "short": "Davis Cross, M.K.",
+          "self": false
+        },
+        {
+          "family": "Monje",
+          "given": "Oscar",
+          "short": "Monje, O.",
+          "self": false
+        },
+        {
+          "family": "Rothschild",
+          "given": "Lynn J.",
+          "short": "Rothschild, L.J.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Schwertz",
+          "given": "Hansjorg",
+          "short": "Schwertz, H.",
+          "self": false
+        },
+        {
+          "family": "Collicott",
+          "given": "Steven",
+          "short": "Collicott, S.",
+          "self": false
+        },
+        {
+          "family": "Dutta",
+          "given": "Som",
+          "short": "Dutta, S.",
+          "self": false
+        }
+      ],
+      "volume": "11",
+      "issue": "1",
+      "pages": "57",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41526-025-00518-4"
+    },
+    {
+      "title": "Feeding the cosmos: tackling personalized space nutrition and the leaky gut challenge",
+      "type": "journal-article",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00490-z",
+      "url": "https://doi.org/10.1038/s41526-025-00490-z",
+      "authors": [
+        {
+          "family": "Barbero Barcenilla",
+          "given": "B.",
+          "short": "Barbero Barcenilla, B.",
+          "self": false
+        },
+        {
+          "family": "Rivero",
+          "given": "R.",
+          "short": "Rivero, R.",
+          "self": false
+        },
+        {
+          "family": "Lynch",
+          "given": "A.",
+          "short": "Lynch, A.",
+          "self": false
+        },
+        {
+          "family": "Cromer",
+          "given": "W.",
+          "short": "Cromer, W.",
+          "self": false
+        },
+        {
+          "family": "Gong",
+          "given": "J.",
+          "short": "Gong, J.",
+          "self": false
+        },
+        {
+          "family": "Harandi",
+          "given": "B.",
+          "short": "Harandi, B.",
+          "self": false
+        },
+        {
+          "family": "Stegmann",
+          "given": "M.",
+          "short": "Stegmann, M.",
+          "self": false
+        },
+        {
+          "family": "Le",
+          "given": "H.",
+          "short": "Le, H.",
+          "self": false
+        },
+        {
+          "family": "Lundine",
+          "given": "D.",
+          "short": "Lundine, D.",
+          "self": false
+        },
+        {
+          "family": "Chung",
+          "given": "M.",
+          "short": "Chung, M.",
+          "self": false
+        },
+        {
+          "family": "Puig",
+          "given": "J.",
+          "short": "Puig, J.",
+          "self": false
+        },
+        {
+          "family": "Mikhailova",
+          "given": "K.",
+          "short": "Mikhailova, K.",
+          "self": false
+        },
+        {
+          "family": "Coker",
+          "given": "H.",
+          "short": "Coker, H.",
+          "self": false
+        },
+        {
+          "family": "Marks",
+          "given": "A.",
+          "short": "Marks, A.",
+          "self": false
+        },
+        {
+          "family": "Gilbert",
+          "given": "R.",
+          "short": "Gilbert, R.",
+          "self": false
+        },
+        {
+          "family": "Scott",
+          "given": "R.",
+          "short": "Scott, R.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "R.",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Glowe",
+          "given": "P.",
+          "short": "Glowe, P.",
+          "self": false
+        },
+        {
+          "family": "Overbey",
+          "given": "Eliah G.",
+          "short": "Overbey, E.G.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "C. E.",
+          "short": "Mason, C.E.",
+          "self": false
+        }
+      ],
+      "volume": "11",
+      "issue": "1",
+      "pages": "45",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41526-025-00490-z"
+    },
+    {
+      "title": "GLARE: discovering hidden patterns in spaceflight transcriptome using representation learning",
+      "type": "journal-article",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00525-5",
+      "url": "https://doi.org/10.1038/s41526-025-00525-5",
+      "authors": [
+        {
+          "family": "Seo",
+          "given": "DongHyeon",
+          "short": "Seo, D.",
+          "self": false
+        },
+        {
+          "family": "Strickland",
+          "given": "Hunter F.",
+          "short": "Strickland, H.F.",
+          "self": false
+        },
+        {
+          "family": "Zhou",
+          "given": "Mingqi",
+          "short": "Zhou, M.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Ferl",
+          "given": "Robert J.",
+          "short": "Ferl, R.J.",
+          "self": false
+        },
+        {
+          "family": "Paul",
+          "given": "Anna-Lisa",
+          "short": "Paul, A.L.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "11",
+      "issue": "1",
+      "pages": "76",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41526-025-00525-5"
+    },
+    {
+      "title": "Japanese Oblate Film as a Novel Method for Seed Handling and Activation in Microgravity",
+      "type": "journal-article",
+      "year": 2025,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2025-0002",
+      "url": "https://doi.org/10.2478/gsr-2025-0002",
+      "authors": [
+        {
+          "family": "Cauthorn",
+          "given": "Gilbert",
+          "short": "Cauthorn, G.",
+          "self": false
+        },
+        {
+          "family": "Crisman",
+          "given": "Keith",
+          "short": "Crisman, K.",
+          "self": false
+        },
+        {
+          "family": "Boles",
+          "given": "Haley O.",
+          "short": "Boles, H.O.",
+          "self": false
+        },
+        {
+          "family": "Johnson",
+          "given": "Christina M.",
+          "short": "Johnson, C.M.",
+          "self": false
+        },
+        {
+          "family": "Subramanian",
+          "given": "Aswati",
+          "short": "Subramanian, A.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Cuthbert",
+          "given": "Emma",
+          "short": "Cuthbert, E.",
+          "self": false
+        },
+        {
+          "family": "Yamada",
+          "given": "Mao",
+          "short": "Yamada, M.",
+          "self": false
+        },
+        {
+          "family": "Sato",
+          "given": "Yui",
+          "short": "Sato, Y.",
+          "self": false
+        },
+        {
+          "family": "Chisuga",
+          "given": "Hachi",
+          "short": "Chisuga, H.",
+          "self": false
+        },
+        {
+          "family": "Fukuoka",
+          "given": "Sakura",
+          "short": "Fukuoka, S.",
+          "self": false
+        },
+        {
+          "family": "Kagami",
+          "given": "Serika",
+          "short": "Kagami, S.",
+          "self": false
+        },
+        {
+          "family": "Tada",
+          "given": "Chihiro",
+          "short": "Tada, C.",
+          "self": false
+        },
+        {
+          "family": "Park",
+          "given": "Seohee",
+          "short": "Park, S.",
+          "self": false
+        },
+        {
+          "family": "Kunihiro",
+          "given": "Kurumi",
+          "short": "Kunihiro, K.",
+          "self": false
+        },
+        {
+          "family": "Mitsukawa",
+          "given": "Kosei",
+          "short": "Mitsukawa, K.",
+          "self": false
+        },
+        {
+          "family": "Ueki",
+          "given": "Asako",
+          "short": "Ueki, A.",
+          "self": false
+        },
+        {
+          "family": "Nozawa",
+          "given": "Sana",
+          "short": "Nozawa, S.",
+          "self": false
+        },
+        {
+          "family": "Delioglu",
+          "given": "Gokce",
+          "short": "Delioglu, G.",
+          "self": false
+        }
+      ],
+      "volume": "13",
+      "issue": "1",
+      "pages": "30-38",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.2478/gsr-2025-0002"
+    },
+    {
+      "title": "Space-driven ROS in cells: a hidden danger to astronaut health and food safety",
+      "type": "journal-article",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00492-x",
+      "url": "https://doi.org/10.1038/s41526-025-00492-x",
+      "authors": [
+        {
+          "family": "Mokhtari",
+          "given": "Majid",
+          "short": "Mokhtari, M.",
+          "self": false
+        },
+        {
+          "family": "Reinsch",
+          "given": "Sigrid S.",
+          "short": "Reinsch, S.S.",
+          "self": false
+        },
+        {
+          "family": "Barcenilla",
+          "given": "Borja Barbero",
+          "short": "Barcenilla, B.B.",
+          "self": false
+        },
+        {
+          "family": "Ziyaei",
+          "given": "Kobra",
+          "short": "Ziyaei, K.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard John",
+          "short": "Barker, R.J.",
+          "self": true
+        }
+      ],
+      "volume": "11",
+      "issue": "1",
+      "pages": "52",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": true,
+      "id": "10.1038/s41526-025-00492-x"
+    },
+    {
+      "title": "Aging and putative frailty biomarkers are altered by spaceflight",
+      "type": "journal-article",
+      "year": 2024,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-57948-5",
+      "url": "https://doi.org/10.1038/s41598-024-57948-5",
+      "authors": [
+        {
+          "family": "Camera",
+          "given": "Andrea",
+          "short": "Camera, A.",
+          "self": false
+        },
+        {
+          "family": "Tabetah",
+          "given": "Marshall",
+          "short": "Tabetah, M.",
+          "self": false
+        },
+        {
+          "family": "Castañeda",
+          "given": "Veronica",
+          "short": "Castañeda, V.",
+          "self": false
+        },
+        {
+          "family": "Kim",
+          "given": "JangKeun",
+          "short": "Kim, J.",
+          "self": false
+        },
+        {
+          "family": "Galsinh",
+          "given": "Aman Singh",
+          "short": "Galsinh, A.S.",
+          "self": false
+        },
+        {
+          "family": "Haro-Vinueza",
+          "given": "Alissen",
+          "short": "Haro-Vinueza, A.",
+          "self": false
+        },
+        {
+          "family": "Salinas",
+          "given": "Ivonne",
+          "short": "Salinas, I.",
+          "self": false
+        },
+        {
+          "family": "Seylani",
+          "given": "Allen",
+          "short": "Seylani, A.",
+          "self": false
+        },
+        {
+          "family": "Arif",
+          "given": "Shehbeel",
+          "short": "Arif, S.",
+          "self": false
+        },
+        {
+          "family": "Das",
+          "given": "Saswati",
+          "short": "Das, S.",
+          "self": false
+        },
+        {
+          "family": "Mori",
+          "given": "Marcelo A.",
+          "short": "Mori, M.A.",
+          "self": false
+        },
+        {
+          "family": "Carano",
+          "given": "Anthony",
+          "short": "Carano, A.",
+          "self": false
+        },
+        {
+          "family": "de Oliveira",
+          "given": "Lorraine Christine",
+          "short": "de Oliveira, L.C.",
+          "self": false
+        },
+        {
+          "family": "Muratani",
+          "given": "Masafumi",
+          "short": "Muratani, M.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Zaksas",
+          "given": "Victoria",
+          "short": "Zaksas, V.",
+          "self": false
+        },
+        {
+          "family": "Goel",
+          "given": "Chirag",
+          "short": "Goel, C.",
+          "self": false
+        },
+        {
+          "family": "Dimokidis",
+          "given": "Eleni",
+          "short": "Dimokidis, E.",
+          "self": false
+        },
+        {
+          "family": "Taylor",
+          "given": "Deanne M.",
+          "short": "Taylor, D.M.",
+          "self": false
+        },
+        {
+          "family": "Jeong",
+          "given": "Jisu",
+          "short": "Jeong, J.",
+          "self": false
+        },
+        {
+          "family": "Overbey",
+          "given": "Eliah",
+          "short": "Overbey, E.",
+          "self": false
+        },
+        {
+          "family": "Meydan",
+          "given": "Cem",
+          "short": "Meydan, C.",
+          "self": false
+        },
+        {
+          "family": "Porterfield",
+          "given": "D. Marshall",
+          "short": "Porterfield, D.M.",
+          "self": false
+        },
+        {
+          "family": "Díaz",
+          "given": "Juan Esteban",
+          "short": "Díaz, J.E.",
+          "self": false
+        },
+        {
+          "family": "Caicedo",
+          "given": "Andrés",
+          "short": "Caicedo, A.",
+          "self": false
+        },
+        {
+          "family": "Schisler",
+          "given": "Jonathan C.",
+          "short": "Schisler, J.C.",
+          "self": false
+        },
+        {
+          "family": "Laiakis",
+          "given": "Evagelia C.",
+          "short": "Laiakis, E.C.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Kim",
+          "given": "Man S.",
+          "short": "Kim, M.S.",
+          "self": false
+        },
+        {
+          "family": "Karouia",
+          "given": "Fathi",
+          "short": "Karouia, F.",
+          "self": false
+        },
+        {
+          "family": "Szewczyk",
+          "given": "Nathaniel J.",
+          "short": "Szewczyk, N.J.",
+          "self": false
+        },
+        {
+          "family": "Beheshti",
+          "given": "Afshin",
+          "short": "Beheshti, A.",
+          "self": false
+        }
+      ],
+      "volume": "14",
+      "issue": "1",
+      "pages": "13098",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41598-024-57948-5"
+    },
+    {
+      "title": "Astronaut omics and the impact of space on the human body at scale",
+      "type": "journal-article",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-47237-0",
+      "url": "https://doi.org/10.1038/s41467-024-47237-0",
+      "authors": [
+        {
+          "family": "Rutter",
+          "given": "Lindsay A.",
+          "short": "Rutter, L.A.",
+          "self": false
+        },
+        {
+          "family": "Cope",
+          "given": "Henry",
+          "short": "Cope, H.",
+          "self": false
+        },
+        {
+          "family": "MacKay",
+          "given": "Matthew J.",
+          "short": "MacKay, M.J.",
+          "self": false
+        },
+        {
+          "family": "Herranz",
+          "given": "Raúl",
+          "short": "Herranz, R.",
+          "self": false
+        },
+        {
+          "family": "Das",
+          "given": "Saswati",
+          "short": "Das, S.",
+          "self": false
+        },
+        {
+          "family": "Ponomarev",
+          "given": "Sergey A.",
+          "short": "Ponomarev, S.A.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        },
+        {
+          "family": "Paul",
+          "given": "Amber M.",
+          "short": "Paul, A.M.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Taylor",
+          "given": "Deanne M.",
+          "short": "Taylor, D.M.",
+          "self": false
+        },
+        {
+          "family": "Bezdan",
+          "given": "Daniela",
+          "short": "Bezdan, D.",
+          "self": false
+        },
+        {
+          "family": "Szewczyk",
+          "given": "Nathaniel J.",
+          "short": "Szewczyk, N.J.",
+          "self": false
+        },
+        {
+          "family": "Muratani",
+          "given": "Masafumi",
+          "short": "Muratani, M.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Giacomello",
+          "given": "Stefania",
+          "short": "Giacomello, S.",
+          "self": false
+        }
+      ],
+      "volume": "15",
+      "issue": "1",
+      "pages": "4952",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41467-024-47237-0"
+    },
+    {
+      "title": "Spaceflight alters host-gut microbiota interactions",
+      "type": "journal-article",
+      "year": 2024,
+      "venue": "npj Biofilms and Microbiomes",
+      "doi": "10.1038/s41522-024-00545-1",
+      "url": "https://doi.org/10.1038/s41522-024-00545-1",
+      "authors": [
+        {
+          "family": "Gonzalez",
+          "given": "E.",
+          "short": "Gonzalez, E.",
+          "self": false
+        },
+        {
+          "family": "Lee",
+          "given": "M. D.",
+          "short": "Lee, M.D.",
+          "self": false
+        },
+        {
+          "family": "Tierney",
+          "given": "B. T.",
+          "short": "Tierney, B.T.",
+          "self": false
+        },
+        {
+          "family": "Lytell",
+          "given": "N.",
+          "short": "Lytell, N.",
+          "self": false
+        },
+        {
+          "family": "Flores",
+          "given": "P.",
+          "short": "Flores, P.",
+          "self": false
+        },
+        {
+          "family": "Mishra",
+          "given": "M.",
+          "short": "Mishra, M.",
+          "self": false
+        },
+        {
+          "family": "Beckett",
+          "given": "L.",
+          "short": "Beckett, L.",
+          "self": false
+        },
+        {
+          "family": "Finkelstein",
+          "given": "A.",
+          "short": "Finkelstein, A.",
+          "self": false
+        },
+        {
+          "family": "Mo",
+          "given": "A.",
+          "short": "Mo, A.",
+          "self": false
+        },
+        {
+          "family": "Walton",
+          "given": "P.",
+          "short": "Walton, P.",
+          "self": false
+        },
+        {
+          "family": "Karouia",
+          "given": "F.",
+          "short": "Karouia, F.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "R.",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Jansen",
+          "given": "R. J.",
+          "short": "Jansen, R.J.",
+          "self": false
+        },
+        {
+          "family": "Green",
+          "given": "S. J.",
+          "short": "Green, S.J.",
+          "self": false
+        },
+        {
+          "family": "Weging",
+          "given": "S.",
+          "short": "Weging, S.",
+          "self": false
+        },
+        {
+          "family": "Kelliher",
+          "given": "J.",
+          "short": "Kelliher, J.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "N. K.",
+          "short": "Singh, N.K.",
+          "self": false
+        },
+        {
+          "family": "Bezdan",
+          "given": "D.",
+          "short": "Bezdan, D.",
+          "self": false
+        },
+        {
+          "family": "Galazska",
+          "given": "J.",
+          "short": "Galazska, J.",
+          "self": false
+        },
+        {
+          "family": "Brereton",
+          "given": "N. J. B.",
+          "short": "Brereton, N.J.B.",
+          "self": false
+        }
+      ],
+      "volume": "10",
+      "issue": "1",
+      "pages": "71",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s41522-024-00545-1"
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis thaliana’s root-tip to spaceflight",
+      "type": "journal-article",
+      "year": 2024,
+      "venue": "Plant Molecular Biology",
+      "doi": "10.1007/s11103-024-01478-1",
+      "url": "https://doi.org/10.1007/s11103-024-01478-1",
+      "authors": [
+        {
+          "family": "Shahbazi",
+          "given": "Mohammad",
+          "short": "Shahbazi, M.",
+          "self": false
+        },
+        {
+          "family": "Rutter",
+          "given": "Lindsay A.",
+          "short": "Rutter, L.A.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        }
+      ],
+      "volume": "114",
+      "issue": "4",
+      "pages": "79",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": true,
+      "id": "10.1007/s11103-024-01478-1"
+    },
+    {
+      "title": "Biological research and self-driving labs in deep space supported by artificial intelligence",
+      "type": "journal-article",
+      "year": 2023,
+      "venue": "Nature Machine Intelligence",
+      "doi": "10.1038/s42256-023-00618-4",
+      "url": "https://doi.org/10.1038/s42256-023-00618-4",
+      "authors": [
+        {
+          "family": "Sanders",
+          "given": "Lauren M.",
+          "short": "Sanders, L.M.",
+          "self": false
+        },
+        {
+          "family": "Scott",
+          "given": "Ryan T.",
+          "short": "Scott, R.T.",
+          "self": false
+        },
+        {
+          "family": "Yang",
+          "given": "Jason H.",
+          "short": "Yang, J.H.",
+          "self": false
+        },
+        {
+          "family": "Qutub",
+          "given": "Amina Ann",
+          "short": "Qutub, A.A.",
+          "self": false
+        },
+        {
+          "family": "Garcia Martin",
+          "given": "Hector",
+          "short": "Garcia Martin, H.",
+          "self": false
+        },
+        {
+          "family": "Berrios",
+          "given": "Daniel C.",
+          "short": "Berrios, D.C.",
+          "self": false
+        },
+        {
+          "family": "Hastings",
+          "given": "Jaden J. A.",
+          "short": "Hastings, J.J.A.",
+          "self": false
+        },
+        {
+          "family": "Rask",
+          "given": "Jon",
+          "short": "Rask, J.",
+          "self": false
+        },
+        {
+          "family": "Mackintosh",
+          "given": "Graham",
+          "short": "Mackintosh, G.",
+          "self": false
+        },
+        {
+          "family": "Hoarfrost",
+          "given": "Adrienne L.",
+          "short": "Hoarfrost, A.L.",
+          "self": false
+        },
+        {
+          "family": "Chalk",
+          "given": "Stuart",
+          "short": "Chalk, S.",
+          "self": false
+        },
+        {
+          "family": "Kalantari",
+          "given": "John",
+          "short": "Kalantari, J.",
+          "self": false
+        },
+        {
+          "family": "Khezeli",
+          "given": "Kia",
+          "short": "Khezeli, K.",
+          "self": false
+        },
+        {
+          "family": "Antonsen",
+          "given": "Erik L.",
+          "short": "Antonsen, E.L.",
+          "self": false
+        },
+        {
+          "family": "Babdor",
+          "given": "Joel",
+          "short": "Babdor, J.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Baranzini",
+          "given": "Sergio E.",
+          "short": "Baranzini, S.E.",
+          "self": false
+        },
+        {
+          "family": "Beheshti",
+          "given": "Afshin",
+          "short": "Beheshti, A.",
+          "self": false
+        },
+        {
+          "family": "Delgado-Aparicio",
+          "given": "Guillermo M.",
+          "short": "Delgado-Aparicio, G.M.",
+          "self": false
+        },
+        {
+          "family": "Glicksberg",
+          "given": "Benjamin S.",
+          "short": "Glicksberg, B.S.",
+          "self": false
+        },
+        {
+          "family": "Greene",
+          "given": "Casey S.",
+          "short": "Greene, C.S.",
+          "self": false
+        },
+        {
+          "family": "Haendel",
+          "given": "Melissa",
+          "short": "Haendel, M.",
+          "self": false
+        },
+        {
+          "family": "Hamid",
+          "given": "Arif A.",
+          "short": "Hamid, A.A.",
+          "self": false
+        },
+        {
+          "family": "Heller",
+          "given": "Philip",
+          "short": "Heller, P.",
+          "self": false
+        },
+        {
+          "family": "Jamieson",
+          "given": "Daniel",
+          "short": "Jamieson, D.",
+          "self": false
+        },
+        {
+          "family": "Jarvis",
+          "given": "Katelyn J.",
+          "short": "Jarvis, K.J.",
+          "self": false
+        },
+        {
+          "family": "Komarova",
+          "given": "Svetlana V.",
+          "short": "Komarova, S.V.",
+          "self": false
+        },
+        {
+          "family": "Komorowski",
+          "given": "Matthieu",
+          "short": "Komorowski, M.",
+          "self": false
+        },
+        {
+          "family": "Kothiyal",
+          "given": "Prachi",
+          "short": "Kothiyal, P.",
+          "self": false
+        },
+        {
+          "family": "Mahabal",
+          "given": "Ashish",
+          "short": "Mahabal, A.",
+          "self": false
+        },
+        {
+          "family": "Manor",
+          "given": "Uri",
+          "short": "Manor, U.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Matar",
+          "given": "Mona",
+          "short": "Matar, M.",
+          "self": false
+        },
+        {
+          "family": "Mias",
+          "given": "George I.",
+          "short": "Mias, G.I.",
+          "self": false
+        },
+        {
+          "family": "Miller",
+          "given": "Jack",
+          "short": "Miller, J.",
+          "self": false
+        },
+        {
+          "family": "Myers",
+          "given": "Jerry G.",
+          "short": "Myers, J.G.",
+          "self": false
+        },
+        {
+          "family": "Nelson",
+          "given": "Charlotte",
+          "short": "Nelson, C.",
+          "self": false
+        },
+        {
+          "family": "Oribello",
+          "given": "Jonathan",
+          "short": "Oribello, J.",
+          "self": false
+        },
+        {
+          "family": "Park",
+          "given": "Seung-min",
+          "short": "Park, S.m.",
+          "self": false
+        },
+        {
+          "family": "Parsons-Wingerter",
+          "given": "Patricia",
+          "short": "Parsons-Wingerter, P.",
+          "self": false
+        },
+        {
+          "family": "Prabhu",
+          "given": "R. K.",
+          "short": "Prabhu, R.K.",
+          "self": false
+        },
+        {
+          "family": "Reynolds",
+          "given": "Robert J.",
+          "short": "Reynolds, R.J.",
+          "self": false
+        },
+        {
+          "family": "Saravia-Butler",
+          "given": "Amanda",
+          "short": "Saravia-Butler, A.",
+          "self": false
+        },
+        {
+          "family": "Saria",
+          "given": "Suchi",
+          "short": "Saria, S.",
+          "self": false
+        },
+        {
+          "family": "Sawyer",
+          "given": "Aenor",
+          "short": "Sawyer, A.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "Nitin Kumar",
+          "short": "Singh, N.K.",
+          "self": false
+        },
+        {
+          "family": "Snyder",
+          "given": "Michael",
+          "short": "Snyder, M.",
+          "self": false
+        },
+        {
+          "family": "Soboczenski",
+          "given": "Frank",
+          "short": "Soboczenski, F.",
+          "self": false
+        },
+        {
+          "family": "Soman",
+          "given": "Karthik",
+          "short": "Soman, K.",
+          "self": false
+        },
+        {
+          "family": "Theriot",
+          "given": "Corey A.",
+          "short": "Theriot, C.A.",
+          "self": false
+        },
+        {
+          "family": "Van Valen",
+          "given": "David",
+          "short": "Van Valen, D.",
+          "self": false
+        },
+        {
+          "family": "Venkateswaran",
+          "given": "Kasthuri",
+          "short": "Venkateswaran, K.",
+          "self": false
+        },
+        {
+          "family": "Warren",
+          "given": "Liz",
+          "short": "Warren, L.",
+          "self": false
+        },
+        {
+          "family": "Worthey",
+          "given": "Liz",
+          "short": "Worthey, L.",
+          "self": false
+        },
+        {
+          "family": "Zitnik",
+          "given": "Marinka",
+          "short": "Zitnik, M.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        }
+      ],
+      "volume": "5",
+      "issue": "3",
+      "pages": "208-219",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s42256-023-00618-4"
+    },
+    {
+      "title": "Biomonitoring and precision health in deep space supported by artificial intelligence",
+      "type": "journal-article",
+      "year": 2023,
+      "venue": "Nature Machine Intelligence",
+      "doi": "10.1038/s42256-023-00617-5",
+      "url": "https://doi.org/10.1038/s42256-023-00617-5",
+      "authors": [
+        {
+          "family": "Scott",
+          "given": "Ryan T.",
+          "short": "Scott, R.T.",
+          "self": false
+        },
+        {
+          "family": "Sanders",
+          "given": "Lauren M.",
+          "short": "Sanders, L.M.",
+          "self": false
+        },
+        {
+          "family": "Antonsen",
+          "given": "Erik L.",
+          "short": "Antonsen, E.L.",
+          "self": false
+        },
+        {
+          "family": "Hastings",
+          "given": "Jaden J. A.",
+          "short": "Hastings, J.J.A.",
+          "self": false
+        },
+        {
+          "family": "Park",
+          "given": "Seung-min",
+          "short": "Park, S.m.",
+          "self": false
+        },
+        {
+          "family": "Mackintosh",
+          "given": "Graham",
+          "short": "Mackintosh, G.",
+          "self": false
+        },
+        {
+          "family": "Reynolds",
+          "given": "Robert J.",
+          "short": "Reynolds, R.J.",
+          "self": false
+        },
+        {
+          "family": "Hoarfrost",
+          "given": "Adrienne L.",
+          "short": "Hoarfrost, A.L.",
+          "self": false
+        },
+        {
+          "family": "Sawyer",
+          "given": "Aenor",
+          "short": "Sawyer, A.",
+          "self": false
+        },
+        {
+          "family": "Greene",
+          "given": "Casey S.",
+          "short": "Greene, C.S.",
+          "self": false
+        },
+        {
+          "family": "Glicksberg",
+          "given": "Benjamin S.",
+          "short": "Glicksberg, B.S.",
+          "self": false
+        },
+        {
+          "family": "Theriot",
+          "given": "Corey A.",
+          "short": "Theriot, C.A.",
+          "self": false
+        },
+        {
+          "family": "Berrios",
+          "given": "Daniel C.",
+          "short": "Berrios, D.C.",
+          "self": false
+        },
+        {
+          "family": "Miller",
+          "given": "Jack",
+          "short": "Miller, J.",
+          "self": false
+        },
+        {
+          "family": "Babdor",
+          "given": "Joel",
+          "short": "Babdor, J.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Baranzini",
+          "given": "Sergio E.",
+          "short": "Baranzini, S.E.",
+          "self": false
+        },
+        {
+          "family": "Beheshti",
+          "given": "Afshin",
+          "short": "Beheshti, A.",
+          "self": false
+        },
+        {
+          "family": "Chalk",
+          "given": "Stuart",
+          "short": "Chalk, S.",
+          "self": false
+        },
+        {
+          "family": "Delgado-Aparicio",
+          "given": "Guillermo M.",
+          "short": "Delgado-Aparicio, G.M.",
+          "self": false
+        },
+        {
+          "family": "Haendel",
+          "given": "Melissa",
+          "short": "Haendel, M.",
+          "self": false
+        },
+        {
+          "family": "Hamid",
+          "given": "Arif A.",
+          "short": "Hamid, A.A.",
+          "self": false
+        },
+        {
+          "family": "Heller",
+          "given": "Philip",
+          "short": "Heller, P.",
+          "self": false
+        },
+        {
+          "family": "Jamieson",
+          "given": "Daniel",
+          "short": "Jamieson, D.",
+          "self": false
+        },
+        {
+          "family": "Jarvis",
+          "given": "Katelyn J.",
+          "short": "Jarvis, K.J.",
+          "self": false
+        },
+        {
+          "family": "Kalantari",
+          "given": "John",
+          "short": "Kalantari, J.",
+          "self": false
+        },
+        {
+          "family": "Khezeli",
+          "given": "Kia",
+          "short": "Khezeli, K.",
+          "self": false
+        },
+        {
+          "family": "Komarova",
+          "given": "Svetlana V.",
+          "short": "Komarova, S.V.",
+          "self": false
+        },
+        {
+          "family": "Komorowski",
+          "given": "Matthieu",
+          "short": "Komorowski, M.",
+          "self": false
+        },
+        {
+          "family": "Kothiyal",
+          "given": "Prachi",
+          "short": "Kothiyal, P.",
+          "self": false
+        },
+        {
+          "family": "Mahabal",
+          "given": "Ashish",
+          "short": "Mahabal, A.",
+          "self": false
+        },
+        {
+          "family": "Manor",
+          "given": "Uri",
+          "short": "Manor, U.",
+          "self": false
+        },
+        {
+          "family": "Garcia Martin",
+          "given": "Hector",
+          "short": "Garcia Martin, H.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Matar",
+          "given": "Mona",
+          "short": "Matar, M.",
+          "self": false
+        },
+        {
+          "family": "Mias",
+          "given": "George I.",
+          "short": "Mias, G.I.",
+          "self": false
+        },
+        {
+          "family": "Myers",
+          "given": "Jerry G.",
+          "short": "Myers, J.G.",
+          "self": false
+        },
+        {
+          "family": "Nelson",
+          "given": "Charlotte",
+          "short": "Nelson, C.",
+          "self": false
+        },
+        {
+          "family": "Oribello",
+          "given": "Jonathan",
+          "short": "Oribello, J.",
+          "self": false
+        },
+        {
+          "family": "Parsons-Wingerter",
+          "given": "Patricia",
+          "short": "Parsons-Wingerter, P.",
+          "self": false
+        },
+        {
+          "family": "Prabhu",
+          "given": "R. K.",
+          "short": "Prabhu, R.K.",
+          "self": false
+        },
+        {
+          "family": "Qutub",
+          "given": "Amina Ann",
+          "short": "Qutub, A.A.",
+          "self": false
+        },
+        {
+          "family": "Rask",
+          "given": "Jon",
+          "short": "Rask, J.",
+          "self": false
+        },
+        {
+          "family": "Saravia-Butler",
+          "given": "Amanda",
+          "short": "Saravia-Butler, A.",
+          "self": false
+        },
+        {
+          "family": "Saria",
+          "given": "Suchi",
+          "short": "Saria, S.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "Nitin Kumar",
+          "short": "Singh, N.K.",
+          "self": false
+        },
+        {
+          "family": "Snyder",
+          "given": "Michael",
+          "short": "Snyder, M.",
+          "self": false
+        },
+        {
+          "family": "Soboczenski",
+          "given": "Frank",
+          "short": "Soboczenski, F.",
+          "self": false
+        },
+        {
+          "family": "Soman",
+          "given": "Karthik",
+          "short": "Soman, K.",
+          "self": false
+        },
+        {
+          "family": "Van Valen",
+          "given": "David",
+          "short": "Van Valen, D.",
+          "self": false
+        },
+        {
+          "family": "Venkateswaran",
+          "given": "Kasthuri",
+          "short": "Venkateswaran, K.",
+          "self": false
+        },
+        {
+          "family": "Warren",
+          "given": "Liz",
+          "short": "Warren, L.",
+          "self": false
+        },
+        {
+          "family": "Worthey",
+          "given": "Liz",
+          "short": "Worthey, L.",
+          "self": false
+        },
+        {
+          "family": "Yang",
+          "given": "Jason H.",
+          "short": "Yang, J.H.",
+          "self": false
+        },
+        {
+          "family": "Zitnik",
+          "given": "Marinka",
+          "short": "Zitnik, M.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        }
+      ],
+      "volume": "5",
+      "issue": "3",
+      "pages": "196-207",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1038/s42256-023-00617-5"
+    },
+    {
+      "title": "Meta-analysis of the space flight and microgravity response of the Arabidopsis plant transcriptome",
+      "type": "journal-article",
+      "year": 2023,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-023-00247-6",
+      "url": "https://doi.org/10.1038/s41526-023-00247-6",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Kruse",
+          "given": "Colin P. S.",
+          "short": "Kruse, C.P.S.",
+          "self": false
+        },
+        {
+          "family": "Johnson",
+          "given": "Christina",
+          "short": "Johnson, C.",
+          "self": false
+        },
+        {
+          "family": "Saravia-Butler",
+          "given": "Amanda",
+          "short": "Saravia-Butler, A.",
+          "self": false
+        },
+        {
+          "family": "Fogle",
+          "given": "Homer",
+          "short": "Fogle, H.",
+          "self": false
+        },
+        {
+          "family": "Chang",
+          "given": "Hyun-Seok",
+          "short": "Chang, H.S.",
+          "self": false
+        },
+        {
+          "family": "Trane",
+          "given": "Ralph Møller",
+          "short": "Trane, R.M.",
+          "self": false
+        },
+        {
+          "family": "Kinscherf",
+          "given": "Noah",
+          "short": "Kinscherf, N.",
+          "self": false
+        },
+        {
+          "family": "Villacampa",
+          "given": "Alicia",
+          "short": "Villacampa, A.",
+          "self": false
+        },
+        {
+          "family": "Manzano",
+          "given": "Aránzazu",
+          "short": "Manzano, A.",
+          "self": false
+        },
+        {
+          "family": "Herranz",
+          "given": "Raúl",
+          "short": "Herranz, R.",
+          "self": false
+        },
+        {
+          "family": "Davin",
+          "given": "Laurence B.",
+          "short": "Davin, L.B.",
+          "self": false
+        },
+        {
+          "family": "Lewis",
+          "given": "Norman G.",
+          "short": "Lewis, N.G.",
+          "self": false
+        },
+        {
+          "family": "Perera",
+          "given": "Imara",
+          "short": "Perera, I.",
+          "self": false
+        },
+        {
+          "family": "Wolverton",
+          "given": "Chris",
+          "short": "Wolverton, C.",
+          "self": false
+        },
+        {
+          "family": "Gupta",
+          "given": "Parul",
+          "short": "Gupta, P.",
+          "self": false
+        },
+        {
+          "family": "Jaiswal",
+          "given": "Pankaj",
+          "short": "Jaiswal, P.",
+          "self": false
+        },
+        {
+          "family": "Reinsch",
+          "given": "Sigrid S.",
+          "short": "Reinsch, S.S.",
+          "self": false
+        },
+        {
+          "family": "Wyatt",
+          "given": "Sarah",
+          "short": "Wyatt, S.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "9",
+      "issue": "1",
+      "pages": "21",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1038/s41526-023-00247-6"
+    },
+    {
+      "title": "Analysis of Plant Root Gravitropism",
+      "type": "book-chapter",
+      "year": 2022,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-0716-2297-1_1",
+      "url": "https://doi.org/10.1007/978-1-0716-2297-1_1",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Johns",
+          "given": "Sarah",
+          "short": "Johns, S.",
+          "self": false
+        },
+        {
+          "family": "Trane",
+          "given": "Ralph",
+          "short": "Trane, R.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages": "3-16",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1007/978-1-0716-2297-1_1"
+    },
+    {
+      "title": "Genomic Characterization of Potential Plant Growth-Promoting Features of\n            Sphingomonas\n            Strains Isolated from the International Space Station",
+      "type": "journal-article",
+      "year": 2022,
+      "venue": "Microbiology Spectrum",
+      "doi": "10.1128/spectrum.01994-21",
+      "url": "https://doi.org/10.1128/spectrum.01994-21",
+      "authors": [
+        {
+          "family": "Lombardino",
+          "given": "Jonathan",
+          "short": "Lombardino, J.",
+          "self": false
+        },
+        {
+          "family": "Bijlani",
+          "given": "Swati",
+          "short": "Bijlani, S.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "Nitin K.",
+          "short": "Singh, N.K.",
+          "self": false
+        },
+        {
+          "family": "Wood",
+          "given": "Jason M.",
+          "short": "Wood, J.M.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Wang",
+          "given": "Clay C. C.",
+          "short": "Wang, C.C.C.",
+          "self": false
+        },
+        {
+          "family": "Venkateswaran",
+          "given": "Kasthuri",
+          "short": "Venkateswaran, K.",
+          "self": false
+        }
+      ],
+      "volume": "10",
+      "issue": "1",
+      "pages": "e01994-21",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1128/spectrum.01994-21"
+    },
+    {
+      "title": "The vacuolar H+/Ca transporter CAX1 participates in submergence and anoxia stress responses",
+      "type": "journal-article",
+      "year": 2022,
+      "venue": "Plant Physiology",
+      "doi": "10.1093/plphys/kiac375",
+      "url": "https://doi.org/10.1093/plphys/kiac375",
+      "authors": [
+        {
+          "family": "Yang",
+          "given": "Jian",
+          "short": "Yang, J.",
+          "self": false
+        },
+        {
+          "family": "Mathew",
+          "given": "Iny Elizebeth",
+          "short": "Mathew, I.E.",
+          "self": false
+        },
+        {
+          "family": "Rhein",
+          "given": "Hormat",
+          "short": "Rhein, H.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Guo",
+          "given": "Qi",
+          "short": "Guo, Q.",
+          "self": false
+        },
+        {
+          "family": "Brunello",
+          "given": "Luca",
+          "short": "Brunello, L.",
+          "self": false
+        },
+        {
+          "family": "Loreti",
+          "given": "Elena",
+          "short": "Loreti, E.",
+          "self": false
+        },
+        {
+          "family": "Barkla",
+          "given": "Bronwyn J",
+          "short": "Barkla, B.J.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Perata",
+          "given": "Pierdomenico",
+          "short": "Perata, P.",
+          "self": false
+        },
+        {
+          "family": "Hirschi",
+          "given": "Kendal D",
+          "short": "Hirschi, K.D.",
+          "self": false
+        }
+      ],
+      "volume": "190",
+      "issue": "4",
+      "pages": "2617-2636",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1093/plphys/kiac375"
+    },
+    {
+      "title": "Using the Automated Botanical Contact Device (ABCD) to Deliver Reproducible, Intermittent Touch Stimulation to Plants",
+      "type": "book-chapter",
+      "year": 2022,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-0716-1677-2_6",
+      "url": "https://doi.org/10.1007/978-1-0716-1677-2_6",
+      "authors": [
+        {
+          "family": "Fitzgerald",
+          "given": "Caleb",
+          "short": "Fitzgerald, C.",
+          "self": false
+        },
+        {
+          "family": "Vens",
+          "given": "Cullen S.",
+          "short": "Vens, C.S.",
+          "self": false
+        },
+        {
+          "family": "Miller",
+          "given": "Nathan",
+          "short": "Miller, N.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Westphall",
+          "given": "Matthew",
+          "short": "Westphall, M.",
+          "self": false
+        },
+        {
+          "family": "Lombardino",
+          "given": "Johnathan",
+          "short": "Lombardino, J.",
+          "self": false
+        },
+        {
+          "family": "Miao",
+          "given": "Jerry",
+          "short": "Miao, J.",
+          "self": false
+        },
+        {
+          "family": "Swanson",
+          "given": "Sarah J.",
+          "short": "Swanson, S.J.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages": "81-94",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1007/978-1-0716-1677-2_6"
+    },
+    {
+      "title": "Mapping sites of gibberellin biosynthesis in the Arabidopsis root tip",
+      "type": "journal-article",
+      "year": 2021,
+      "venue": "New Phytologist",
+      "doi": "10.1111/nph.16967",
+      "url": "https://doi.org/10.1111/nph.16967",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Fernandez Garcia",
+          "given": "Maria Nieves",
+          "short": "Fernandez Garcia, M.N.",
+          "self": false
+        },
+        {
+          "family": "Powers",
+          "given": "Stephen J.",
+          "short": "Powers, S.J.",
+          "self": false
+        },
+        {
+          "family": "Vaughan",
+          "given": "Simon",
+          "short": "Vaughan, S.",
+          "self": false
+        },
+        {
+          "family": "Bennett",
+          "given": "Malcolm J.",
+          "short": "Bennett, M.J.",
+          "self": false
+        },
+        {
+          "family": "Phillips",
+          "given": "Andrew L.",
+          "short": "Phillips, A.L.",
+          "self": false
+        },
+        {
+          "family": "Thomas",
+          "given": "Stephen G.",
+          "short": "Thomas, S.G.",
+          "self": false
+        },
+        {
+          "family": "Hedden",
+          "given": "Peter",
+          "short": "Hedden, P.",
+          "self": false
+        }
+      ],
+      "volume": "229",
+      "issue": "3",
+      "pages": "1521-1534",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1111/nph.16967"
+    },
+    {
+      "title": "NASA GeneLab RNA-seq consensus pipeline: Standardized processing of short-read RNA-seq data",
+      "type": "journal-article",
+      "year": 2021,
+      "venue": "iScience",
+      "doi": "10.1016/j.isci.2021.102361",
+      "url": "https://doi.org/10.1016/j.isci.2021.102361",
+      "authors": [
+        {
+          "family": "Overbey",
+          "given": "Eliah G.",
+          "short": "Overbey, E.G.",
+          "self": false
+        },
+        {
+          "family": "Saravia-Butler",
+          "given": "Amanda M.",
+          "short": "Saravia-Butler, A.M.",
+          "self": false
+        },
+        {
+          "family": "Zhang",
+          "given": "Zhe",
+          "short": "Zhang, Z.",
+          "self": false
+        },
+        {
+          "family": "Rathi",
+          "given": "Komal S.",
+          "short": "Rathi, K.S.",
+          "self": false
+        },
+        {
+          "family": "Fogle",
+          "given": "Homer",
+          "short": "Fogle, H.",
+          "self": false
+        },
+        {
+          "family": "da Silveira",
+          "given": "Willian A.",
+          "short": "da Silveira, W.A.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Bass",
+          "given": "Joseph J.",
+          "short": "Bass, J.J.",
+          "self": false
+        },
+        {
+          "family": "Beheshti",
+          "given": "Afshin",
+          "short": "Beheshti, A.",
+          "self": false
+        },
+        {
+          "family": "Berrios",
+          "given": "Daniel C.",
+          "short": "Berrios, D.C.",
+          "self": false
+        },
+        {
+          "family": "Blaber",
+          "given": "Elizabeth A.",
+          "short": "Blaber, E.A.",
+          "self": false
+        },
+        {
+          "family": "Cekanaviciute",
+          "given": "Egle",
+          "short": "Cekanaviciute, E.",
+          "self": false
+        },
+        {
+          "family": "Costa",
+          "given": "Helio A.",
+          "short": "Costa, H.A.",
+          "self": false
+        },
+        {
+          "family": "Davin",
+          "given": "Laurence B.",
+          "short": "Davin, L.B.",
+          "self": false
+        },
+        {
+          "family": "Fisch",
+          "given": "Kathleen M.",
+          "short": "Fisch, K.M.",
+          "self": false
+        },
+        {
+          "family": "Gebre",
+          "given": "Samrawit G.",
+          "short": "Gebre, S.G.",
+          "self": false
+        },
+        {
+          "family": "Geniza",
+          "given": "Matthew",
+          "short": "Geniza, M.",
+          "self": false
+        },
+        {
+          "family": "Gilbert",
+          "given": "Rachel",
+          "short": "Gilbert, R.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Hardiman",
+          "given": "Gary",
+          "short": "Hardiman, G.",
+          "self": false
+        },
+        {
+          "family": "Herranz",
+          "given": "Raúl",
+          "short": "Herranz, R.",
+          "self": false
+        },
+        {
+          "family": "Kidane",
+          "given": "Yared H.",
+          "short": "Kidane, Y.H.",
+          "self": false
+        },
+        {
+          "family": "Kruse",
+          "given": "Colin P.S.",
+          "short": "Kruse, C.P.",
+          "self": false
+        },
+        {
+          "family": "Lee",
+          "given": "Michael D.",
+          "short": "Lee, M.D.",
+          "self": false
+        },
+        {
+          "family": "Liefeld",
+          "given": "Ted",
+          "short": "Liefeld, T.",
+          "self": false
+        },
+        {
+          "family": "Lewis",
+          "given": "Norman G.",
+          "short": "Lewis, N.G.",
+          "self": false
+        },
+        {
+          "family": "McDonald",
+          "given": "J. Tyson",
+          "short": "McDonald, J.T.",
+          "self": false
+        },
+        {
+          "family": "Meller",
+          "given": "Robert",
+          "short": "Meller, R.",
+          "self": false
+        },
+        {
+          "family": "Mishra",
+          "given": "Tejaswini",
+          "short": "Mishra, T.",
+          "self": false
+        },
+        {
+          "family": "Perera",
+          "given": "Imara Y.",
+          "short": "Perera, I.Y.",
+          "self": false
+        },
+        {
+          "family": "Ray",
+          "given": "Shayoni",
+          "short": "Ray, S.",
+          "self": false
+        },
+        {
+          "family": "Reinsch",
+          "given": "Sigrid S.",
+          "short": "Reinsch, S.S.",
+          "self": false
+        },
+        {
+          "family": "Rosenthal",
+          "given": "Sara Brin",
+          "short": "Rosenthal, S.B.",
+          "self": false
+        },
+        {
+          "family": "Strong",
+          "given": "Michael",
+          "short": "Strong, M.",
+          "self": false
+        },
+        {
+          "family": "Szewczyk",
+          "given": "Nathaniel J.",
+          "short": "Szewczyk, N.J.",
+          "self": false
+        },
+        {
+          "family": "Tahimic",
+          "given": "Candice G.T.",
+          "short": "Tahimic, C.G.",
+          "self": false
+        },
+        {
+          "family": "Taylor",
+          "given": "Deanne M.",
+          "short": "Taylor, D.M.",
+          "self": false
+        },
+        {
+          "family": "Vandenbrink",
+          "given": "Joshua P.",
+          "short": "Vandenbrink, J.P.",
+          "self": false
+        },
+        {
+          "family": "Villacampa",
+          "given": "Alicia",
+          "short": "Villacampa, A.",
+          "self": false
+        },
+        {
+          "family": "Weging",
+          "given": "Silvio",
+          "short": "Weging, S.",
+          "self": false
+        },
+        {
+          "family": "Wolverton",
+          "given": "Chris",
+          "short": "Wolverton, C.",
+          "self": false
+        },
+        {
+          "family": "Wyatt",
+          "given": "Sarah E.",
+          "short": "Wyatt, S.E.",
+          "self": false
+        },
+        {
+          "family": "Zea",
+          "given": "Luis",
+          "short": "Zea, L.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        },
+        {
+          "family": "Galazka",
+          "given": "Jonathan M.",
+          "short": "Galazka, J.M.",
+          "self": false
+        }
+      ],
+      "volume": "24",
+      "issue": "4",
+      "pages": "102361",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1016/j.isci.2021.102361"
+    },
+    {
+      "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures",
+      "type": "journal-article",
+      "year": 2021,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-021-00143-x",
+      "url": "https://doi.org/10.1038/s41526-021-00143-x",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        },
+        {
+          "family": "Miller",
+          "given": "Jack",
+          "short": "Miller, J.",
+          "self": false
+        },
+        {
+          "family": "Gebre",
+          "given": "Samrawit G.",
+          "short": "Gebre, S.G.",
+          "self": false
+        },
+        {
+          "family": "Lombardino",
+          "given": "Jonathan",
+          "short": "Lombardino, J.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "7",
+      "issue": "1",
+      "pages": "15",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1038/s41526-021-00143-x"
+    },
+    {
+      "title": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+      "type": "journal-article",
+      "year": 2020,
+      "venue": "Patterns",
+      "doi": "10.1016/j.patter.2020.100148",
+      "url": "https://doi.org/10.1016/j.patter.2020.100148",
+      "authors": [
+        {
+          "family": "Rutter",
+          "given": "Lindsay",
+          "short": "Rutter, L.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Bezdan",
+          "given": "Daniela",
+          "short": "Bezdan, D.",
+          "self": false
+        },
+        {
+          "family": "Cope",
+          "given": "Henry",
+          "short": "Cope, H.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        },
+        {
+          "family": "Degoricija",
+          "given": "Lovorka",
+          "short": "Degoricija, L.",
+          "self": false
+        },
+        {
+          "family": "Fisch",
+          "given": "Kathleen M.",
+          "short": "Fisch, K.M.",
+          "self": false
+        },
+        {
+          "family": "Gabitto",
+          "given": "Mariano I.",
+          "short": "Gabitto, M.I.",
+          "self": false
+        },
+        {
+          "family": "Gebre",
+          "given": "Samrawit",
+          "short": "Gebre, S.",
+          "self": false
+        },
+        {
+          "family": "Giacomello",
+          "given": "Stefania",
+          "short": "Giacomello, S.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Green",
+          "given": "Stefan J.",
+          "short": "Green, S.J.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Reinsch",
+          "given": "Sigrid S.",
+          "short": "Reinsch, S.S.",
+          "self": false
+        },
+        {
+          "family": "Szewczyk",
+          "given": "Nathaniel J.",
+          "short": "Szewczyk, N.J.",
+          "self": false
+        },
+        {
+          "family": "Taylor",
+          "given": "Deanne M.",
+          "short": "Taylor, D.M.",
+          "self": false
+        },
+        {
+          "family": "Galazka",
+          "given": "Jonathan M.",
+          "short": "Galazka, J.M.",
+          "self": false
+        },
+        {
+          "family": "Herranz",
+          "given": "Raul",
+          "short": "Herranz, R.",
+          "self": false
+        },
+        {
+          "family": "Muratani",
+          "given": "Masafumi",
+          "short": "Muratani, M.",
+          "self": false
+        }
+      ],
+      "volume": "1",
+      "issue": "9",
+      "pages": "100148",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1016/j.patter.2020.100148"
+    },
+    {
+      "title": "Changes in Nuclear Shape and Gene Expression in Response to Simulated Microgravity Are LINC Complex-Dependent",
+      "type": "journal-article",
+      "year": 2020,
+      "venue": "International Journal of Molecular Sciences",
+      "doi": "10.3390/ijms21186762",
+      "url": "https://doi.org/10.3390/ijms21186762",
+      "authors": [
+        {
+          "family": "Neelam",
+          "given": "Srujana",
+          "short": "Neelam, S.",
+          "self": false
+        },
+        {
+          "family": "Richardson",
+          "given": "Brian",
+          "short": "Richardson, B.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Udave",
+          "given": "Ceasar",
+          "short": "Udave, C.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Cameron",
+          "given": "Mark J.",
+          "short": "Cameron, M.J.",
+          "self": false
+        },
+        {
+          "family": "Levine",
+          "given": "Howard G.",
+          "short": "Levine, H.G.",
+          "self": false
+        },
+        {
+          "family": "Zhang",
+          "given": "Ye",
+          "short": "Zhang, Y.",
+          "self": false
+        }
+      ],
+      "volume": "21",
+      "issue": "18",
+      "pages": "6762",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.3390/ijms21186762"
+    },
+    {
+      "title": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration",
+      "type": "journal-article",
+      "year": 2020,
+      "venue": "Cell",
+      "doi": "10.1016/j.cell.2020.10.050",
+      "url": "https://doi.org/10.1016/j.cell.2020.10.050",
+      "authors": [
+        {
+          "family": "Afshinnekoo",
+          "given": "Ebrahim",
+          "short": "Afshinnekoo, E.",
+          "self": false
+        },
+        {
+          "family": "Scott",
+          "given": "Ryan T.",
+          "short": "Scott, R.T.",
+          "self": false
+        },
+        {
+          "family": "MacKay",
+          "given": "Matthew J.",
+          "short": "MacKay, M.J.",
+          "self": false
+        },
+        {
+          "family": "Pariset",
+          "given": "Eloise",
+          "short": "Pariset, E.",
+          "self": false
+        },
+        {
+          "family": "Cekanaviciute",
+          "given": "Egle",
+          "short": "Cekanaviciute, E.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Hassane",
+          "given": "Duane",
+          "short": "Hassane, D.",
+          "self": false
+        },
+        {
+          "family": "Smith",
+          "given": "Scott M.",
+          "short": "Smith, S.M.",
+          "self": false
+        },
+        {
+          "family": "Zwart",
+          "given": "Sara R.",
+          "short": "Zwart, S.R.",
+          "self": false
+        },
+        {
+          "family": "Nelman-Gonzalez",
+          "given": "Mayra",
+          "short": "Nelman-Gonzalez, M.",
+          "self": false
+        },
+        {
+          "family": "Crucian",
+          "given": "Brian E.",
+          "short": "Crucian, B.E.",
+          "self": false
+        },
+        {
+          "family": "Ponomarev",
+          "given": "Sergey A.",
+          "short": "Ponomarev, S.A.",
+          "self": false
+        },
+        {
+          "family": "Orlov",
+          "given": "Oleg I.",
+          "short": "Orlov, O.I.",
+          "self": false
+        },
+        {
+          "family": "Shiba",
+          "given": "Dai",
+          "short": "Shiba, D.",
+          "self": false
+        },
+        {
+          "family": "Muratani",
+          "given": "Masafumi",
+          "short": "Muratani, M.",
+          "self": false
+        },
+        {
+          "family": "Yamamoto",
+          "given": "Masayuki",
+          "short": "Yamamoto, M.",
+          "self": false
+        },
+        {
+          "family": "Richards",
+          "given": "Stephanie E.",
+          "short": "Richards, S.E.",
+          "self": false
+        },
+        {
+          "family": "Vaishampayan",
+          "given": "Parag A.",
+          "short": "Vaishampayan, P.A.",
+          "self": false
+        },
+        {
+          "family": "Meydan",
+          "given": "Cem",
+          "short": "Meydan, C.",
+          "self": false
+        },
+        {
+          "family": "Foox",
+          "given": "Jonathan",
+          "short": "Foox, J.",
+          "self": false
+        },
+        {
+          "family": "Myrrhe",
+          "given": "Jacqueline",
+          "short": "Myrrhe, J.",
+          "self": false
+        },
+        {
+          "family": "Istasse",
+          "given": "Eric",
+          "short": "Istasse, E.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "Nitin",
+          "short": "Singh, N.",
+          "self": false
+        },
+        {
+          "family": "Venkateswaran",
+          "given": "Kasthuri",
+          "short": "Venkateswaran, K.",
+          "self": false
+        },
+        {
+          "family": "Keune",
+          "given": "Jessica A.",
+          "short": "Keune, J.A.",
+          "self": false
+        },
+        {
+          "family": "Ray",
+          "given": "Hami E.",
+          "short": "Ray, H.E.",
+          "self": false
+        },
+        {
+          "family": "Basner",
+          "given": "Mathias",
+          "short": "Basner, M.",
+          "self": false
+        },
+        {
+          "family": "Miller",
+          "given": "Jack",
+          "short": "Miller, J.",
+          "self": false
+        },
+        {
+          "family": "Vitaterna",
+          "given": "Martha Hotz",
+          "short": "Vitaterna, M.H.",
+          "self": false
+        },
+        {
+          "family": "Taylor",
+          "given": "Deanne M.",
+          "short": "Taylor, D.M.",
+          "self": false
+        },
+        {
+          "family": "Wallace",
+          "given": "Douglas",
+          "short": "Wallace, D.",
+          "self": false
+        },
+        {
+          "family": "Rubins",
+          "given": "Kathleen",
+          "short": "Rubins, K.",
+          "self": false
+        },
+        {
+          "family": "Bailey",
+          "given": "Susan M.",
+          "short": "Bailey, S.M.",
+          "self": false
+        },
+        {
+          "family": "Grabham",
+          "given": "Peter",
+          "short": "Grabham, P.",
+          "self": false
+        },
+        {
+          "family": "Costes",
+          "given": "Sylvain V.",
+          "short": "Costes, S.V.",
+          "self": false
+        },
+        {
+          "family": "Mason",
+          "given": "Christopher E.",
+          "short": "Mason, C.E.",
+          "self": false
+        },
+        {
+          "family": "Beheshti",
+          "given": "Afshin",
+          "short": "Beheshti, A.",
+          "self": false
+        }
+      ],
+      "volume": "183",
+      "issue": "5",
+      "pages": "1162-1184",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1016/j.cell.2020.10.050"
+    },
+    {
+      "title": "Test of Arabidopsis Space Transcriptome: A Discovery Environment to Explore Multiple Plant Biology Spaceflight Experiments",
+      "type": "journal-article",
+      "year": 2020,
+      "venue": "Frontiers in Plant Science",
+      "doi": "10.3389/fpls.2020.00147",
+      "url": "https://doi.org/10.3389/fpls.2020.00147",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Lombardino",
+          "given": "Jonathan",
+          "short": "Lombardino, J.",
+          "self": false
+        },
+        {
+          "family": "Rasmussen",
+          "given": "Kai",
+          "short": "Rasmussen, K.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "11",
+      "issue": null,
+      "pages": "147",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.3389/fpls.2020.00147"
+    },
+    {
+      "title": "A low-cost and open-source platform for automated imaging",
+      "type": "journal-article",
+      "year": 2019,
+      "venue": "Plant Methods",
+      "doi": "10.1186/s13007-019-0392-1",
+      "url": "https://doi.org/10.1186/s13007-019-0392-1",
+      "authors": [
+        {
+          "family": "Lien",
+          "given": "Max R.",
+          "short": "Lien, M.R.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Ye",
+          "given": "Zhiwei",
+          "short": "Ye, Z.",
+          "self": false
+        },
+        {
+          "family": "Westphall",
+          "given": "Matthew H.",
+          "short": "Westphall, M.H.",
+          "self": false
+        },
+        {
+          "family": "Gao",
+          "given": "Ruohan",
+          "short": "Gao, R.",
+          "self": false
+        },
+        {
+          "family": "Singh",
+          "given": "Aditya",
+          "short": "Singh, A.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        },
+        {
+          "family": "Townsend",
+          "given": "Philip A.",
+          "short": "Townsend, P.A.",
+          "self": false
+        }
+      ],
+      "volume": "15",
+      "issue": "1",
+      "pages": "6",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1186/s13007-019-0392-1"
+    },
+    {
+      "title": "Variation in the transcriptome of different ecotypes of Arabidopsis thaliana reveals signatures of oxidative stress in plant responses to spaceflight",
+      "type": "journal-article",
+      "year": 2019,
+      "venue": "American Journal of Botany",
+      "doi": "10.1002/ajb2.1223",
+      "url": "https://doi.org/10.1002/ajb2.1223",
+      "authors": [
+        {
+          "family": "Choi",
+          "given": "Won‐Gyu",
+          "short": "Choi, W.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Kim",
+          "given": "Su‐Hwa",
+          "short": "Kim, S.",
+          "self": false
+        },
+        {
+          "family": "Swanson",
+          "given": "Sarah J.",
+          "short": "Swanson, S.J.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "106",
+      "issue": "1",
+      "pages": "123-136",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1002/ajb2.1223"
+    },
+    {
+      "title": "Life in space isn't easy, even if you are green",
+      "type": "journal-article",
+      "year": 2017,
+      "venue": "The Biochemist",
+      "doi": "10.1042/bio03906010",
+      "url": "https://doi.org/10.1042/bio03906010",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "39",
+      "issue": "6",
+      "pages": "10-13",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1042/bio03906010"
+    },
+    {
+      "title": "Assessing Gravitropic Responses in Arabidopsis",
+      "type": "book-chapter",
+      "year": 2016,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-4939-3356-3_2",
+      "url": "https://doi.org/10.1007/978-1-4939-3356-3_2",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Cox",
+          "given": "Benjamin",
+          "short": "Cox, B.",
+          "self": false
+        },
+        {
+          "family": "Silber",
+          "given": "Logan",
+          "short": "Silber, L.",
+          "self": false
+        },
+        {
+          "family": "Sangari",
+          "given": "Arash",
+          "short": "Sangari, A.",
+          "self": false
+        },
+        {
+          "family": "Assadi",
+          "given": "Amir",
+          "short": "Assadi, A.",
+          "self": false
+        },
+        {
+          "family": "Masson",
+          "given": "Patrick",
+          "short": "Masson, P.",
+          "self": false
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages": "11-20",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1007/978-1-4939-3356-3_2"
+    },
+    {
+      "title": "Development of Equipment that Uses Far-Red Light to Impose Seed Dormancy in Arabidopsis for Spaceflight",
+      "type": "journal-article",
+      "year": 2016,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2016-0008",
+      "url": "https://doi.org/10.2478/gsr-2016-0008",
+      "authors": [
+        {
+          "family": "Fitzgerald",
+          "given": "Caleb P.",
+          "short": "Fitzgerald, C.P.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard J.",
+          "short": "Barker, R.J.",
+          "self": true
+        },
+        {
+          "family": "Choi",
+          "given": "Won-Gyu",
+          "short": "Choi, W.G.",
+          "self": false
+        },
+        {
+          "family": "Swanson",
+          "given": "Sarah J.",
+          "short": "Swanson, S.J.",
+          "self": false
+        },
+        {
+          "family": "Stephens",
+          "given": "Shawn D.",
+          "short": "Stephens, S.D.",
+          "self": false
+        },
+        {
+          "family": "Huber",
+          "given": "Colleen",
+          "short": "Huber, C.",
+          "self": false
+        },
+        {
+          "family": "Nimunkar",
+          "given": "Amit J.",
+          "short": "Nimunkar, A.J.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": "4",
+      "issue": "2",
+      "pages": "8-19",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.2478/gsr-2016-0008"
+    },
+    {
+      "title": "Evaluating Mechano-Transduction and Touch Responses in Plant Roots",
+      "type": "book-chapter",
+      "year": 2015,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-4939-2697-8_12",
+      "url": "https://doi.org/10.1007/978-1-4939-2697-8_12",
+      "authors": [
+        {
+          "family": "Swanson",
+          "given": "Sarah J.",
+          "short": "Swanson, S.J.",
+          "self": false
+        },
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Ye",
+          "given": "Yonggeng",
+          "short": "Ye, Y.",
+          "self": false
+        },
+        {
+          "family": "Gilroy",
+          "given": "Simon",
+          "short": "Gilroy, S.",
+          "self": false
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages": "143-150",
+      "source": "orcid+crossref",
+      "self_first": false,
+      "self_last": false,
+      "id": "10.1007/978-1-4939-2697-8_12"
+    },
+    {
+      "title": "Vacuum Seed Sowing Manifold: a novel device for high-throughput sowing of Arabidopsis seeds",
+      "type": "journal-article",
+      "year": 2013,
+      "venue": "Plant Methods",
+      "doi": "10.1186/1746-4811-9-41",
+      "url": "https://doi.org/10.1186/1746-4811-9-41",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Richard",
+          "short": "Barker, R.",
+          "self": true
+        },
+        {
+          "family": "Cox",
+          "given": "Benjamin",
+          "short": "Cox, B.",
+          "self": false
+        },
+        {
+          "family": "Mackie",
+          "given": "Thomas Rockwell",
+          "short": "Mackie, T.R.",
+          "self": false
+        },
+        {
+          "family": "Masson",
+          "given": "Patrick",
+          "short": "Masson, P.",
+          "self": false
+        }
+      ],
+      "volume": "9",
+      "issue": "1",
+      "pages": "41",
+      "source": "orcid+crossref",
+      "self_first": true,
+      "self_last": false,
+      "id": "10.1186/1746-4811-9-41"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <img src="{{ profile.avatar_url }}" alt="Richard J. Barker" class="avatar" width="136" height="136">
+    <div>
+      <div class="eyebrow">Academic Curriculum Vitae · Updated October 2026</div>
+      <h1>Richard J. Barker, PhD</h1>
+      <p class="lede">{{ profile.taglines.academic }}</p>
+
+      <ul class="roles">
+        <li><strong>Current:</strong> Senior Scientist & Science Co-Lead, NASA Lunar LEAF (Purdue University, Dept. of Agricultural & Biological Engineering)</li>
+        <li><strong>Consortium Leadership:</strong> Chair, NASA GeneLab Plant Analysis Working Group (100+ international researchers)</li>
+        <li><strong>Academic Pedigree:</strong> 11 years at UW–Madison (Botany & Genetics); Ph.D. from Rothamsted Research & University of Nottingham</li>
+      </ul>
+
+      <div class="link-row">
+        <a href="{{ root_path }}cv.pdf" class="btn primary" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download Printable CV (PDF)</span>
+        </a>
+        <a href="https://orcid.org/{{ profile.orcid }}" target="_blank" rel="noopener" class="btn">
+          <span>ORCID: {{ profile.orcid }}</span>
+        </a>
+        <a href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener" class="btn">
+          <span>GitHub: @{{ profile.github }}</span>
+        </a>
+        <a href="mailto:{{ profile.email }}" class="btn">
+          <span>{{ profile.email }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Executive Scholarly Profile -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Scholarly Profile & Research Program</h2>
+      <div class="aside">Interdisciplinary Systems Biology</div>
+    </div>
+    <div class="card callout">
+      <p>
+        I am a plant systems biologist, biophysical instrumentation developer, and computational researcher specializing in photosynthetic boundary-layer transport, primary carbon allocation, organelle stress signaling, and biological digital twins. Trained in hormone biochemistry and genetics at Rothamsted Research and the University of Nottingham (Lawes Trust Agricultural Scholar) under Prof. Peter Hedden, I spent eleven years in research and instructional leadership at the University of Wisconsin–Madison across the Departments of Botany and Genetics.
+      </p>
+      <p style="margin-bottom: 0;">
+        My program bridges biophysical experimentation with high-throughput computational biology. I serve as Science Co-Lead for the <strong>NASA Lunar LEAF</strong> Science Definition Team (with Prof. D. Marshall Porterfield at Purdue University), direct the international <strong>NASA GeneLab Plant Analysis Working Group (AWG)</strong> representing 100+ members, and maintain over 150 open-source repositories of FAIR computational pipelines, IoT phenotyping firmware, and biological modeling suites. I have co-secured <strong>>$1.12 million in competitive extramural funding</strong> and received the <strong>2018 UW–Madison Undergraduate Mentoring Award</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Appointments -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Professional Appointments</h2>
+      <div class="aside">Academic, Federal & Industry Leadership</div>
+    </div>
+
+    <ul class="entries">
+      {% for app in appointments %}
+      <li class="entry">
+        <div class="when">{{ app.years }}</div>
+        <div class="what">
+          <strong>{{ app.role }}</strong>
+          <div class="where">{{ app.institution }} · {{ app.department }} ({{ app.location }})</div>
+          <div class="detail">{{ app.summary }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Sponsored Grants -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Sponsored Research Grants & Extramural Funding</h2>
+      <div class="aside">Total Co-Secured: {{ grants.total_funding }}</div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Sponsoring Agency & Program</th>
+            <th>Role & Leadership</th>
+            <th>Period</th>
+            <th>Award Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for g in grants.grants %}
+          <tr>
+            <td>
+              <strong>{{ g.title }}</strong>
+              <div class="note">{{ g.summary }}</div>
+            </td>
+            <td>{{ g.agency }}</td>
+            <td>
+              <strong>{{ g.role }}</strong>
+              {% if g.pi %}<br><span class="note">PI: {{ g.pi }}</span>{% endif %}
+            </td>
+            <td class="mono">{{ g.years }}</td>
+            <td class="mono"><strong>{{ g.amount }}</strong></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top: 2rem;">Contributed Proposal Sections & Preliminary Data</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Agency</th>
+            <th>Role</th>
+            <th>Period</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for cg in grants.contributed_proposals %}
+          <tr>
+            <td><strong>{{ cg.title }}</strong></td>
+            <td>{{ cg.agency }}</td>
+            <td>{{ cg.role }}</td>
+            <td class="mono">{{ cg.years }}</td>
+            <td class="mono">{{ cg.amount }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Publications Section (Filterable & Searchable) -->
+<section id="publications" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Peer-Reviewed Publications & Technical Standards</h2>
+      <div class="aside">{{ works|length }} verified works · Synced with ORCID</div>
+    </div>
+
+    <!-- Live Filter & Search Tools -->
+    <div class="pub-tools no-print">
+      <input type="search" id="pub-search" placeholder="Search by keyword, author, journal, or title..." aria-label="Search publications">
+
+      <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center;">
+        <span class="note" style="margin-right: 0.2rem;">Theme:</span>
+        <button class="filter-btn" type="button" data-filter="theme" data-value="all" aria-pressed="true">All</button>
+        <button class="filter-btn" type="button" data-filter="theme" data-value="space-cea" aria-pressed="false">Space & CEA</button>
+        <button class="filter-btn" type="button" data-filter="theme" data-value="ai-data" aria-pressed="false">AI & Omics</button>
+        <button class="filter-btn" type="button" data-filter="theme" data-value="biomanufacturing" aria-pressed="false">Biomanufacturing</button>
+        <button class="filter-btn" type="button" data-filter="theme" data-value="phenotyping" aria-pressed="false">Phenotyping</button>
+      </div>
+
+      <div class="pub-count">{{ works|length }} / {{ works|length }}</div>
+    </div>
+
+    <!-- Publications List -->
+    <div data-pub-list>
+      {% for group in works_by_year %}
+      <div class="pub-year">{{ group.year or 'Recent & In-Press' }}</div>
+      <ul class="pubs">
+        {% for pub in group.pubs %}
+        <li class="pub"
+            data-search="{{ pub.search_blob }}"
+            data-themes="{{ pub.themes|join(' ') }}"
+            data-type="{{ pub.type }}">
+          <div class="title">
+            {% if pub.url %}
+            <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+            {% else %}
+            {{ pub.title }}
+            {% endif %}
+          </div>
+
+          <div class="authors">
+            {% for a in pub.authors %}
+              {% if a.self %}<span class="me">{{ a.short }}</span>{% else %}{{ a.short }}{% endif %}{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            ({{ pub.year or 'in press' }}).
+          </div>
+
+          <div class="venue">
+            <em>{{ pub.venue or 'Journal Article' }}</em>{% if pub.volume %}, {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}{% endif %}.
+          </div>
+
+          {% if pub.summary %}
+          <div class="summary">{{ pub.summary }}</div>
+          {% endif %}
+
+          <div class="meta">
+            {% if pub.badge %}
+            <span class="chip badge">{{ pub.badge }}</span>
+            {% endif %}
+            {% if pub.doi %}
+            <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener" class="chip">DOI: {{ pub.doi }}</a>
+            {% endif %}
+            {% if pub.code_repo %}
+            <a href="https://github.com/dr-richard-barker/{{ pub.code_repo }}" target="_blank" rel="noopener" class="chip leaf">
+              <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+              <span>Code: {{ pub.code_repo }}</span>
+            </a>
+            {% endif %}
+            {% if pub.bibtex %}
+            <button class="copy-bib no-print" type="button" data-bib="bib-{{ pub.id_slug }}" title="Copy BibTeX citation">BibTeX</button>
+            <pre id="bib-{{ pub.id_slug }}" class="visually-hidden">{{ pub.bibtex }}</pre>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Honors & Awards -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Honors & Awards</h2>
+      <div class="aside">Recognitions for Research, Mentorship & Innovation</div>
+    </div>
+
+    <ul class="entries">
+      {% for aw in awards %}
+      <li class="entry">
+        <div class="when">{{ aw.year }}</div>
+        <div class="what">
+          <strong>{{ aw.title }}</strong>
+          <div class="where">{{ aw.organization }}</div>
+          <div class="detail">{{ aw.description }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Education & Training -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Education & Executive Training</h2>
+      <div class="aside">Doctoral & Postdoctoral Foundations</div>
+    </div>
+
+    <ul class="entries">
+      {% for deg in education.degrees %}
+      <li class="entry">
+        <div class="when">{{ deg.years }}</div>
+        <div class="what">
+          <strong>{{ deg.degree }}</strong>
+          <div class="where">{{ deg.institution }}</div>
+          <ul style="margin: 0.35rem 0 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink-soft);">
+            {% for d in deg.details %}
+            <li>{{ d }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3 style="margin-top: 2rem;">Executive & Specialized Technical Training</h3>
+    <ul class="entries">
+      {% for tr in education.executive_training %}
+      <li class="entry">
+        <div class="when">{{ tr.year }}</div>
+        <div class="what">
+          <strong>{{ tr.title }}</strong>
+          <div class="detail">{{ tr.topic }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Teaching & Mentoring Leadership -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Instructional & Mentoring Leadership</h2>
+      <div class="aside">Recipient of 2018 UW–Madison Mentoring Award</div>
+    </div>
+
+    <ul class="entries">
+      {% for tm in service.teaching_and_mentoring %}
+      <li class="entry">
+        <div class="when">{{ tm.period }}</div>
+        <div class="what">
+          <strong>{{ tm.title }}</strong>
+          <div class="where">{{ tm.institution }}</div>
+          <div class="detail">{{ tm.details }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Synergistic Service & Review Panels -->
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Professional Service & Review Panels</h2>
+      <div class="aside">National & Consortium Leadership</div>
+    </div>
+
+    <ul class="entries">
+      {% for s in service.service %}
+      <li class="entry">
+        <div class="when">{{ s.period }}</div>
+        <div class="what">
+          <strong>{{ s.role }}</strong>
+          <div class="where">{{ s.organization }}</div>
+          <div class="detail">{{ s.details }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3 style="margin-top: 2rem;">Federal Peer Review Panels</h3>
+    <ul class="entries">
+      {% for rp in grants.review_panels %}
+      <li class="entry">
+        <div class="when">{{ rp.year }}</div>
+        <div class="what">
+          <strong>{{ rp.role }}</strong> · {{ rp.agency }}
+          <div class="detail">{{ rp.program }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

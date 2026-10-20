@@ -1,0 +1,69 @@
+name: "Richard J. Barker, PhD"
+title: "Senior Scientist & Plant Systems Biologist"
+location: "Madison, Wisconsin, USA"
+email: "dr.richard.barker@gmail.com"
+orcid: "0000-0001-5681-9857"
+github: "dr-richard-barker"
+linkedin: "richard-barker-40b90530"
+avatar_url: "https://avatars.githubusercontent.com/u/8679982?v=4"
+cose_url: "https://cosecloud.com"
+astrobotany_url: "https://astrobotany.com"
+
+taglines:
+  academic: "Plant systems biologist, biophysical instrumentation developer, and computational researcher specializing in photosynthetic boundary-layer transport, primary carbon allocation, organelle stress signaling, and biological digital twins."
+  general: "I help plants and fungi grow where they shouldn't — from the lunar surface and orbital microgravity to a warming Midwest."
+
+stats:
+  - value: "$1.12M+"
+    label: "Competitive Extramural Grants Co-Secured"
+  - value: "34+"
+    label: "Peer-Reviewed Works & Standards"
+  - value: "100+"
+    label: "International AWG Consortium Members"
+  - value: "3,000+"
+    label: "Classrooms Reached via AstroBotany"
+  - value: "20+"
+    label: "Undergrad & Post-Bacc Researchers Mentored"
+  - value: "170+"
+    label: "Open Source Research Repositories"
+
+themes:
+  - id: "space-cea"
+    name: "Spaceflight Biology & Controlled Environment Ag"
+    icon: "🚀"
+    description: "Decoding how plants adapt to microgravity, cosmic radiation, and altered gas boundary layers on the International Space Station and future lunar habitats."
+    keywords: ["Lunar LEAF", "Microgravity", "Hypoxia", "ROS Signaling", "Boundary Layer Transport", "AstroBotany"]
+  - id: "ai-data"
+    name: "AI, Foundation Models & Biological Digital Twins"
+    icon: "🧠"
+    description: "Developing representation learning, foundation model toolkits (NASA-IBM LFM), and FAIR multi-omics discovery engines (TOAST, GLARE, Rad-Bio-App)."
+    keywords: ["Representation Learning", "Bioinformatics", "FAIR Data", "NASA OSDR", "Biological Digital Twins"]
+  - id: "biomanufacturing"
+    name: "Fungal Biomanufacturing & Mycoponics"
+    icon: "🍄"
+    description: "Engineering solid-state mycelial growth matrices, biophysical nutrient delivery, and circular biomaterials for space exploration and terrestrial sustainability."
+    keywords: ["Mycoponics", "Fungal Biomaterials", "Solid-State Fermentation", "Circular Bioeconomy"]
+  - id: "phenotyping"
+    name: "Open Instrumentation, Robotics & Phenotyping"
+    icon: "🔬"
+    description: "Pioneering low-cost, open-source automated imaging platforms, robotic seed sowing devices (ABCD, Vacuum Manifold), and computer vision pipelines."
+    keywords: ["Computer Vision", "Automated Phenotyping", "Robotics", "Hardware Hack", "Microcontrollers"]
+  - id: "outreach"
+    name: "Open Science, Mentorship & Public Impact"
+    icon: "🌱"
+    description: "Transforming science communication through classroom citizen science kits, interactive simulators, high school bioinformatics curricula, and public outreach."
+    keywords: ["Mentoring Award 2018", "ASGSR Outreach", "PEOPLE Program", "3000+ Classrooms"]
+
+social_links:
+  - name: "ORCID"
+    url: "https://orcid.org/0000-0001-5681-9857"
+    icon: "orcid"
+  - name: "GitHub"
+    url: "https://github.com/dr-richard-barker"
+    icon: "github"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/richard-barker-40b90530/"
+    icon: "linkedin"
+  - name: "Email"
+    url: "mailto:dr.richard.barker@gmail.com"
+    icon: "mail"
