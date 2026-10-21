@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero" style="padding-bottom: 1.5rem;">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Interactive Systems Biology · Relational Map</div>
+      <h1>Research Knowledge Graph</h1>
+      <p class="lede">
+        Explore the interconnected network of {{ graph.nodes|length }} research entities and {{ graph.links|length }} cross-disciplinary links spanning publications, NASA grants, open-source software tools, and institutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="wrap">
+
+    <!-- Graph Controls & Filters Panel -->
+    <div class="graph-controls-panel">
+      <!-- Top Row: Search and Theme Pills -->
+      <div class="graph-filter-row">
+        <div style="flex: 1 1 20rem; min-width: 16rem;">
+          <input type="search" id="graph-search" placeholder="Search any topic, paper, tool, author, or model system..." aria-label="Search knowledge graph" style="width: 100%; padding: 0.55rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--rule); background: var(--surface); color: var(--ink); font: inherit; font-size: 0.95rem;">
+        </div>
+
+        <div class="graph-chip-group">
+          <span class="note" style="margin-right: 0.2rem;">Domain:</span>
+          <button class="filter-btn" type="button" data-graph-theme="all" aria-pressed="true">All</button>
+          <button class="filter-btn" type="button" data-graph-theme="space-cea" aria-pressed="false">Space & CEA</button>
+          <button class="filter-btn" type="button" data-graph-theme="ai-data" aria-pressed="false">AI & Omics</button>
+          <button class="filter-btn" type="button" data-graph-theme="biomanufacturing" aria-pressed="false">Biomanufacturing</button>
+          <button class="filter-btn" type="button" data-graph-theme="phenotyping" aria-pressed="false">Phenotyping</button>
+          <button class="filter-btn" type="button" data-graph-theme="outreach" aria-pressed="false">Education</button>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Type Toggles and Timeline Slider -->
+      <div class="graph-filter-row">
+        <div class="graph-types-group">
+          <span class="note">Show:</span>
+          <label><input type="checkbox" data-filter-type="theme" checked> Themes</label>
+          <label><input type="checkbox" data-filter-type="publication" checked> Papers</label>
+          <label><input type="checkbox" data-filter-type="tool" checked> Tools & Repos</label>
+          <label><input type="checkbox" data-filter-type="grant" checked> Grants</label>
+          <label><input type="checkbox" data-filter-type="institution" checked> Institutions</label>
+          <label><input type="checkbox" data-filter-type="organism" checked> Systems</label>
+        </div>
+
+        <div class="graph-slider-box">
+          <span>Timeline:</span>
+          <input type="range" id="timeline-slider" min="2002" max="2026" value="2002" step="1">
+          <span id="timeline-val">2002 – 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Graph Viewport -->
+    <div id="graph-container" class="graph-viewport">
+      <canvas id="graph-canvas"></canvas>
+
+      <!-- Floating Controls Dock -->
+      <div class="graph-dock" role="toolbar" aria-label="Graph canvas controls">
+        <select id="select-layout" aria-label="Select layout algorithm">
+          <option value="force">Force Physics</option>
+          <option value="concentric">Concentric Orbit</option>
+          <option value="clustered">Clustered Islands</option>
+          <option value="hierarchical">Hierarchical Tree</option>
+        </select>
+        <button id="btn-zoom-in" class="dock-btn" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+        <button id="btn-zoom-out" class="dock-btn" type="button" title="Zoom out" aria-label="Zoom out">−</button>
+        <button id="btn-fit" class="dock-btn" type="button" title="Fit all nodes to screen" aria-label="Fit to screen">⟲ Fit</button>
+        <button id="btn-pause" class="dock-btn" type="button" title="Pause / resume physics simulation" aria-label="Pause physics">⏸ Pause</button>
+      </div>
+
+      <!-- Real-time Status Badge -->
+      <div id="graph-node-count" class="graph-legend-badge">
+        {{ graph.nodes|length }} nodes · {{ graph.links|length }} connections
+      </div>
+
+      <!-- Sliding Inspector Side Drawer -->
+      <aside id="graph-drawer" aria-label="Node detail inspector">
+        <div class="drawer-header">
+          <div id="drawer-type" class="drawer-type">TYPE</div>
+          <button id="drawer-close" class="drawer-close" type="button" aria-label="Close details inspector">&times;</button>
+        </div>
+        <h2 id="drawer-title" class="drawer-title">Node Title</h2>
+        <p id="drawer-desc" class="drawer-desc">Description of the node.</p>
+
+        <div id="drawer-actions" class="drawer-actions">
+          <!-- Dynamic action buttons (Read Paper, Launch App, GitHub) -->
+        </div>
+
+        <div>
+          <div class="drawer-neighbors-title">Connected Network Nodes</div>
+          <ul id="drawer-neighbors" class="drawer-neighbors-list">
+            <!-- Dynamic neighbors list -->
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Instructions / Tips -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.85rem; font-size: 0.88rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <div>
+        💡 <strong>Tip:</strong> Scroll mouse to zoom, drag background to pan, drag nodes to pin, hover for neighbors, or click any node for deep inspection.
+      </div>
+      <div>
+        <a href="{{ root_path }}academic/" class="note" style="text-decoration: underline;">Switch to formal Academic CV text view →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Floating Tooltip -->
+<div id="graph-tooltip"></div>
+
+<!-- Inline Graph Data for Zero-Latency Rendering -->
+<script id="graph-data" type="application/json">
+{{ graph_json|safe }}
+</script>
+
+<!-- D3.js v7 CDN for Force Simulation -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ root_path }}static/js/graph.js"></script>
+{% endblock %}

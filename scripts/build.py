@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 TEMPLATES_DIR = ROOT / "templates"
 STATIC_DIR = ROOT / "static"
+sys.path.insert(0, str(ROOT / "scripts"))
 
 
 def load_yaml(filename: str):
@@ -242,7 +243,26 @@ def build():
     (proj_dir / "index.html").write_text(html_proj, encoding="utf-8")
     print("  -> Wrote projects/index.html")
 
-    # 5. Compile Typst PDF if typst is available
+    # 5. Interactive Knowledge Graph (/graph/)
+    from build_graph import build_graph
+    graph_data = build_graph()
+    graph_dir = ROOT / "graph"
+    graph_dir.mkdir(parents=True, exist_ok=True)
+    tpl_graph = env.get_template("graph.html")
+    html_graph = tpl_graph.render(
+        **common_context,
+        page_title="Interactive Knowledge Graph",
+        page_description=f"Interactive relational knowledge graph of {len(graph_data['nodes'])} research entities and {len(graph_data['links'])} connections.",
+        active_nav="graph",
+        graph=graph_data,
+        graph_json=json.dumps(graph_data, ensure_ascii=False),
+        root_path="../",
+        current_path="/graph/",
+    )
+    (graph_dir / "index.html").write_text(html_graph, encoding="utf-8")
+    print("  -> Wrote graph/index.html")
+
+    # 6. Compile Typst PDF if typst is available
     typst_src = ROOT / "cv" / "cv.typ"
     if typst_src.exists():
         pdf_out = ROOT / "cv.pdf"

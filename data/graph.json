@@ -1,0 +1,2493 @@
+{
+  "nodes": [
+    {
+      "id": "theme-space-cea",
+      "label": "Spaceflight Biology & Controlled Environment Ag",
+      "type": "theme",
+      "group": "space-cea",
+      "icon": "🚀",
+      "description": "Decoding how plants adapt to microgravity, cosmic radiation, and altered gas boundary layers on the International Space Station and future lunar habitats.",
+      "keywords": [
+        "Lunar LEAF",
+        "Microgravity",
+        "Hypoxia",
+        "ROS Signaling",
+        "Boundary Layer Transport",
+        "AstroBotany"
+      ],
+      "radius": 26,
+      "color": "#0f7f9f",
+      "degree": 35
+    },
+    {
+      "id": "theme-ai-data",
+      "label": "AI, Foundation Models & Biological Digital Twins",
+      "type": "theme",
+      "group": "ai-data",
+      "icon": "🧠",
+      "description": "Developing representation learning, foundation model toolkits (NASA-IBM LFM), and FAIR multi-omics discovery engines (TOAST, GLARE, Rad-Bio-App).",
+      "keywords": [
+        "Representation Learning",
+        "Bioinformatics",
+        "FAIR Data",
+        "NASA OSDR",
+        "Biological Digital Twins"
+      ],
+      "radius": 26,
+      "color": "#7ec3d8",
+      "degree": 21
+    },
+    {
+      "id": "theme-biomanufacturing",
+      "label": "Fungal Biomanufacturing & Mycoponics",
+      "type": "theme",
+      "group": "biomanufacturing",
+      "icon": "🍄",
+      "description": "Engineering solid-state mycelial growth matrices, biophysical nutrient delivery, and circular biomaterials for space exploration and terrestrial sustainability.",
+      "keywords": [
+        "Mycoponics",
+        "Fungal Biomaterials",
+        "Solid-State Fermentation",
+        "Circular Bioeconomy"
+      ],
+      "radius": 26,
+      "color": "#8fcf9d",
+      "degree": 7
+    },
+    {
+      "id": "theme-phenotyping",
+      "label": "Open Instrumentation, Robotics & Phenotyping",
+      "type": "theme",
+      "group": "phenotyping",
+      "icon": "🔬",
+      "description": "Pioneering low-cost, open-source automated imaging platforms, robotic seed sowing devices (ABCD, Vacuum Manifold), and computer vision pipelines.",
+      "keywords": [
+        "Computer Vision",
+        "Automated Phenotyping",
+        "Robotics",
+        "Hardware Hack",
+        "Microcontrollers"
+      ],
+      "radius": 26,
+      "color": "#d9822b",
+      "degree": 7
+    },
+    {
+      "id": "theme-outreach",
+      "label": "Open Science, Mentorship & Public Impact",
+      "type": "theme",
+      "group": "outreach",
+      "icon": "🌱",
+      "description": "Transforming science communication through classroom citizen science kits, interactive simulators, high school bioinformatics curricula, and public outreach.",
+      "keywords": [
+        "Mentoring Award 2018",
+        "ASGSR Outreach",
+        "PEOPLE Program",
+        "3000+ Classrooms"
+      ],
+      "radius": 26,
+      "color": "#b085f5",
+      "degree": 2
+    },
+    {
+      "id": "inst-purdue",
+      "label": "Purdue University",
+      "type": "institution",
+      "group": "institution",
+      "description": "Dept. of Agricultural & Biological Engineering (2024–Present)",
+      "location": "West Lafayette, IN",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 2
+    },
+    {
+      "id": "inst-nasa-genelab",
+      "label": "NASA GeneLab / OSDR",
+      "type": "institution",
+      "group": "institution",
+      "description": "Space Biosciences Branch, NASA Ames (2018–Present)",
+      "location": "Moffett Field, CA",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 6
+    },
+    {
+      "id": "inst-uw-madison",
+      "label": "UW–Madison",
+      "type": "institution",
+      "group": "institution",
+      "description": "Birge Hall, Depts. of Botany & Genetics (2012–2023)",
+      "location": "Madison, WI",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 22
+    },
+    {
+      "id": "inst-cose",
+      "label": "CoSE Benefit Corp",
+      "type": "institution",
+      "group": "institution",
+      "description": "Sector67 Prototyping & Public Benefit (2017–Present)",
+      "location": "Madison, WI",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 1
+    },
+    {
+      "id": "inst-rothamsted",
+      "label": "Rothamsted Research",
+      "type": "institution",
+      "group": "institution",
+      "description": "Lawes Trust Scholar & Ph.D. Training (2007–2011)",
+      "location": "Harpenden, UK",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 1
+    },
+    {
+      "id": "inst-nottingham",
+      "label": "University of Nottingham",
+      "type": "institution",
+      "group": "institution",
+      "description": "B.Sc. First Class & Ph.D. Plant Science (2003–2011)",
+      "location": "Nottingham, UK",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 1
+    },
+    {
+      "id": "inst-jic",
+      "label": "John Innes Centre",
+      "type": "institution",
+      "group": "institution",
+      "description": "Cell & Developmental Biology (2002–2007)",
+      "location": "Norwich, UK",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 0
+    },
+    {
+      "id": "inst-asgsr",
+      "label": "ASGSR",
+      "type": "institution",
+      "group": "institution",
+      "description": "Education & Outreach Committee Chair (2024–Present)",
+      "location": "USA",
+      "radius": 18,
+      "color": "#5590ad",
+      "degree": 0
+    },
+    {
+      "id": "org-arabidopsis",
+      "label": "Arabidopsis thaliana",
+      "type": "organism",
+      "group": "space-cea",
+      "description": "Model plant system for root gravitropism, spaceflight transcriptomics, and hormone signaling.",
+      "radius": 15,
+      "color": "#3f7d4e",
+      "degree": 18
+    },
+    {
+      "id": "org-fungi",
+      "label": "Fungal Mycelium",
+      "type": "organism",
+      "group": "biomanufacturing",
+      "description": "Solid-state fungal bioproduction, Mycoponics, and circular biomaterials.",
+      "radius": 15,
+      "color": "#3f7d4e",
+      "degree": 2
+    },
+    {
+      "id": "org-human",
+      "label": "Astronaut Multi-Omics",
+      "type": "organism",
+      "group": "ai-data",
+      "description": "Human spaceflight physiological adaptation, bone/muscle atrophy, and oncogenic stress pathways.",
+      "radius": 15,
+      "color": "#3f7d4e",
+      "degree": 7
+    },
+    {
+      "id": "org-microbes",
+      "label": "Spaceflight Microbiomes",
+      "type": "organism",
+      "group": "space-cea",
+      "description": "Sphingomonas and ISS plant-associated microbial community remodeling.",
+      "radius": 15,
+      "color": "#3f7d4e",
+      "degree": 1
+    },
+    {
+      "id": "org-crops",
+      "label": "Space Crops (Tomato/Wheat/Rice)",
+      "type": "organism",
+      "group": "space-cea",
+      "description": "Controlled environment agricultural crops for bioregenerative life support.",
+      "radius": 15,
+      "color": "#3f7d4e",
+      "degree": 1
+    },
+    {
+      "id": "grant-lunar-leaf-lunar-ecosyste",
+      "label": "Lunar LEAF: Lunar Ecosystem and Agricultural Feasibility",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$600,000",
+      "agency": "NASA Biological & Physical Sciences (BPS)",
+      "years": "2024 – 2027",
+      "role": "Science Co-Lead",
+      "description": "Science definition, boundary-layer biophysical modeling, and payload instrumentation for lunar plant/fungal growth systems.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 6
+    },
+    {
+      "id": "grant-nasa-tastie-plant-microbe",
+      "label": "NASA TASTIE: Plant-Microbe Spaceflight Interactions & Transcriptomic Adaptation",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$750,000",
+      "agency": "NASA Biological & Physical Sciences (BPS)",
+      "years": "2021 – 2024",
+      "role": "Co-Investigator",
+      "description": "Investigation of plant root-microbiome molecular adaptations under microgravity and spaceflight stress conditions.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "grant-genelab-extending-the-rea",
+      "label": "GeneLab: Extending the Reach of the Data System Across Kingdoms",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$300,000",
+      "agency": "NASA Space Biology (NNH16ZTT001N-GL)",
+      "years": "2018 – 2021",
+      "role": "Co-Investigator",
+      "description": "Consensus RNA-seq pipeline standardisation, metadata ontology harmonization, and cross-kingdom spaceflight datasets.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 2
+    },
+    {
+      "id": "grant-toast-cross-kingdom-disco",
+      "label": "TOAST Cross-Kingdom Discovery Portal",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$250,000",
+      "agency": "NASA GeneLab Innovation Award",
+      "years": "2016 – 2019",
+      "role": "Co-Investigator",
+      "description": "Test of Arabidopsis Space Transcriptome: unified relational query and visualization environment for space flight experiments.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "grant-mango-multi-attribute-omi",
+      "label": "MANGO Multi-Attribute Omics Engine",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$110,000",
+      "agency": "NASA JPL / Space Biosciences",
+      "years": "2018 – 2021",
+      "role": "Co-Investigator",
+      "description": "Interactive multidimensional analytics engine for microbiome, radiation, and transcriptomic space biological data.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 2
+    },
+    {
+      "id": "grant-astrobotany-educational-g",
+      "label": "AstroBotany Educational Gaming & Phenotyping Collaboration",
+      "type": "grant",
+      "group": "grant",
+      "amount": "$40,000",
+      "agency": "Wisconsin Space Grant Consortium (WSGC)",
+      "years": "2018 – 2019",
+      "role": "Principal Investigator",
+      "description": "Community co-design of educational space biology games and IoT automated phenotyping chambers with Gear Learning and Boys & Girls Club.",
+      "radius": 19,
+      "color": "#d9822b",
+      "degree": 3
+    },
+    {
+      "id": "tool-lunarleaf-cfd",
+      "label": "LunarLeaf-CFD",
+      "type": "tool",
+      "group": "space-biophysics",
+      "description": "Validated in-browser CFD model of gravity-dependent gas-exchange boundary layers around Arabidopsis leaves in lunar and orbital microenvironments.",
+      "demo_url": "https://dr-richard-barker.github.io/LunarLeaf-CFD/",
+      "repo": "dr-richard-barker/LunarLeaf-CFD",
+      "language": "JavaScript / WebGL",
+      "badge": "CFD & Boundary Layers",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-lunarfarm-blss",
+      "label": "LunarFarm-BLSS",
+      "type": "tool",
+      "group": "space-biophysics",
+      "description": "What a playable closed loop teaches about closing one: an interactive bioregenerative life support systems (BLSS) architecture simulation.",
+      "demo_url": "https://dr-richard-barker.github.io/LunarFarm-BLSS/",
+      "repo": "dr-richard-barker/LunarFarm-BLSS",
+      "language": "JavaScript / HTML5",
+      "badge": "Life Support Architecture",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "tool-lunar-lfm-explorer",
+      "label": "lunar-lfm-explorer",
+      "type": "tool",
+      "group": "space-biophysics",
+      "description": "FAIR exploration toolkit and multi-illumination inference viewer for the NASA-IBM Lunar Foundation Model.",
+      "demo_url": "https://dr-richard-barker.github.io/lunar-lfm-explorer/",
+      "repo": "dr-richard-barker/lunar-lfm-explorer",
+      "language": "Python / TypeScript",
+      "badge": "AI Foundation Model",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-astro-usa-habitat-model",
+      "label": "ASTRO-USA-Habitat-Model",
+      "type": "tool",
+      "group": "space-biophysics",
+      "description": "Parametric CAD and environmental simulation of the ASTRO-USA Mini-Hab Food Production Module.",
+      "demo_url": "https://dr-richard-barker.github.io/ASTRO-USA-Habitat-Model/",
+      "repo": "dr-richard-barker/ASTRO-USA-Habitat-Model",
+      "language": "Three.js / CAD",
+      "badge": "Habitat Engineering",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-plant-pathway-atlas",
+      "label": "plant-pathway-atlas",
+      "type": "tool",
+      "group": "plant-fungal-atlases",
+      "description": "Modernized MapMan, PlantCyc, and ggPlant visualization engine for plant systems biology and cross-species metabolic mapping.",
+      "demo_url": "https://dr-richard-barker.github.io/plant-pathway-atlas/",
+      "repo": "dr-richard-barker/plant-pathway-atlas",
+      "language": "TypeScript / SVG",
+      "badge": "Metabolic Pathways",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-fungal-bgc-atlas",
+      "label": "fungal-bgc-atlas",
+      "type": "tool",
+      "group": "plant-fungal-atlases",
+      "description": "Curated, evidence-linked knowledge base of 609 MIBiG-linked fungal biosynthetic gene clusters with structural annotations.",
+      "demo_url": "https://dr-richard-barker.github.io/fungal-bgc-atlas/",
+      "repo": "dr-richard-barker/fungal-bgc-atlas",
+      "language": "JavaScript",
+      "badge": "Fungal Biomanufacturing",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-arabidopsis-atlas",
+      "label": "arabidopsis-atlas",
+      "type": "tool",
+      "group": "plant-fungal-atlases",
+      "description": "Interactive organ-selectable 3D anatomical atlas of Arabidopsis thaliana grounded in validated structural data.",
+      "demo_url": "https://dr-richard-barker.github.io/arabidopsis-atlas/",
+      "repo": "dr-richard-barker/arabidopsis-atlas",
+      "language": "Three.js / WebGL",
+      "badge": "3D Plant Anatomy",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-virtual-root",
+      "label": "virtual-root",
+      "type": "tool",
+      "group": "plant-fungal-atlases",
+      "description": "Open web-based rebuild of SimuPlant / The Virtual Root: cell-based auxin transport and root gravitropism model.",
+      "demo_url": "https://dr-richard-barker.github.io/virtual-root/",
+      "repo": "dr-richard-barker/virtual-root",
+      "language": "JavaScript / Canvas",
+      "badge": "Root Auxin Simulation",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "tool-astroroot",
+      "label": "astroroot",
+      "type": "tool",
+      "group": "imaging-phenomics",
+      "description": "Install-free, in-browser root-image analysis for students and researchers — RootNav GUI and machine learning phenotyping.",
+      "demo_url": "https://dr-richard-barker.github.io/astroroot/",
+      "repo": "dr-richard-barker/astroroot",
+      "language": "JavaScript / WebAssembly",
+      "badge": "Root Phenomics",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "tool-cose-fiji",
+      "label": "cose-fiji",
+      "type": "tool",
+      "group": "imaging-phenomics",
+      "description": "ImageJ 1.54 in the browser with SmartRoot, plant phenotyping presets, and FAIR export with no local installation required.",
+      "demo_url": "https://dr-richard-barker.github.io/cose-fiji/",
+      "repo": "dr-richard-barker/cose-fiji",
+      "language": "CheerpJ / Java / JS",
+      "badge": "Browser ImageJ",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-abcd-v2",
+      "label": "ABCD_v2",
+      "type": "tool",
+      "group": "imaging-phenomics",
+      "description": "ABCD v2 AstroBotany calibration card: Munsell-defined plant and soil colour chips with ArUco markers for automated computer vision correction.",
+      "demo_url": "https://dr-richard-barker.github.io/ABCD_v2/",
+      "repo": "dr-richard-barker/ABCD_v2",
+      "language": "Python / OpenCV",
+      "badge": "Open Hardware Standard",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "tool-toast2",
+      "label": "toast2",
+      "type": "tool",
+      "group": "space-omics-nasa",
+      "description": "Next-generation DuckDB and Superset rebuild of TOAST (Test Of Arabidopsis Space Transcriptome) for fast spaceflight querying.",
+      "demo_url": "https://github.com/dr-richard-barker/toast2",
+      "repo": "dr-richard-barker/toast2",
+      "language": "Python / DuckDB",
+      "badge": "Spaceflight Omics",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "tool-spacemineralatlas",
+      "label": "SpaceMineralAtlas",
+      "type": "tool",
+      "group": "space-omics-nasa",
+      "description": "Mining NASA LSDA and OSDR for spaceflight mineral-ion and dietary data: multi-omics cross-analysis against NHANES terrestrial populations.",
+      "demo_url": "https://dr-richard-barker.github.io/SpaceMineralAtlas/",
+      "repo": "dr-richard-barker/SpaceMineralAtlas",
+      "language": "TypeScript / D3.js",
+      "badge": "Astronaut Health & Nutrition",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "tool-osdr-veggie-nutrition-dashboard",
+      "label": "OSDR-Veggie-Nutrition-Dashboard",
+      "type": "tool",
+      "group": "space-omics-nasa",
+      "description": "Interactive nutritional and transcriptomic comparison of salad crops grown on the International Space Station VEGGIE payload.",
+      "demo_url": "https://dr-richard-barker.github.io/OSDR-Veggie-Nutrition-Dashboard/",
+      "repo": "dr-richard-barker/OSDR-Veggie-Nutrition-Dashboard",
+      "language": "JavaScript / Plotly",
+      "badge": "Space Crop Nutrition",
+      "radius": 14,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "pub-10-2478-gsr-2026-0008",
+      "label": "Enhancing Spaceflight Imaging Data Using Simple Online Automated Plant Phenomics (SOAPP)",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2026,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2026-0008",
+      "url": "https://doi.org/10.2478/gsr-2026-0008",
+      "authors": [
+        "Bauer, L.",
+        "Barker, R.",
+        "Cauthorn, G.",
+        "Jenkins, B.",
+        "Gilroy, S."
+      ],
+      "badge": "GSR Journal",
+      "summary": "Simple Online Automated Plant Phenomics (SOAPP): web-based quantitative image processing for spaceflight flight hardware images.",
+      "radius": 13,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1111-nph-70662",
+      "label": "Expanding frontiers: harnessing plant biology for space exploration and planetary sustainability",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2026,
+      "venue": "New Phytologist",
+      "doi": "10.1111/nph.70662",
+      "url": "https://doi.org/10.1111/nph.70662",
+      "authors": [
+        "Fountain, L.L.",
+        "Gilliham, M.",
+        "Amitrano, C.",
+        "Arouna, N.",
+        "Barker, R.J.",
+        "Böhmer, M.",
+        "Braun, M.",
+        "Brereton, N.J.B.",
+        "Brocato, R.L.",
+        "Bunchek, J.M.",
+        "Canaday, E.L.J.",
+        "Caplin, N.",
+        "Castaño, P.",
+        "Chamberlain, C.",
+        "Decourteix, M.",
+        "Del Bianco, M.",
+        "De Micco, V.",
+        "Doherty, C.J.",
+        "Franke, M.F.",
+        "Fuentes, S.",
+        "Gilroy, S.",
+        "Harrison, L.",
+        "Hasenstein, K.H.",
+        "Hauslage, J.",
+        "Herranz, R.",
+        "Iyer‐Pascuzzi, A.",
+        "Izuma, D.S.",
+        "Junya, K.",
+        "Kiss, J.Z.",
+        "Legué, V.",
+        "Lloyd, J.P.B.",
+        "Maffei, M.E.",
+        "Massa, G.D.",
+        "Meyers, A.D.",
+        "Perera, I.Y.",
+        "Poulet, L.",
+        "Roychoudry, S.",
+        "Sena, G.",
+        "Shippen, D.E.",
+        "Stoochnoff, J.",
+        "Takahashi, H.",
+        "Wyatt, S.E.",
+        "Blancaflor, E.B."
+      ],
+      "badge": "New Phytologist",
+      "summary": "Comprehensive vision for plant biology in space exploration and terrestrial planetary resilience.",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1002-biot-70184",
+      "label": "Mycoponics: Controlled Bioproduction Utilizing Biophysical, Solid‐State, Liquid Nutrient Delivery",
+      "type": "publication",
+      "group": "biomanufacturing",
+      "year": 2026,
+      "venue": "Biotechnology Journal",
+      "doi": "10.1002/biot.70184",
+      "url": "https://doi.org/10.1002/biot.70184",
+      "authors": [
+        "Porterfield, D.M.",
+        "Moulton, S.X.",
+        "Sanchez, A.K.",
+        "Sorg, A.",
+        "Koenig, T.",
+        "Terrell, M.S.",
+        "Zahner, S.",
+        "Baena, A.",
+        "Proctor, C.",
+        "Barker, R.J."
+      ],
+      "badge": "Front Cover Article",
+      "summary": "Inaugural demonstration of Mycoponics: growing fungal mycelium on biophysical porous ceramics with liquid nutrient delivery for sustainable biomaterials and circular food systems.",
+      "radius": 17,
+      "color": "#8fcf9d",
+      "degree": 5
+    },
+    {
+      "id": "pub-10-64898-2026-07-13-73723",
+      "label": "SpaceBio Knowledge Hub: A LiteratOmics Platform for Microgravity and Space Biology Research",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2026,
+      "venue": "",
+      "doi": "10.64898/2026.07.13.737239",
+      "url": "https://doi.org/10.64898/2026.07.13.737239",
+      "authors": [
+        "Silva, J.C.F.",
+        "Vieira, A.",
+        "Chue Donahey, M.S.",
+        "Silva, S.M.d.C.",
+        "Veloso, T.",
+        "Lopes, A.",
+        "Sexson, N.",
+        "Barker, R.",
+        "Porterfield, D.M.",
+        "Silva, C.A.",
+        "Dias, R."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "pub-10-1038-s41526-025-00518-",
+      "label": "Critical investments in bioregenerative life support systems for bioastronautics and sustainable lunar exploration",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00518-4",
+      "url": "https://doi.org/10.1038/s41526-025-00518-4",
+      "authors": [
+        "Marshall Porterfield, D.",
+        "Tulodziecki, D.",
+        "Wheeler, R.",
+        "Davis Cross, M.K.",
+        "Monje, O.",
+        "Rothschild, L.J.",
+        "Barker, R.J.",
+        "Schwertz, H.",
+        "Collicott, S.",
+        "Dutta, S."
+      ],
+      "badge": "npj Microgravity",
+      "summary": "Critical investments needed in Bioregenerative Life Support Systems (BLSS) for sustained lunar habitation and bioastronautics.",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1038-s41526-025-00490-",
+      "label": "Feeding the cosmos: tackling personalized space nutrition and the leaky gut challenge",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00490-z",
+      "url": "https://doi.org/10.1038/s41526-025-00490-z",
+      "authors": [
+        "Barbero Barcenilla, B.",
+        "Rivero, R.",
+        "Lynch, A.",
+        "Cromer, W.",
+        "Gong, J.",
+        "Harandi, B.",
+        "Stegmann, M.",
+        "Le, H.",
+        "Lundine, D.",
+        "Chung, M.",
+        "Puig, J.",
+        "Mikhailova, K.",
+        "Coker, H.",
+        "Marks, A.",
+        "Gilbert, R.",
+        "Scott, R.",
+        "Barker, R.",
+        "Glowe, P.",
+        "Overbey, E.G.",
+        "Mason, C.E."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1038-s41526-025-00525-",
+      "label": "GLARE: discovering hidden patterns in spaceflight transcriptome using representation learning",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00525-5",
+      "url": "https://doi.org/10.1038/s41526-025-00525-5",
+      "authors": [
+        "Seo, D.",
+        "Strickland, H.F.",
+        "Zhou, M.",
+        "Barker, R.",
+        "Ferl, R.J.",
+        "Paul, A.L.",
+        "Gilroy, S."
+      ],
+      "badge": "npj Microgravity",
+      "summary": "GLARE uses representation learning and foundation latent space extraction to uncover hidden molecular signatures across spaceflight transcriptomics.",
+      "radius": 15,
+      "color": "#7ec3d8",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-2478-gsr-2025-0002",
+      "label": "Japanese Oblate Film as a Novel Method for Seed Handling and Activation in Microgravity",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2025,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2025-0002",
+      "url": "https://doi.org/10.2478/gsr-2025-0002",
+      "authors": [
+        "Cauthorn, G.",
+        "Crisman, K.",
+        "Boles, H.O.",
+        "Johnson, C.M.",
+        "Subramanian, A.",
+        "Barker, R.",
+        "Cuthbert, E.",
+        "Yamada, M.",
+        "Sato, Y.",
+        "Chisuga, H.",
+        "Fukuoka, S.",
+        "Kagami, S.",
+        "Tada, C.",
+        "Park, S.",
+        "Kunihiro, K.",
+        "Mitsukawa, K.",
+        "Ueki, A.",
+        "Nozawa, S.",
+        "Delioglu, G."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 1
+    },
+    {
+      "id": "pub-10-1038-s41526-025-00492-",
+      "label": "Space-driven ROS in cells: a hidden danger to astronaut health and food safety",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2025,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-025-00492-x",
+      "url": "https://doi.org/10.1038/s41526-025-00492-x",
+      "authors": [
+        "Mokhtari, M.",
+        "Reinsch, S.S.",
+        "Barcenilla, B.B.",
+        "Ziyaei, K.",
+        "Barker, R.J."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1038-s41598-024-57948-",
+      "label": "Aging and putative frailty biomarkers are altered by spaceflight",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2024,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-57948-5",
+      "url": "https://doi.org/10.1038/s41598-024-57948-5",
+      "authors": [
+        "Camera, A.",
+        "Tabetah, M.",
+        "Castañeda, V.",
+        "Kim, J.",
+        "Galsinh, A.S.",
+        "Haro-Vinueza, A.",
+        "Salinas, I.",
+        "Seylani, A.",
+        "Arif, S.",
+        "Das, S.",
+        "Mori, M.A.",
+        "Carano, A.",
+        "de Oliveira, L.C.",
+        "Muratani, M.",
+        "Barker, R.",
+        "Zaksas, V.",
+        "Goel, C.",
+        "Dimokidis, E.",
+        "Taylor, D.M.",
+        "Jeong, J.",
+        "Overbey, E.",
+        "Meydan, C.",
+        "Porterfield, D.M.",
+        "Díaz, J.E.",
+        "Caicedo, A.",
+        "Schisler, J.C.",
+        "Laiakis, E.C.",
+        "Mason, C.E.",
+        "Kim, M.S.",
+        "Karouia, F.",
+        "Szewczyk, N.J.",
+        "Beheshti, A."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1038-s41467-024-47237-",
+      "label": "Astronaut omics and the impact of space on the human body at scale",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-47237-0",
+      "url": "https://doi.org/10.1038/s41467-024-47237-0",
+      "authors": [
+        "Rutter, L.A.",
+        "Cope, H.",
+        "MacKay, M.J.",
+        "Herranz, R.",
+        "Das, S.",
+        "Ponomarev, S.A.",
+        "Costes, S.V.",
+        "Paul, A.M.",
+        "Barker, R.",
+        "Taylor, D.M.",
+        "Bezdan, D.",
+        "Szewczyk, N.J.",
+        "Muratani, M.",
+        "Mason, C.E.",
+        "Giacomello, S."
+      ],
+      "badge": "Nature Communications",
+      "summary": "Comprehensive multi-tissue astronaut omics atlas characterizing spaceflight stress responses at molecular scale.",
+      "radius": 17,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1038-s41522-024-00545-",
+      "label": "Spaceflight alters host-gut microbiota interactions",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2024,
+      "venue": "npj Biofilms and Microbiomes",
+      "doi": "10.1038/s41522-024-00545-1",
+      "url": "https://doi.org/10.1038/s41522-024-00545-1",
+      "authors": [
+        "Gonzalez, E.",
+        "Lee, M.D.",
+        "Tierney, B.T.",
+        "Lytell, N.",
+        "Flores, P.",
+        "Mishra, M.",
+        "Beckett, L.",
+        "Finkelstein, A.",
+        "Mo, A.",
+        "Walton, P.",
+        "Karouia, F.",
+        "Barker, R.",
+        "Jansen, R.J.",
+        "Green, S.J.",
+        "Weging, S.",
+        "Kelliher, J.",
+        "Singh, N.K.",
+        "Bezdan, D.",
+        "Galazska, J.",
+        "Brereton, N.J.B."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1007-s11103-024-01478-",
+      "label": "Transcriptional response of Arabidopsis thaliana’s root-tip to spaceflight",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2024,
+      "venue": "Plant Molecular Biology",
+      "doi": "10.1007/s11103-024-01478-1",
+      "url": "https://doi.org/10.1007/s11103-024-01478-1",
+      "authors": [
+        "Shahbazi, M.",
+        "Rutter, L.A.",
+        "Barker, R."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1038-s42256-023-00618-",
+      "label": "Biological research and self-driving labs in deep space supported by artificial intelligence",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2023,
+      "venue": "Nature Machine Intelligence",
+      "doi": "10.1038/s42256-023-00618-4",
+      "url": "https://doi.org/10.1038/s42256-023-00618-4",
+      "authors": [
+        "Sanders, L.M.",
+        "Scott, R.T.",
+        "Yang, J.H.",
+        "Qutub, A.A.",
+        "Garcia Martin, H.",
+        "Berrios, D.C.",
+        "Hastings, J.J.A.",
+        "Rask, J.",
+        "Mackintosh, G.",
+        "Hoarfrost, A.L.",
+        "Chalk, S.",
+        "Kalantari, J.",
+        "Khezeli, K.",
+        "Antonsen, E.L.",
+        "Babdor, J.",
+        "Barker, R.",
+        "Baranzini, S.E.",
+        "Beheshti, A.",
+        "Delgado-Aparicio, G.M.",
+        "Glicksberg, B.S.",
+        "Greene, C.S.",
+        "Haendel, M.",
+        "Hamid, A.A.",
+        "Heller, P.",
+        "Jamieson, D.",
+        "Jarvis, K.J.",
+        "Komarova, S.V.",
+        "Komorowski, M.",
+        "Kothiyal, P.",
+        "Mahabal, A.",
+        "Manor, U.",
+        "Mason, C.E.",
+        "Matar, M.",
+        "Mias, G.I.",
+        "Miller, J.",
+        "Myers, J.G.",
+        "Nelson, C.",
+        "Oribello, J.",
+        "Park, S.m.",
+        "Parsons-Wingerter, P.",
+        "Prabhu, R.K.",
+        "Reynolds, R.J.",
+        "Saravia-Butler, A.",
+        "Saria, S.",
+        "Sawyer, A.",
+        "Singh, N.K.",
+        "Snyder, M.",
+        "Soboczenski, F.",
+        "Soman, K.",
+        "Theriot, C.A.",
+        "Van Valen, D.",
+        "Venkateswaran, K.",
+        "Warren, L.",
+        "Worthey, L.",
+        "Zitnik, M.",
+        "Costes, S.V."
+      ],
+      "badge": "Nature Machine Intelligence",
+      "summary": "Roadmap for autonomous, self-driving biological laboratories and AI-driven experiment orchestration on deep space exploration missions.",
+      "radius": 17,
+      "color": "#7ec3d8",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1038-s42256-023-00617-",
+      "label": "Biomonitoring and precision health in deep space supported by artificial intelligence",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2023,
+      "venue": "Nature Machine Intelligence",
+      "doi": "10.1038/s42256-023-00617-5",
+      "url": "https://doi.org/10.1038/s42256-023-00617-5",
+      "authors": [
+        "Scott, R.T.",
+        "Sanders, L.M.",
+        "Antonsen, E.L.",
+        "Hastings, J.J.A.",
+        "Park, S.m.",
+        "Mackintosh, G.",
+        "Reynolds, R.J.",
+        "Hoarfrost, A.L.",
+        "Sawyer, A.",
+        "Greene, C.S.",
+        "Glicksberg, B.S.",
+        "Theriot, C.A.",
+        "Berrios, D.C.",
+        "Miller, J.",
+        "Babdor, J.",
+        "Barker, R.",
+        "Baranzini, S.E.",
+        "Beheshti, A.",
+        "Chalk, S.",
+        "Delgado-Aparicio, G.M.",
+        "Haendel, M.",
+        "Hamid, A.A.",
+        "Heller, P.",
+        "Jamieson, D.",
+        "Jarvis, K.J.",
+        "Kalantari, J.",
+        "Khezeli, K.",
+        "Komarova, S.V.",
+        "Komorowski, M.",
+        "Kothiyal, P.",
+        "Mahabal, A.",
+        "Manor, U.",
+        "Garcia Martin, H.",
+        "Mason, C.E.",
+        "Matar, M.",
+        "Mias, G.I.",
+        "Myers, J.G.",
+        "Nelson, C.",
+        "Oribello, J.",
+        "Parsons-Wingerter, P.",
+        "Prabhu, R.K.",
+        "Qutub, A.A.",
+        "Rask, J.",
+        "Saravia-Butler, A.",
+        "Saria, S.",
+        "Singh, N.K.",
+        "Snyder, M.",
+        "Soboczenski, F.",
+        "Soman, K.",
+        "Van Valen, D.",
+        "Venkateswaran, K.",
+        "Warren, L.",
+        "Worthey, L.",
+        "Yang, J.H.",
+        "Zitnik, M.",
+        "Costes, S.V."
+      ],
+      "badge": "Nature Machine Intelligence",
+      "summary": "Artificial intelligence frameworks for real-time biological health monitoring and precision biosensing in extreme deep space environments.",
+      "radius": 17,
+      "color": "#7ec3d8",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1038-s41526-023-00247-",
+      "label": "Meta-analysis of the space flight and microgravity response of the Arabidopsis plant transcriptome",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2023,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-023-00247-6",
+      "url": "https://doi.org/10.1038/s41526-023-00247-6",
+      "authors": [
+        "Barker, R.",
+        "Kruse, C.P.S.",
+        "Johnson, C.",
+        "Saravia-Butler, A.",
+        "Fogle, H.",
+        "Chang, H.S.",
+        "Trane, R.M.",
+        "Kinscherf, N.",
+        "Villacampa, A.",
+        "Manzano, A.",
+        "Herranz, R.",
+        "Davin, L.B.",
+        "Lewis, N.G.",
+        "Perera, I.",
+        "Wolverton, C.",
+        "Gupta, P.",
+        "Jaiswal, P.",
+        "Reinsch, S.S.",
+        "Wyatt, S.",
+        "Gilroy, S."
+      ],
+      "badge": "Featured Meta-Analysis",
+      "summary": "Comprehensive multi-mission meta-analysis of Arabidopsis spaceflight transcriptomes revealing hardware boundary layer micro-environments as the dominant stress driver.",
+      "radius": 15,
+      "color": "#0f7f9f",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1007-978-1-0716-2297-1",
+      "label": "Analysis of Plant Root Gravitropism",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2022,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-0716-2297-1_1",
+      "url": "https://doi.org/10.1007/978-1-0716-2297-1_1",
+      "authors": [
+        "Barker, R.",
+        "Johns, S.",
+        "Trane, R.",
+        "Gilroy, S."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1128-spectrum-01994-21",
+      "label": "Genomic Characterization of Potential Plant Growth-Promoting Features of\n            Sphingomonas\n            Strains Isolated from the International Space Station",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2022,
+      "venue": "Microbiology Spectrum",
+      "doi": "10.1128/spectrum.01994-21",
+      "url": "https://doi.org/10.1128/spectrum.01994-21",
+      "authors": [
+        "Lombardino, J.",
+        "Bijlani, S.",
+        "Singh, N.K.",
+        "Wood, J.M.",
+        "Barker, R.",
+        "Gilroy, S.",
+        "Wang, C.C.C.",
+        "Venkateswaran, K."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1093-plphys-kiac375",
+      "label": "The vacuolar H+/Ca transporter CAX1 participates in submergence and anoxia stress responses",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2022,
+      "venue": "Plant Physiology",
+      "doi": "10.1093/plphys/kiac375",
+      "url": "https://doi.org/10.1093/plphys/kiac375",
+      "authors": [
+        "Yang, J.",
+        "Mathew, I.E.",
+        "Rhein, H.",
+        "Barker, R.",
+        "Guo, Q.",
+        "Brunello, L.",
+        "Loreti, E.",
+        "Barkla, B.J.",
+        "Gilroy, S.",
+        "Perata, P.",
+        "Hirschi, K.D."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1007-978-1-0716-1677-2",
+      "label": "Using the Automated Botanical Contact Device (ABCD) to Deliver Reproducible, Intermittent Touch Stimulation to Plants",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2022,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-0716-1677-2_6",
+      "url": "https://doi.org/10.1007/978-1-0716-1677-2_6",
+      "authors": [
+        "Fitzgerald, C.",
+        "Vens, C.S.",
+        "Miller, N.",
+        "Barker, R.",
+        "Westphall, M.",
+        "Lombardino, J.",
+        "Miao, J.",
+        "Swanson, S.J.",
+        "Gilroy, S."
+      ],
+      "badge": "Methods Mol Biol",
+      "summary": "The Automated Botanical Contact Device (ABCD): an engineered mechatronic system delivering reproducible touch stimulation to growing plants.",
+      "radius": 13,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1111-nph-16967",
+      "label": "Mapping sites of gibberellin biosynthesis in the Arabidopsis root tip",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2021,
+      "venue": "New Phytologist",
+      "doi": "10.1111/nph.16967",
+      "url": "https://doi.org/10.1111/nph.16967",
+      "authors": [
+        "Barker, R.",
+        "Fernandez Garcia, M.N.",
+        "Powers, S.J.",
+        "Vaughan, S.",
+        "Bennett, M.J.",
+        "Phillips, A.L.",
+        "Thomas, S.G.",
+        "Hedden, P."
+      ],
+      "badge": "New Phytologist",
+      "summary": "Cell-type resolution mapping of gibberellin hormone biosynthesis within the Arabidopsis root tip, resolving the spatial coordination of plant root growth.",
+      "radius": 15,
+      "color": "#d9822b",
+      "degree": 5
+    },
+    {
+      "id": "pub-10-1016-j-isci-2021-10236",
+      "label": "NASA GeneLab RNA-seq consensus pipeline: Standardized processing of short-read RNA-seq data",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2021,
+      "venue": "iScience",
+      "doi": "10.1016/j.isci.2021.102361",
+      "url": "https://doi.org/10.1016/j.isci.2021.102361",
+      "authors": [
+        "Overbey, E.G.",
+        "Saravia-Butler, A.M.",
+        "Zhang, Z.",
+        "Rathi, K.S.",
+        "Fogle, H.",
+        "da Silveira, W.A.",
+        "Barker, R.J.",
+        "Bass, J.J.",
+        "Beheshti, A.",
+        "Berrios, D.C.",
+        "Blaber, E.A.",
+        "Cekanaviciute, E.",
+        "Costa, H.A.",
+        "Davin, L.B.",
+        "Fisch, K.M.",
+        "Gebre, S.G.",
+        "Geniza, M.",
+        "Gilbert, R.",
+        "Gilroy, S.",
+        "Hardiman, G.",
+        "Herranz, R.",
+        "Kidane, Y.H.",
+        "Kruse, C.P.",
+        "Lee, M.D.",
+        "Liefeld, T.",
+        "Lewis, N.G.",
+        "McDonald, J.T.",
+        "Meller, R.",
+        "Mishra, T.",
+        "Perera, I.Y.",
+        "Ray, S.",
+        "Reinsch, S.S.",
+        "Rosenthal, S.B.",
+        "Strong, M.",
+        "Szewczyk, N.J.",
+        "Tahimic, C.G.",
+        "Taylor, D.M.",
+        "Vandenbrink, J.P.",
+        "Villacampa, A.",
+        "Weging, S.",
+        "Wolverton, C.",
+        "Wyatt, S.E.",
+        "Zea, L.",
+        "Costes, S.V.",
+        "Galazka, J.M."
+      ],
+      "badge": "NASA Consensus Pipeline",
+      "summary": "Establishment of the standardized NASA GeneLab RNA-seq consensus pipeline for reproducible processing of space biology datasets.",
+      "radius": 13,
+      "color": "#7ec3d8",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1038-s41526-021-00143-",
+      "label": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2021,
+      "venue": "npj Microgravity",
+      "doi": "10.1038/s41526-021-00143-x",
+      "url": "https://doi.org/10.1038/s41526-021-00143-x",
+      "authors": [
+        "Barker, R.",
+        "Costes, S.V.",
+        "Miller, J.",
+        "Gebre, S.G.",
+        "Lombardino, J.",
+        "Gilroy, S."
+      ],
+      "badge": "npj Microgravity",
+      "summary": "Rad-Bio-App: an open-science platform for biologists to explore and model space radiation exposures across historical missions.",
+      "radius": 13,
+      "color": "#7ec3d8",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1016-j-patter-2020-100",
+      "label": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2020,
+      "venue": "Patterns",
+      "doi": "10.1016/j.patter.2020.100148",
+      "url": "https://doi.org/10.1016/j.patter.2020.100148",
+      "authors": [
+        "Rutter, L.",
+        "Barker, R.",
+        "Bezdan, D.",
+        "Cope, H.",
+        "Costes, S.V.",
+        "Degoricija, L.",
+        "Fisch, K.M.",
+        "Gabitto, M.I.",
+        "Gebre, S.",
+        "Giacomello, S.",
+        "Gilroy, S.",
+        "Green, S.J.",
+        "Mason, C.E.",
+        "Reinsch, S.S.",
+        "Szewczyk, N.J.",
+        "Taylor, D.M.",
+        "Galazka, J.M.",
+        "Herranz, R.",
+        "Muratani, M."
+      ],
+      "badge": "Patterns (Cell Press)",
+      "summary": "International consortium standards establishing FAIR guidelines and reproducible processing workflows for space life sciences.",
+      "radius": 17,
+      "color": "#7ec3d8",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-3390-ijms21186762",
+      "label": "Changes in Nuclear Shape and Gene Expression in Response to Simulated Microgravity Are LINC Complex-Dependent",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2020,
+      "venue": "International Journal of Molecular Sciences",
+      "doi": "10.3390/ijms21186762",
+      "url": "https://doi.org/10.3390/ijms21186762",
+      "authors": [
+        "Neelam, S.",
+        "Richardson, B.",
+        "Barker, R.",
+        "Udave, C.",
+        "Gilroy, S.",
+        "Cameron, M.J.",
+        "Levine, H.G.",
+        "Zhang, Y."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 2
+    },
+    {
+      "id": "pub-10-1016-j-cell-2020-10-05",
+      "label": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2020,
+      "venue": "Cell",
+      "doi": "10.1016/j.cell.2020.10.050",
+      "url": "https://doi.org/10.1016/j.cell.2020.10.050",
+      "authors": [
+        "Afshinnekoo, E.",
+        "Scott, R.T.",
+        "MacKay, M.J.",
+        "Pariset, E.",
+        "Cekanaviciute, E.",
+        "Barker, R.",
+        "Gilroy, S.",
+        "Hassane, D.",
+        "Smith, S.M.",
+        "Zwart, S.R.",
+        "Nelman-Gonzalez, M.",
+        "Crucian, B.E.",
+        "Ponomarev, S.A.",
+        "Orlov, O.I.",
+        "Shiba, D.",
+        "Muratani, M.",
+        "Yamamoto, M.",
+        "Richards, S.E.",
+        "Vaishampayan, P.A.",
+        "Meydan, C.",
+        "Foox, J.",
+        "Myrrhe, J.",
+        "Istasse, E.",
+        "Singh, N.",
+        "Venkateswaran, K.",
+        "Keune, J.A.",
+        "Ray, H.E.",
+        "Basner, M.",
+        "Miller, J.",
+        "Vitaterna, M.H.",
+        "Taylor, D.M.",
+        "Wallace, D.",
+        "Rubins, K.",
+        "Bailey, S.M.",
+        "Grabham, P.",
+        "Costes, S.V.",
+        "Mason, C.E.",
+        "Beheshti, A."
+      ],
+      "badge": "Cell",
+      "summary": "Multi-omics landmark paper defining the fundamental biological features of human and plant spaceflight across NASA GeneLab datasets.",
+      "radius": 17,
+      "color": "#0f7f9f",
+      "degree": 6
+    },
+    {
+      "id": "pub-10-3389-fpls-2020-00147",
+      "label": "Test of Arabidopsis Space Transcriptome: A Discovery Environment to Explore Multiple Plant Biology Spaceflight Experiments",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2020,
+      "venue": "Frontiers in Plant Science",
+      "doi": "10.3389/fpls.2020.00147",
+      "url": "https://doi.org/10.3389/fpls.2020.00147",
+      "authors": [
+        "Barker, R.",
+        "Lombardino, J.",
+        "Rasmussen, K.",
+        "Gilroy, S."
+      ],
+      "badge": "TOAST Discovery Tool",
+      "summary": "Test of Arabidopsis Space Transcriptome (TOAST): an open-science relational portal enabling plant biologists worldwide to explore microgravity and spaceflight datasets.",
+      "radius": 15,
+      "color": "#7ec3d8",
+      "degree": 6
+    },
+    {
+      "id": "pub-10-1186-s13007-019-0392-1",
+      "label": "A low-cost and open-source platform for automated imaging",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2019,
+      "venue": "Plant Methods",
+      "doi": "10.1186/s13007-019-0392-1",
+      "url": "https://doi.org/10.1186/s13007-019-0392-1",
+      "authors": [
+        "Lien, M.R.",
+        "Barker, R.J.",
+        "Ye, Z.",
+        "Westphall, M.H.",
+        "Gao, R.",
+        "Singh, A.",
+        "Gilroy, S.",
+        "Townsend, P.A."
+      ],
+      "badge": "Plant Methods",
+      "summary": "Design and deployment of an open-source, low-cost Raspberry Pi automated imaging platform for continuous plant phenotyping.",
+      "radius": 13,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1002-ajb2-1223",
+      "label": "Variation in the transcriptome of different ecotypes of Arabidopsis thaliana reveals signatures of oxidative stress in plant responses to spaceflight",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2019,
+      "venue": "American Journal of Botany",
+      "doi": "10.1002/ajb2.1223",
+      "url": "https://doi.org/10.1002/ajb2.1223",
+      "authors": [
+        "Choi, W.",
+        "Barker, R.J.",
+        "Kim, S.",
+        "Swanson, S.J.",
+        "Gilroy, S."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1042-bio03906010",
+      "label": "Life in space isn't easy, even if you are green",
+      "type": "publication",
+      "group": "outreach",
+      "year": 2017,
+      "venue": "The Biochemist",
+      "doi": "10.1042/bio03906010",
+      "url": "https://doi.org/10.1042/bio03906010",
+      "authors": [
+        "Barker, R.",
+        "Gilroy, S."
+      ],
+      "badge": "Science Communication",
+      "summary": "Popular science feature in The Biochemist detailing what happens to living cells when gravity is removed.",
+      "radius": 15,
+      "color": "#b085f5",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1007-978-1-4939-3356-3",
+      "label": "Assessing Gravitropic Responses in Arabidopsis",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2016,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-4939-3356-3_2",
+      "url": "https://doi.org/10.1007/978-1-4939-3356-3_2",
+      "authors": [
+        "Barker, R.",
+        "Cox, B.",
+        "Silber, L.",
+        "Sangari, A.",
+        "Assadi, A.",
+        "Masson, P."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-2478-gsr-2016-0008",
+      "label": "Development of Equipment that Uses Far-Red Light to Impose Seed Dormancy in Arabidopsis for Spaceflight",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2016,
+      "venue": "Gravitational and Space Research",
+      "doi": "10.2478/gsr-2016-0008",
+      "url": "https://doi.org/10.2478/gsr-2016-0008",
+      "authors": [
+        "Fitzgerald, C.P.",
+        "Barker, R.J.",
+        "Choi, W.G.",
+        "Swanson, S.J.",
+        "Stephens, S.D.",
+        "Huber, C.",
+        "Nimunkar, A.J.",
+        "Gilroy, S."
+      ],
+      "badge": "GSR Journal",
+      "summary": "Far-red light hardware systems engineered to reliably impose and release seed dormancy for spaceflight mission profiles.",
+      "radius": 13,
+      "color": "#d9822b",
+      "degree": 4
+    },
+    {
+      "id": "pub-10-1007-978-1-4939-2697-8",
+      "label": "Evaluating Mechano-Transduction and Touch Responses in Plant Roots",
+      "type": "publication",
+      "group": "space-cea",
+      "year": 2015,
+      "venue": "Methods in Molecular Biology",
+      "doi": "10.1007/978-1-4939-2697-8_12",
+      "url": "https://doi.org/10.1007/978-1-4939-2697-8_12",
+      "authors": [
+        "Swanson, S.J.",
+        "Barker, R.",
+        "Ye, Y.",
+        "Gilroy, S."
+      ],
+      "badge": null,
+      "summary": "",
+      "radius": 13,
+      "color": "#0f7f9f",
+      "degree": 3
+    },
+    {
+      "id": "pub-10-1186-1746-4811-9-41",
+      "label": "Vacuum Seed Sowing Manifold: a novel device for high-throughput sowing of Arabidopsis seeds",
+      "type": "publication",
+      "group": "phenotyping",
+      "year": 2013,
+      "venue": "Plant Methods",
+      "doi": "10.1186/1746-4811-9-41",
+      "url": "https://doi.org/10.1186/1746-4811-9-41",
+      "authors": [
+        "Barker, R.",
+        "Cox, B.",
+        "Mackie, T.R.",
+        "Masson, P."
+      ],
+      "badge": "Plant Methods",
+      "summary": "The Vacuum Seed Sowing Manifold: an open-source vacuum-assisted hardware tool enabling precise high-throughput arraying of small seeds.",
+      "radius": 13,
+      "color": "#d9822b",
+      "degree": 3
+    },
+    {
+      "id": "pub-lunar-lfm-explorer",
+      "label": "lunar-lfm-explorer: FAIR Exploration Toolkit and Topographic Multi-Illumination Pipeline for the NASA-IBM Lunar Foundation Model",
+      "type": "publication",
+      "group": "ai-data",
+      "year": 2026,
+      "venue": "Zenodo / GitHub Open Software",
+      "doi": null,
+      "url": "https://github.com/dr-richard-barker/lunar-arcade",
+      "authors": [
+        "Barker, R.J."
+      ],
+      "badge": "Open Source AI",
+      "summary": "Vision Transformer (ViT-B) exploration toolkit and multi-illumination topographic inference pipeline for the NASA-IBM Lunar Foundation Model.",
+      "radius": 13,
+      "color": "#7ec3d8",
+      "degree": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "grant-lunar-leaf-lunar-ecosyste",
+      "target": "inst-purdue",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-lunar-leaf-lunar-ecosyste",
+      "target": "theme-space-cea",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-lunar-leaf-lunar-ecosyste",
+      "target": "theme-biomanufacturing",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-lunar-leaf-lunar-ecosyste",
+      "target": "org-fungi",
+      "label": "investigates",
+      "type": "biological"
+    },
+    {
+      "source": "grant-lunar-leaf-lunar-ecosyste",
+      "target": "org-crops",
+      "label": "investigates",
+      "type": "biological"
+    },
+    {
+      "source": "grant-nasa-tastie-plant-microbe",
+      "target": "inst-uw-madison",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-nasa-tastie-plant-microbe",
+      "target": "theme-space-cea",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-nasa-tastie-plant-microbe",
+      "target": "theme-ai-data",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-nasa-tastie-plant-microbe",
+      "target": "org-arabidopsis",
+      "label": "investigates",
+      "type": "biological"
+    },
+    {
+      "source": "grant-genelab-extending-the-rea",
+      "target": "inst-nasa-genelab",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-genelab-extending-the-rea",
+      "target": "theme-ai-data",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-toast-cross-kingdom-disco",
+      "target": "inst-uw-madison",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-toast-cross-kingdom-disco",
+      "target": "theme-space-cea",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-toast-cross-kingdom-disco",
+      "target": "theme-ai-data",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-toast-cross-kingdom-disco",
+      "target": "org-arabidopsis",
+      "label": "investigates",
+      "type": "biological"
+    },
+    {
+      "source": "grant-mango-multi-attribute-omi",
+      "target": "inst-nasa-genelab",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-mango-multi-attribute-omi",
+      "target": "theme-ai-data",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-astrobotany-educational-g",
+      "target": "inst-cose",
+      "label": "administered_at",
+      "type": "institutional"
+    },
+    {
+      "source": "grant-astrobotany-educational-g",
+      "target": "theme-outreach",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "grant-astrobotany-educational-g",
+      "target": "theme-phenotyping",
+      "label": "funds_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-lunarleaf-cfd",
+      "target": "theme-space-cea",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-lunarfarm-blss",
+      "target": "theme-space-cea",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-lunar-lfm-explorer",
+      "target": "theme-space-cea",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-astro-usa-habitat-model",
+      "target": "theme-space-cea",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-plant-pathway-atlas",
+      "target": "theme-biomanufacturing",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-fungal-bgc-atlas",
+      "target": "theme-biomanufacturing",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-arabidopsis-atlas",
+      "target": "theme-biomanufacturing",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-virtual-root",
+      "target": "theme-biomanufacturing",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-astroroot",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-cose-fiji",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-abcd-v2",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-toast2",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-spacemineralatlas",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "tool-osdr-veggie-nutrition-dashboard",
+      "target": "theme-ai-data",
+      "label": "categorized_under",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2026-0008",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2026-0008",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2026-0008",
+      "target": "tool-astroroot",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-2478-gsr-2026-0008",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1111-nph-70662",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1111-nph-70662",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1002-biot-70184",
+      "target": "theme-biomanufacturing",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1002-biot-70184",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1002-biot-70184",
+      "target": "org-fungi",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1002-biot-70184",
+      "target": "inst-purdue",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1002-biot-70184",
+      "target": "grant-lunar-leaf-lunar-ecosyste",
+      "label": "funded_by",
+      "type": "grant"
+    },
+    {
+      "source": "pub-10-64898-2026-07-13-73723",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00518-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00518-",
+      "target": "theme-biomanufacturing",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00518-",
+      "target": "tool-lunarfarm-blss",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00518-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00490-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00490-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00525-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00525-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2025-0002",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00492-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-025-00492-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41598-024-57948-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41598-024-57948-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41467-024-47237-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41467-024-47237-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41467-024-47237-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41522-024-00545-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41522-024-00545-",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1007-s11103-024-01478-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1007-s11103-024-01478-",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s42256-023-00618-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s42256-023-00618-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s42256-023-00618-",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1038-s42256-023-00617-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s42256-023-00617-",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1038-s41526-023-00247-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-023-00247-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-023-00247-",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1038-s41526-023-00247-",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-2297-1",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-2297-1",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-2297-1",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1128-spectrum-01994-21",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1128-spectrum-01994-21",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1128-spectrum-01994-21",
+      "target": "org-microbes",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1128-spectrum-01994-21",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1093-plphys-kiac375",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1093-plphys-kiac375",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-1677-2",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-1677-2",
+      "target": "tool-abcd-v2",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-1677-2",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1007-978-1-0716-1677-2",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1111-nph-16967",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1111-nph-16967",
+      "target": "tool-virtual-root",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-1111-nph-16967",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1111-nph-16967",
+      "target": "inst-rothamsted",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1111-nph-16967",
+      "target": "inst-nottingham",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1016-j-isci-2021-10236",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1016-j-isci-2021-10236",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1016-j-isci-2021-10236",
+      "target": "inst-nasa-genelab",
+      "label": "collaboration",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1038-s41526-021-00143-",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-021-00143-",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1038-s41526-021-00143-",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1038-s41526-021-00143-",
+      "target": "inst-nasa-genelab",
+      "label": "collaboration",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1016-j-patter-2020-100",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1016-j-patter-2020-100",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-3390-ijms21186762",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-3390-ijms21186762",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "org-human",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1016-j-cell-2020-10-05",
+      "target": "inst-nasa-genelab",
+      "label": "collaboration",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "tool-toast2",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-3389-fpls-2020-00147",
+      "target": "inst-nasa-genelab",
+      "label": "collaboration",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1186-s13007-019-0392-1",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1186-s13007-019-0392-1",
+      "target": "tool-abcd-v2",
+      "label": "produces_or_uses_tool",
+      "type": "software"
+    },
+    {
+      "source": "pub-10-1186-s13007-019-0392-1",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1186-s13007-019-0392-1",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1002-ajb2-1223",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1002-ajb2-1223",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1002-ajb2-1223",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1042-bio03906010",
+      "target": "theme-outreach",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1042-bio03906010",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1042-bio03906010",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-3356-3",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-3356-3",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-3356-3",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-2478-gsr-2016-0008",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2016-0008",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-2478-gsr-2016-0008",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-2478-gsr-2016-0008",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-2697-8",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-2697-8",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1007-978-1-4939-2697-8",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-10-1186-1746-4811-9-41",
+      "target": "theme-phenotyping",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-10-1186-1746-4811-9-41",
+      "target": "org-arabidopsis",
+      "label": "studies",
+      "type": "biological"
+    },
+    {
+      "source": "pub-10-1186-1746-4811-9-41",
+      "target": "inst-uw-madison",
+      "label": "conducted_at",
+      "type": "institutional"
+    },
+    {
+      "source": "pub-lunar-lfm-explorer",
+      "target": "theme-ai-data",
+      "label": "advances_theme",
+      "type": "thematic"
+    },
+    {
+      "source": "pub-lunar-lfm-explorer",
+      "target": "theme-space-cea",
+      "label": "advances_theme",
+      "type": "thematic"
+    }
+  ],
+  "metrics": {
+    "node_count": 73,
+    "link_count": 141,
+    "themes_count": 5,
+    "pubs_count": 35,
+    "tools_count": 14,
+    "grants_count": 6,
+    "inst_count": 8
+  }
+}

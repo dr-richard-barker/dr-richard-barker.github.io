@@ -284,3 +284,291 @@ th { font-weight: 600; color: var(--ink-soft); font-size: .82rem; text-transform
   .pub .title a[href]::after { content: ""; }
   .section-alt { background: none; }
 }
+
+/* ---------- Knowledge Graph Explorer ---------- */
+.graph-viewport {
+  position: relative;
+  width: 100%;
+  height: clamp(620px, 80vh, 900px);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-top: 1rem;
+}
+#graph-canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: block;
+}
+
+/* Floating Control Dock */
+.graph-dock {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  box-shadow: var(--shadow);
+}
+.graph-dock .dock-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-family: var(--mono);
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.graph-dock .dock-btn:hover {
+  background: var(--surface-2);
+  border-color: var(--rule);
+  color: var(--accent);
+}
+.graph-dock select {
+  font-family: var(--font);
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+/* Floating Status / Legend */
+.graph-legend-badge {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 10;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.8rem;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--muted);
+  box-shadow: var(--shadow);
+  pointer-events: none;
+}
+
+/* Graph Filter Bar */
+.graph-controls-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+.graph-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.graph-chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+.graph-types-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.graph-types-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+.graph-types-group input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+.graph-slider-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  font-family: var(--mono);
+}
+.graph-slider-box input[type="range"] {
+  width: 7.5rem;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+/* Hover Tooltip */
+#graph-tooltip {
+  position: fixed;
+  display: none;
+  z-index: 100;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--surface) 96%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.9rem;
+  box-shadow: var(--shadow);
+  max-width: 280px;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--ink);
+  transition: opacity 0.15s ease;
+}
+#graph-tooltip .tt-type {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.04em;
+}
+#graph-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+#graph-tooltip .tt-venue {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+#graph-tooltip .tt-meta {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+  border-top: 1px dashed var(--rule);
+  padding-top: 0.25rem;
+}
+
+/* Sliding Inspector Side Drawer */
+#graph-drawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: clamp(320px, 32vw, 440px);
+  background: color-mix(in srgb, var(--surface) 96%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-left: 1px solid var(--rule);
+  box-shadow: -4px 0 24px rgb(0 40 53 / 0.12);
+  z-index: 20;
+  transform: translateX(100%);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+#graph-drawer.open {
+  transform: translateX(0);
+}
+.drawer-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.drawer-type {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.drawer-close {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0;
+}
+.drawer-close:hover {
+  color: var(--ink);
+}
+.drawer-title {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+.drawer-desc {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+.drawer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.drawer-neighbors-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.drawer-neighbors-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.neighbor-item {
+  padding: 0.5rem 0.65rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.neighbor-item:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+.neighbor-item strong {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
