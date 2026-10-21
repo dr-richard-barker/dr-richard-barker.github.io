@@ -33,6 +33,29 @@
   </div>
 </section>
 
+<!-- Project Hubs -->
+{% if hubs %}
+<section id="hubs" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Project Hubs</h2>
+      <div class="aside">Browse my live project sites by theme</div>
+    </div>
+
+    <div class="grid hub-grid">
+      {% for hub in hubs %}
+      <a href="{{ hub.url }}" class="card door{% if hub.featured %} featured{% endif %}">
+        <div class="card-icon">{{ hub.emoji }}</div>
+        <h3>{{ hub.name }}</h3>
+        <p>{{ hub.blurb }}</p>
+        <div class="go">Open hub →</div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <!-- Dual Doors Section -->
 <section>
   <div class="wrap">

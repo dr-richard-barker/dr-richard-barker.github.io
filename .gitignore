@@ -21,3 +21,6 @@ Thumbs.db
 # Sensitive scratch files
 scratch/
 PLAN.md
+
+# ABAI pre-publish attestation (local)
+.abai/

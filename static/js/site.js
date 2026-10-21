@@ -38,6 +38,13 @@
       var open = nav.classList.toggle("open");
       navBtn.setAttribute("aria-expanded", open ? "true" : "false");
     });
+    // Close the menu after following an in-page link (e.g. Hubs on the homepage).
+    nav.addEventListener("click", function (e) {
+      if (e.target.closest("a")) {
+        nav.classList.remove("open");
+        navBtn.setAttribute("aria-expanded", "false");
+      }
+    });
   }
 
   // ---- Publication filters ----

@@ -2,7 +2,7 @@
 """Static site builder for dr-richard-barker.github.io.
 
 Compiles YAML/JSON data into static HTML pages:
-  - index.html (Landing dual doors)
+  - index.html (Landing dual doors + project hubs)
   - academic/index.html (Serious academic CV)
   - general/index.html (General audience overview)
   - projects/index.html (100+ GitHub Pages tools & repos)
@@ -150,6 +150,7 @@ def build():
     service = load_yaml("service.yaml")
     pub_overrides = load_yaml("pub_overrides.yaml")
     projects_data = load_yaml("projects.yaml")
+    hubs_data = load_yaml("hubs.yaml")
 
     pubs_raw = load_json("publications.json").get("works", [])
     repos_raw = load_json("repos.json")
@@ -190,6 +191,7 @@ def build():
     tpl_index = env.get_template("index.html")
     html_index = tpl_index.render(
         **common_context,
+        hubs=hubs_data.get("hubs", []),
         page_title="Home",
         active_nav="home",
         root_path="./",

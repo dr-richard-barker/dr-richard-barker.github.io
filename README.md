@@ -39,7 +39,7 @@ This repository builds a static, fast, zero-dependency site with two tailored pe
 
 ```text
 dr-richard-barker.github.io/
-├── index.html                   # Dual-door landing page (built)
+├── index.html                   # Dual-door landing page + project hubs (built)
 ├── academic/                    # Academic CV view
 │   └── index.html
 ├── general/                     # General audience overview
@@ -57,6 +57,7 @@ dr-richard-barker.github.io/
 │   ├── service.yaml             # Service, teaching, and media outreach
 │   ├── publications.json        # Auto-fetched from ORCID & Crossref (34 works)
 │   ├── pub_overrides.yaml       # Theme tags, badges, summaries, code repos
+│   ├── hubs.yaml                # Project hubs linked from the homepage (#hubs)
 │   ├── repos.json               # Auto-fetched GitHub metadata (173 repos)
 │   └── projects.yaml            # Curated project groupings & descriptions
 │

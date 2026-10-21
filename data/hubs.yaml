@@ -1,0 +1,25 @@
+# Project hubs linked from the homepage (#hubs).
+# Each blurb is taken from that hub page's own lede or meta description.
+# featured: the umbrella hub, shown full-width above the themed hubs.
+hubs:
+  - name: "CoSE Cloud Hub"
+    url: "https://dr-richard-barker.github.io/CoSE_Cloud/Hub/"
+    emoji: "☁️"
+    featured: true
+    blurb: "An open ecosystem of space-biology and astrobotany projects — spaceflight omics, plant biology, interactive web tools and education."
+  - name: "AstroBotany"
+    url: "https://dr-richard-barker.github.io/AstroBotany/"
+    emoji: "🌱"
+    blurb: "Growing and understanding plants in space — spaceflight transcriptomics, radiation and tropism biology, crop experiments, and hands-on classroom astrobotany."
+  - name: "Deep Space Agriculture"
+    url: "https://dr-richard-barker.github.io/DeepSpaceAg/"
+    emoji: "🌾"
+    blurb: "Sustaining crops and crew on long-duration missions — leaf gas transport under altered gravity, radiation and stress-response decoding, crop physiology, and astronaut-health analytics."
+  - name: "Astronaut Health"
+    url: "https://dr-richard-barker.github.io/AstronautHealth/"
+    emoji: "🩺"
+    blurb: "Sustaining human crew on long-duration missions: muscle atrophy transcriptomics, oncogenic risk assessment, and plant-based nutritional countermeasures."
+  - name: "CoSE Academy Portal"
+    url: "https://dr-richard-barker.github.io/dr-richard-barker/"
+    emoji: "🎓"
+    blurb: "Space Exploration Modeling & Research Portal — course modules and serious games, with an educational impact assessment."
