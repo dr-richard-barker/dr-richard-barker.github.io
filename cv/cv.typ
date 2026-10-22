@@ -76,7 +76,7 @@
 #v(0.5em)
 
 #section("Scholarly & Executive Profile")
-Plant systems biologist, biophysical instrumentation developer, and computational researcher specializing in photosynthetic boundary-layer transport, primary carbon allocation, organelle stress signaling, and biological digital twins. Over eleven years of research leadership in Botany and Genetics at the University of Wisconsin–Madison (2012–2023), followed by NASA GeneLab/OSDR bioinformatics leadership and current Senior Scientist appointment in Agricultural & Biological Engineering at Purdue University. Science Co-Lead for the NASA Lunar LEAF Science Definition Team; Chair of the NASA GeneLab Plant Analysis Working Group (100+ global scientists). Co-secured over *\$1.12 Million* in competitive research awards; recipient of the *2018 UW–Madison Undergraduate Mentoring Award*. Author of 34+ peer-reviewed works and creator of >150 open-source repositories and in-browser scientific tools.
+Plant systems biologist, biophysical instrumentation developer, and computational researcher specializing in photosynthetic boundary-layer transport, primary carbon allocation, organelle stress signaling, and biological digital twins. Over eleven years of research leadership in Botany and Genetics at the University of Wisconsin–Madison (2012–2023), followed by NASA GeneLab/OSDR bioinformatics leadership and current Senior Scientist appointment in Agricultural & Biological Engineering at Purdue University. Science Co-Lead for the NASA Lunar LEAF Science Definition Team; Chair of the NASA GeneLab Plant Analysis Working Group (100+ global scientists). Co-secured *\~\$2,000,000* in competitive research awards; recipient of the *2018 UW–Madison Undergraduate Mentoring Award*. Author of 34+ peer-reviewed works and creator of >150 open-source repositories and in-browser scientific tools.
 
 #section("Professional Appointments")
 
@@ -103,7 +103,7 @@ Plant systems biologist, biophysical instrumentation developer, and computationa
 
 #entry("2003 – 2007", "B.Sc. (Hons) in Plant Science (First Class Honours)", "University of Nottingham, UK", "First Class Honours with University Certificate of Merit; Kenneth Whymes Memorial Prize for Distinction in Plant Science (2006).")
 
-#section("Sponsored Grants Co-Secured (Total: ~$1.12 Million)")
+#section("Sponsored Grants Co-Secured (Total: ~$2,000,000)")
 #table(
   columns: (3fr, 2.5fr, 1.5fr, 1.2fr, 1.2fr),
   stroke: 0.5pt + rgb("#cfdde1"),

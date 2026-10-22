@@ -13,7 +13,7 @@ This repository builds a static, fast, zero-dependency site with two tailored pe
 1. **Academic CV (`/academic/`)**:
    - Comprehensive scholarly profile tailored for faculty search committees and funding agencies.
    - 34+ verified peer-reviewed publications automatically synchronized from [ORCID (0000-0001-5681-9857)](https://orcid.org/0000-0001-5681-9857) with Crossref metadata, live search, theme filtering, and instant one-click BibTeX citation copying.
-   - Detailed $1.12M+ extramural grants table.
+   - Detailed ~$2,000,000 extramural grants table.
    - Appointments, honors, awards, teaching, mentoring (2018 UW–Madison Mentoring Award), and federal review panel service.
    - Downloadable vector PDF compiled with [Typst](https://typst.app/).
 
@@ -46,19 +46,22 @@ dr-richard-barker.github.io/
 │   └── index.html
 ├── projects/                    # Interactive tools directory
 │   └── index.html
+├── graph/                       # Interactive knowledge graph
+│   └── index.html
 ├── cv.pdf                       # Vector printable CV (Typst-built)
 │
 ├── data/                        # Single source of truth (YAML & JSON)
 │   ├── profile.yaml             # Core bio, contacts, stats, research themes
 │   ├── appointments.yaml        # Academic and industry appointments
 │   ├── education.yaml           # Degrees and executive training
-│   ├── grants.yaml              # $1.12M+ competitive funding breakdown
+│   ├── grants.yaml              # ~$2,000,000 competitive funding breakdown
 │   ├── awards.yaml              # Honors, awards, and fellowships
 │   ├── service.yaml             # Service, teaching, and media outreach
 │   ├── publications.json        # Auto-fetched from ORCID & Crossref (34 works)
 │   ├── pub_overrides.yaml       # Theme tags, badges, summaries, code repos
 │   ├── hubs.yaml                # Project hubs linked from the homepage (#hubs)
 │   ├── repos.json               # Auto-fetched GitHub metadata (173 repos)
+│   ├── graph.json               # Knowledge graph nodes & links (built by build_graph.py)
 │   └── projects.yaml            # Curated project groupings & descriptions
 │
 ├── templates/                   # Jinja2 layouts
@@ -66,11 +69,14 @@ dr-richard-barker.github.io/
 │   ├── index.html               # Landing page with dual doors
 │   ├── academic.html            # Serious academic CV
 │   ├── general.html             # Public science overview
-│   └── projects.html            # Tools and GitHub Pages directory
+│   ├── projects.html            # Tools and GitHub Pages directory
+│   └── graph.html               # Knowledge graph explorer
 │
 ├── static/
 │   ├── css/theme.css            # CoSE color tokens, light/dark, and print styles
-│   └── js/site.js               # Theme toggle, filters, BibTeX clipboard
+│   └── js/
+│       ├── site.js              # Theme toggle, filters, BibTeX clipboard
+│       └── graph.js             # Knowledge graph layouts & inspector
 │
 ├── cv/
 │   └── cv.typ                   # Typst source for printable cv.pdf
@@ -79,6 +85,7 @@ dr-richard-barker.github.io/
 │   ├── fetch_orcid.py           # Synchronize from ORCID v3 API & Crossref
 │   ├── fetch_repos.py           # Synchronize from GitHub REST API
 │   ├── build.py                 # Compile templates -> static HTML & cv.pdf
+│   ├── build_graph.py           # Synthesize data/graph.json for /graph/
 │   └── check_privacy.py         # Pre-deployment privacy & data safety check
 │
 ├── .github/workflows/
