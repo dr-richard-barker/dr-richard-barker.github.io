@@ -4,6 +4,11 @@
 Writes data/repos.json (all public repos, paginated). Standard library only.
 Set GITHUB_TOKEN to avoid the 60 req/hour anonymous rate limit.
 
+`has_pages` only says Pages is switched on, not that a site is being served, so each
+Pages URL is also requested and `pages_live` records whether it answered. Only a 404
+counts as dead; a timeout or 5xx is treated as live so one slow response cannot drop
+a working site from the directory.
+
     python3 scripts/fetch_repos.py
 """
 from __future__ import annotations
@@ -11,7 +16,9 @@ from __future__ import annotations
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 USER = "dr-richard-barker"
@@ -30,6 +37,18 @@ def get(url: str):
         return json.load(r)
 
 
+def pages_status(url: str) -> int:
+    """HTTP status of a Pages site after redirects; 0 if it could not be reached."""
+    req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": f"{USER}-cv-builder"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.status
+    except urllib.error.HTTPError as e:
+        return e.code
+    except OSError:
+        return 0
+
+
 def main() -> int:
     repos, page = [], 1
     while True:
@@ -44,6 +63,15 @@ def main() -> int:
         d = {k: r.get(k) for k in FIELDS}
         d["pages_url"] = f"https://{USER}.github.io/{r['name']}/" if r.get("has_pages") else None
         slim.append(d)
+    with_pages = [d for d in slim if d["pages_url"]]
+    with ThreadPoolExecutor(8) as pool:
+        statuses = list(pool.map(pages_status, [d["pages_url"] for d in with_pages]))
+    for d, status in zip(with_pages, statuses):
+        d["pages_live"] = status != 404
+        if status == 404:
+            print(f"  Pages switched on but not served (404): {d['name']}")
+        elif status != 200:
+            print(f"  Pages answered {status or 'nothing'}, kept as live: {d['name']}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "user": USER,

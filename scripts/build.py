@@ -156,7 +156,8 @@ def build():
     repos_raw = load_json("repos.json")
     all_repos = repos_raw.get("repos", [])
 
-    all_pages_repos = [r for r in all_repos if r.get("has_pages")]
+    # pages_live is False when the site 404s (see fetch_repos.py); absent means unchecked.
+    all_pages_repos = [r for r in all_repos if r.get("has_pages") and r.get("pages_live", True)]
     all_pages_repos.sort(key=lambda r: (-(r.get("stargazers_count") or 0), r.get("name", "")))
 
     works = process_publications(pubs_raw, pub_overrides)
